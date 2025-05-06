@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-      <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/img_Sune/index/sunedfav.png">
@@ -16,284 +16,394 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/blog.css">
   <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-/* inter-300 - latin */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X6M0JGJ7RW');
-</script>
+    gtag('config', 'G-X6M0JGJ7RW');
+  </script>
 </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <!-- NAV -->
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+  <!-- NAV -->
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="/index_vn.html">
+        <img src="/img/img_Sune/index/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
+              Trang chủ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus_vn.html">
+              Giới thiệu
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact_vn.html">
+              Liên hệ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/news_vn.html">
+              Tin tức
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog-1.html">
+              EN
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- BLOGS -->
+    <!-- BLOGS -->
+    <div class="blog">
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="/index_vn.html">
-          <img src="/img/img_Sune/index/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <h1>
+          Tóm tắt năm học 2023-2024 đối với giáo dục trung học và giáo dục thường xuyên
+        </h1>
+        <span><em>
+            10-9-2024 - 13:04 </em></span>
+        <span>
+          <a
+            href=" https://www.vietnam.vn/en/tong-ket-nam-hoc-2023-2024-doi-voi-giao-duc-trung-hoc-giao-duc-thuong-xuyen/">
+            https://www.vietnam.vn/en/tong-ket-nam-hoc-2023-2024-doi-voi-giao-duc-trung-hoc-giao-duc-thuong-xuyen/</a>
+        </span>
+        <img src="/img/img_Sune/news/blogs/blog2-1.png" alt="blog-2" />
+        <span class="picture-cap">Vụ trưởng Vụ Giáo dục Trung học Nguyễn Xuân Thành báo cáo tại hội nghị</span>
+        <h2>
+          Phát triển quy mô trường học và nâng cao chất lượng dạy và học
+        </h2>
+        <p>
+          Báo cáo kết quả năm học 2023-2024 đối với giáo dục trung học, Vụ trưởng Vụ Giáo dục trung học Nguyễn Xuân
+          Thành cho biết: Năm học 2023-2024, giáo dục trung học sẽ triển khai Chương trình giáo dục phổ thông năm 2018
+          đối với lớp 6, 7, 8, 10, 11 và Chương trình giáo dục phổ thông năm 2006 đối với lớp 9, 12; tiếp tục chuẩn bị
+          các điều kiện để triển khai Chương trình giáo dục phổ thông năm 2018 đối với lớp 9, 12 từ năm học 2024-2025.
+        </p>
+        <p>Đây cũng là năm học tiếp tục triển khai Chương trình giám sát của Ủy ban Thường vụ Quốc hội thực hiện Nghị
+          quyết 88 về chương trình giáo dục phổ thông và sách giáo khoa; Đánh giá giữa kỳ tình hình thực hiện Chương
+          trình giáo dục phổ thông năm 2018 của Bộ Giáo dục và Đào tạo.</p>
+        <p>​
+          Năm học 2023-2024, số lượng học sinh ở cả hai cấp học đều tăng. Số học sinh THCS là 6.550.552 em, tăng 472.852
+          em so với năm học trước. Số học sinh THPT là 2.993.731 em, tăng 106.166 em so với năm học 2022-2023.
+        </p>
+        <p>Về phổ cập giáo dục, có 63/63 tỉnh đạt chuẩn phổ cập giáo dục trung học cơ sở cấp 1; cấp 2 đạt 23,8% và cấp 3
+          đạt 12,69%. Tỷ lệ 100% huyện, xã đạt phổ cập giáo dục trung học cơ sở.
+        </p>
+        <p>Về giáo dục hướng nghiệp và định hướng phân luồng học sinh, hầu hết các cơ sở giáo dục đã chủ động xây dựng
+          kế hoạch, phân luồng học sinh trong giáo dục phổ thông theo hướng mở, thực hiện đổi mới mục tiêu, nội dung và
+          hình thức giáo dục nghề nghiệp trong chương trình giáo dục phổ thông hiện hành phù hợp với Chương trình giáo
+          dục phổ thông năm 2018.</p>
+        <p>Năm học 2023-2024, ở cấp THCS và THPT, tổng số giáo viên, cán bộ quản lý, nhân viên tăng lần lượt 2.641 và
+          1.803 giáo viên so với năm học 2022-2023. Các địa phương đã tổ chức bồi dưỡng cho giáo viên, cán bộ quản lý
+          các cơ sở giáo dục phổ thông trọng điểm và đại trà. Một trong những điểm mới trong công tác bồi dưỡng, phát
+          triển chuyên môn, nghiệp vụ cho giáo viên trong đổi mới giáo dục này là tăng cường năng lực tự bồi dưỡng, tự
+          đào tạo của giáo viên.</p>
+        <p>Việc triển khai “một chương trình, nhiều SGK” đã được triển khai có hiệu quả, phát huy những ưu điểm nổi bật,
+          góp phần thay đổi căn bản chuyển dịch từ dạy học truyền thụ kiến ​​thức sang dạy học phát triển phẩm chất,
+          năng lực của học sinh. Những khó khăn, vướng mắc trong việc phân công giáo viên và tổ chức dạy học các môn học
+          mới về cơ bản đã được giải quyết.</p>
+        <p>Công tác đổi mới phương pháp giáo dục được triển khai trong toàn bộ các cơ sở giáo dục. Học sinh phát huy
+          tính chủ động, sáng tạo, giáo viên đóng vai trò tổ chức, kiểm tra, định hướng. Đa dạng các hình thức tổ chức
+          dạy học, từng bước ứng dụng công nghệ tiên tiến. Chất lượng giáo dục trọng điểm đạt kết quả tốt; Đội tuyển
+          quốc gia tham gia các kỳ thi Olympic khu vực và quốc tế năm 2024 đạt kết quả cao.</p>
+        <p>Phương pháp kiểm tra, đánh giá chất lượng đã dần chuyển từ kiểm tra kiến ​​thức sang đánh giá năng lực, phẩm
+          chất của người học; đo lường sự tiến bộ của học sinh trong quá trình học tập và mức độ đáp ứng yêu cầu của môn
+          học và hoạt động giáo dục, đảm bảo tính tin cậy, công bằng và khách quan.</p>
+        <p>ết quả chương trình cho thấy học sinh mạnh dạn, tự tin, dám nêu ý kiến ​​và có nhiều kỹ năng nổi trội, đặc
+          biệt là chủ động tiếp thu nhiệm vụ của giáo viên, khả năng làm việc nhóm được nâng cao, giúp học sinh vận dụng
+          kiến ​​thức đã học vào thực tiễn nhiều hơn.</p>
+        <h2>
+          Nhận thức về giáo dục liên tục và học tập suốt đời đã thay đổi tích cực
+        </h2>
+        <p>
+          Báo cáo kết quả thực hiện nhiệm vụ năm học 2023-2024 về giáo dục thường xuyên, Vụ trưởng Vụ Giáo dục thường
+          xuyên Hoàng Đức Minh cho biết: Quy mô và mạng lưới các cơ sở giáo dục thường xuyên tại các địa phương về cơ
+          bản ổn định trong năm học qua. Mạng lưới các cơ sở giáo dục thường xuyên đã góp phần thúc đẩy phong trào học
+          tập cộng đồng, xây dựng xã hội học tập từ cơ sở trở lên. Năm học 2023-2024, tổng số cơ sở giáo dục thường
+          xuyên là 19.055 cơ sở, tăng 498 cơ sở so với năm học 2022-2023.
+        </p>
+        <img src="/img/img_Sune/news/blogs/blog2-2.avif" alt="blog-2-2">
+        <span class="picture-cap">Vụ trưởng Vụ Giáo dục thường xuyên Hoàng Đức Minh phát biểu tại hội nghị</span>
+        <p>
+          Công tác quản lý nhà nước về giáo dục thường xuyên trong năm học này đã được đổi mới theo hướng đẩy mạnh phân
+          cấp, tăng cường quyền tự chủ và quản trị cho cơ sở, cùng với đó là tăng cường trách nhiệm giải trình của người
+          đứng đầu cơ sở; công tác thanh tra, kiểm tra, giám sát được cụ thể hóa và chuyên sâu theo từng lĩnh vực cụ
+          thể; chất lượng, hiệu quả các chương trình giáo dục thường xuyên được chú trọng.
+        </p>
+        <p>
+          Công tác đào tạo, bồi dưỡng, nâng cao chất lượng đội ngũ cán bộ quản lý, giáo viên, cộng tác viên trong các cơ
+          sở giáo dục được quan tâm thường xuyên; Mạng lưới cơ sở giáo dục thường xuyên được duy trì ổn định; Nhận thức
+          về giáo dục thường xuyên liên tục có chuyển biến tích cực từ các cấp quản lý địa phương và nhận thức của người
+          dân về học tập suốt đời không ngừng được nâng cao. ​
+        </p>
+        <p>
+          Hàng năm, các Sở Giáo dục và Đào tạo đã ban hành các văn bản chỉ đạo, kiểm tra, giám sát toàn bộ hệ thống
+          trung tâm giáo dục thường xuyên và trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên hoạt động đúng quy
+          định. Chỉ đạo Sở Giáo dục và Đào tạo chỉ đạo các trung tâm học tập cộng đồng đánh giá, xếp loại theo hướng dẫn
+          của Bộ Giáo dục và Đào tạo.
+        </p>
+        <p>
+          Hoạt động của các trung tâm học tập cộng đồng bước đầu đã góp phần nâng cao nhận thức của người dân trong việc
+          chấp hành chủ trương, chính sách, pháp luật của Nhà nước; góp phần thực hiện mục tiêu phát triển kinh tế - xã
+          hội của địa phương: giảm hộ nghèo, tăng thu nhập bình quân đầu người, ổn định trật tự an toàn xã hội.
+        </p>
+        <p>
+          Việc các địa phương thực hiện tốt công tác phổ cập giáo dục tiểu học và trung học cơ sở, cùng với sự phát
+          triển kinh tế - xã hội của địa phương đã dẫn đến số học sinh theo học chương trình giáo dục thường xuyên bậc
+          trung học cơ sở trong năm học 2023-2024 giảm so với năm học trước. Nhiều địa phương đã tích cực chỉ đạo Ban
+          chỉ đạo phổ cập giáo dục và xóa mù chữ ở các xã đẩy mạnh công tác tuyên truyền, vận động, huy động những người
+          chưa biết chữ, chưa biết chữ, những người chưa đạt chuẩn xóa mù chữ tham gia các lớp học xóa mù chữ.
+        </p>
+        <p>
+          Các Sở Giáo dục và Đào tạo đã tập trung chỉ đạo, hướng dẫn triển khai chương trình giáo dục thường xuyên mới ở
+          bậc THCS và THPT. Một số trung tâm cũng đã chủ động tham mưu xây dựng cơ sở vật chất, mua sắm trang thiết bị,
+          chuẩn bị nguồn lực giáo viên để sẵn sàng triển khai chương trình giáo dục thường xuyên mới ở bậc THPT. Nhiều
+          trung tâm đã bám sát định hướng đổi mới Chương trình giáo dục thường xuyên bậc THPT để chủ động tuyển dụng
+          giáo viên còn thiếu hoặc cử giáo viên đi đào tạo, bồi dưỡng, tập huấn bổ sung để sẵn sàng triển khai Chương
+          trình. Giáo dục thường xuyên chất lượng, hiệu quả ở bậc THCS và THPT.
+        </p>
+        <h2>
+          Phối hợp nhịp nhàng, trơn tru và hiệu quả
+        </h2>
+        <img src="/img/img_Sune/news/blogs/blog2-3.avif" alt="blog-2-3">
+        <span class="picture-cap">Thứ trưởng Phạm Ngọc Thưởng, Vụ trưởng Vụ Giáo dục Trung học, Vụ trưởng Vụ Giáo dục
+          Thường xuyên chủ trì buổi thảo luận</span>
+        <p>
+          Tại hội nghị, đại diện các Sở Giáo dục và Đào tạo đã thảo luận, nêu ý kiến, kiến ​​nghị liên quan đến tình
+          trạng thiếu hụt giáo viên và tuyển dụng giáo viên; chương trình giáo dục các cấp; quy mô mạng lưới trường lớp
+          và cơ sở vật chất; chính sách giáo dục đối với nhà giáo; chính sách đối với học sinh, nhất là giáo dục vùng
+          sâu, vùng xa, vùng đặc biệt khó khăn.Đánh giá tình hình triển khai Chương trình giáo dục phổ thông năm 2018
+          trên địa bàn, Giám đốc Sở Giáo dục và Đào tạo tỉnh Thừa Thiên Huế Nguyễn Tấn nhận xét: Bộ Giáo dục và Đào tạo
+          đã phối hợp chặt chẽ với cơ sở và các địa phương trong quá trình triển khai chương trình. Điều đó thể hiện ở
+          việc có những điều chỉnh kịp thời trong quá trình triển khai. Đặc biệt là giải quyết những khó khăn trong
+          triển khai dạy học tích hợp và tình trạng thiếu giáo viên ở các môn học mới. Ông Nguyễn Tấn cũng đề xuất một
+          số giải pháp nhằm giải quyết tình trạng thiếu giáo viên và cơ sở vật chất để triển khai chương trình giáo dục
+          phổ thông mới hiệu quả, đồng bộ.
+        </p>
+        <p>
+          Theo Giám đốc Sở Giáo dục và Đào tạo tỉnh Quảng Trị Lê Thị Hương, năm học 2023-2024, tỉnh Quảng Trị đã đạt
+          được những kết quả đáng ghi nhận với sự nỗ lực của toàn ngành giáo dục và các địa phương. Tuy nhiên, bên cạnh
+          những kết quả đạt được, trong quá trình triển khai vẫn còn nhiều bất cập, khó khăn. Do đó, Giám đốc Sở Giáo
+          dục và Đào tạo tỉnh Quảng Trị đề xuất Bộ Giáo dục và Đào tạo tổ chức hội nghị tổng kết triển khai Chương trình
+          giáo dục phổ thông năm 2018, tạo điều kiện chia sẻ kinh nghiệm, giải pháp cũng như tháo gỡ khó khăn cho học
+          sinh các địa phương và thảo luận định hướng, kế hoạch trong giai đoạn tới.
+        </p>
+        <p>
+          Phát biểu bế mạc hội nghị, Thứ trưởng Phạm Ngọc Thưởng đánh giá: Những kết quả đạt được trong năm học vừa qua
+          đối với giáo dục trung học và giáo dục thường xuyên là những kết quả chung, thể hiện sự nỗ lực rất lớn của các
+          đơn vị trường học trực thuộc Bộ Giáo dục và Đào tạo và ngành giáo dục của 63 tỉnh, thành phố. Với những điều
+          kiện, hoàn cảnh kinh tế - xã hội khác nhau, các địa phương đã nỗ lực, vượt qua khó khăn, vượt lên chính mình
+          để đạt được những kết quả tốt, hoàn thành mục tiêu năm học đã đề ra.
+        </p>
+        <img src="/img/img_Sune/news/blogs/blog2-4.avif" alt="blog-2-4">
+        <span class="picture-cap">Giám đốc Sở Giáo dục và Đào tạo tỉnh Quảng Trị Lê Thị Hương phát biểu tại hội
+          nghị</span>
+        <p>
+          Bên cạnh những kết quả đạt được, Thứ trưởng cũng chỉ ra một số hạn chế trong quá trình triển khai nhiệm vụ năm
+          học, trong đó có công tác thanh tra, kiểm tra. “Nếu chúng ta không tự thanh tra thì thanh tra sẽ tự bỏ sức.
+          Đối với những đơn vị, địa phương có bộ máy chưa thực hiện đúng quy định thì cần có văn bản yêu cầu thực hiện
+          đúng quy định, thậm chí là thanh tra, hướng dẫn cụ thể, thiết thực”, Thứ trưởng phát biểu.
+        </p>
+        <p>
+          Từ các ý kiến ​​trao đổi của các địa phương, Thứ trưởng yêu cầu các đơn vị thuộc Bộ Giáo dục và Đào tạo tổng
+          hợp, tiếp thu, hoàn thiện báo cáo, lựa chọn những nội dung phù hợp để đưa vào nhiệm vụ của năm học tiếp theo
+          Thứ trưởng yêu cầu các Sở Giáo dục và Đào tạo nghiêm túc tự đánh giá, khắc phục những yếu kém, cần thực hiện
+          tự kiểm tra, đánh giá thường xuyên và kiểm tra đúng mức các vấn đề.
+        </p>
+        <p>
+          Ghi nhận các Sở GD-ĐT tiếp tục tập trung nâng cao chất lượng dạy và học, Thứ trưởng nhấn mạnh: Đây không phải
+          là nhiệm vụ mới nhưng phải luôn có giải pháp, linh hoạt bằng cách tổ chức các hội nghị, hội thảo, tọa đàm,
+          chương trình để giải quyết những vấn đề khó khăn, vướng mắc, góp phần nâng cao chất lượng giáo dục.
+        </p>
+        <img src="/img/img_Sune/news/blogs/blog2-5.avif" alt="blog-2-5">
+        <span class="picture-cap">Thứ trưởng Bộ Giáo dục và Đào tạo Phạm Ngọc Thưởng phát biểu bế mạc hội nghị</span>
+        <p>
+          Theo Thứ trưởng, trong quá trình triển khai, cần chú trọng đến việc truyền cảm hứng, khơi dậy lòng say mê cho
+          người học. “Đó là vai trò của người thầy và môi trường giáo dục. Phải để học sinh hứng thú học tập rồi mới
+          trao đổi về phương pháp học tập, phong cách học tập. Dạy học phải cá thể hóa, giáo dục học sinh trung bình
+          thành học sinh giỏi, phát triển học sinh yếu thành học sinh trung bình, từng bước nâng cao chất lượng giáo
+          dục. Công tác kiểm tra, đánh giá cần được thực hiện thường xuyên, đặc biệt là kiểm tra, đánh giá đầu và cuối
+          cấp học. Chủ động làm quen với phương pháp, hình thức để giáo viên và học sinh không bị bỡ ngỡ”, Thứ trưởng
+          chỉ đạo.
+        </p>
+        <p>
+          Ngoài ra, Thứ trưởng cũng lưu ý các địa phương về việc xây dựng chương trình học tập, xây dựng văn hóa đọc
+          trong nhà trường, cộng đồng và xã hội; phát triển các phong trào thi đua thiết thực, hiệu quả ở các cấp trong
+          toàn ngành giáo dục; Quản lý hoạt động dạy thêm, học thêm tại các địa phương...
+        </p>
+        <p>
+          Bước vào năm học 2024-2025, Thứ trưởng mong muốn các đơn vị trực thuộc Bộ Giáo dục và Đào tạo, các Sở Giáo dục
+          và Đào tạo, các cơ sở giáo dục, đội ngũ nhà giáo tiếp tục phát huy những kết quả đã đạt được, gắn kết chặt chẽ
+          hơn nữa giữa Bộ Giáo dục và Đào tạo với các Sở Giáo dục và Đào tạo, các địa phương để có sự phối hợp nhịp
+          nhàng, thông suốt và hiệu quả trong công tác giáo dục và đào tạo.
+        </p>
+      </div>
+    </div>
+    <!-- ACTION CALL -->
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <h2 class="display-6 mb-3 overflow-hidden">Bạn đã sẵn sàng để mở đón bầu trời kiến thức?</h2>
+            </div>
+            <div class="col-12">
+              <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;"
+                data-aos="fade-down">Liên hệ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner -->
+    <div class="our-partner">
+      <h2 class="tittle">Our Partner</h2>
+      <div class="carousel-partner">
+        <div class="wrap">
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3 overflow-hidden">
+            VĂN PHÒNG CHÍNH</h3>
+          <address class="text-secondary mt-3">
+            478 Nguyễn Tất Thành, Phường 18, Quận 4, Ho Chi Minh City, Viet Nam.<br><br>
+            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
+            <a href="">info@suned.edu.vn</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3 overflow-hidden">
+            ĐIỀU HƯỚNG
+          </h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
-                Trang chủ
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus_vn.html">
-                Giới thiệu
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact_vn.html">
-                Liên hệ
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/news-vn.html">Tin tức</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news_vn.html">
-                Tin tức
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
             </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3 overflow-hidden">Kênh truyền thông</h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/blog-1.html">
-                EN
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page"
+                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
-    <main>
-      <!-- BLOGS -->
-    <!-- BLOGS -->
-    <div class="blog">
-      <div class="container">
-          <h1>
-            Tóm tắt năm học 2023-2024 đối với giáo dục trung học và giáo dục thường xuyên
-          </h1>
-          <span><em>
-            10-9-2024 - 13:04 </em></span>
-          <span>
-              <a
-                  href=" https://www.vietnam.vn/en/tong-ket-nam-hoc-2023-2024-doi-voi-giao-duc-trung-hoc-giao-duc-thuong-xuyen/"> https://www.vietnam.vn/en/tong-ket-nam-hoc-2023-2024-doi-voi-giao-duc-trung-hoc-giao-duc-thuong-xuyen/</a>
-          </span>
-          <img src="/img/img_Sune/news/blogs/blog2-1.png" alt="blog-2"/>
-          <span class="picture-cap">Vụ trưởng Vụ Giáo dục Trung học Nguyễn Xuân Thành báo cáo tại hội nghị</span>
-          <h2>
-            Phát triển quy mô trường học và nâng cao chất lượng dạy và học
-          </h2>
-          <p>
-            Báo cáo kết quả năm học 2023-2024 đối với giáo dục trung học, Vụ trưởng Vụ Giáo dục trung học Nguyễn Xuân Thành cho biết: Năm học 2023-2024, giáo dục trung học sẽ triển khai Chương trình giáo dục phổ thông năm 2018 đối với lớp 6, 7, 8, 10, 11 và Chương trình giáo dục phổ thông năm 2006 đối với lớp 9, 12; tiếp tục chuẩn bị các điều kiện để triển khai Chương trình giáo dục phổ thông năm 2018 đối với lớp 9, 12 từ năm học 2024-2025.
-          </p>
-          <p>Đây cũng là năm học tiếp tục triển khai Chương trình giám sát của Ủy ban Thường vụ Quốc hội thực hiện Nghị quyết 88 về chương trình giáo dục phổ thông và sách giáo khoa; Đánh giá giữa kỳ tình hình thực hiện Chương trình giáo dục phổ thông năm 2018 của Bộ Giáo dục và Đào tạo.</p>
-          <p>​
-            Năm học 2023-2024, số lượng học sinh ở cả hai cấp học đều tăng. Số học sinh THCS là 6.550.552 em, tăng 472.852 em so với năm học trước. Số học sinh THPT là 2.993.731 em, tăng 106.166 em so với năm học 2022-2023.
-          </p>
-          <p>Về phổ cập giáo dục, có 63/63 tỉnh đạt chuẩn phổ cập giáo dục trung học cơ sở cấp 1; cấp 2 đạt 23,8% và cấp 3 đạt 12,69%. Tỷ lệ 100% huyện, xã đạt phổ cập giáo dục trung học cơ sở.
-          </p>
-          <p>Về giáo dục hướng nghiệp và định hướng phân luồng học sinh, hầu hết các cơ sở giáo dục đã chủ động xây dựng kế hoạch, phân luồng học sinh trong giáo dục phổ thông theo hướng mở, thực hiện đổi mới mục tiêu, nội dung và hình thức giáo dục nghề nghiệp trong chương trình giáo dục phổ thông hiện hành phù hợp với Chương trình giáo dục phổ thông năm 2018.</p>
-          <p>Năm học 2023-2024, ở cấp THCS và THPT, tổng số giáo viên, cán bộ quản lý, nhân viên tăng lần lượt 2.641 và 1.803 giáo viên so với năm học 2022-2023. Các địa phương đã tổ chức bồi dưỡng cho giáo viên, cán bộ quản lý các cơ sở giáo dục phổ thông trọng điểm và đại trà. Một trong những điểm mới trong công tác bồi dưỡng, phát triển chuyên môn, nghiệp vụ cho giáo viên trong đổi mới giáo dục này là tăng cường năng lực tự bồi dưỡng, tự đào tạo của giáo viên.</p>
-          <p>Việc triển khai “một chương trình, nhiều SGK” đã được triển khai có hiệu quả, phát huy những ưu điểm nổi bật, góp phần thay đổi căn bản chuyển dịch từ dạy học truyền thụ kiến ​​thức sang dạy học phát triển phẩm chất, năng lực của học sinh. Những khó khăn, vướng mắc trong việc phân công giáo viên và tổ chức dạy học các môn học mới về cơ bản đã được giải quyết.</p>
-          <p>Công tác đổi mới phương pháp giáo dục được triển khai trong toàn bộ các cơ sở giáo dục. Học sinh phát huy tính chủ động, sáng tạo, giáo viên đóng vai trò tổ chức, kiểm tra, định hướng. Đa dạng các hình thức tổ chức dạy học, từng bước ứng dụng công nghệ tiên tiến. Chất lượng giáo dục trọng điểm đạt kết quả tốt; Đội tuyển quốc gia tham gia các kỳ thi Olympic khu vực và quốc tế năm 2024 đạt kết quả cao.</p>
-          <p>Phương pháp kiểm tra, đánh giá chất lượng đã dần chuyển từ kiểm tra kiến ​​thức sang đánh giá năng lực, phẩm chất của người học; đo lường sự tiến bộ của học sinh trong quá trình học tập và mức độ đáp ứng yêu cầu của môn học và hoạt động giáo dục, đảm bảo tính tin cậy, công bằng và khách quan.</p>
-          <p>ết quả chương trình cho thấy học sinh mạnh dạn, tự tin, dám nêu ý kiến ​​và có nhiều kỹ năng nổi trội, đặc biệt là chủ động tiếp thu nhiệm vụ của giáo viên, khả năng làm việc nhóm được nâng cao, giúp học sinh vận dụng kiến ​​thức đã học vào thực tiễn nhiều hơn.</p>       
-          <h2>
-            Nhận thức về giáo dục liên tục và học tập suốt đời đã thay đổi tích cực
-          </h2>
-          <p>
-            Báo cáo kết quả thực hiện nhiệm vụ năm học 2023-2024 về giáo dục thường xuyên, Vụ trưởng Vụ Giáo dục thường xuyên Hoàng Đức Minh cho biết: Quy mô và mạng lưới các cơ sở giáo dục thường xuyên tại các địa phương về cơ bản ổn định trong năm học qua. Mạng lưới các cơ sở giáo dục thường xuyên đã góp phần thúc đẩy phong trào học tập cộng đồng, xây dựng xã hội học tập từ cơ sở trở lên. Năm học 2023-2024, tổng số cơ sở giáo dục thường xuyên là 19.055 cơ sở, tăng 498 cơ sở so với năm học 2022-2023.
-          </p>
-          <img src="/img/img_Sune/news/blogs/blog2-2.avif" alt="blog-2-2">
-          <span class="picture-cap">Vụ trưởng Vụ Giáo dục thường xuyên Hoàng Đức Minh phát biểu tại hội nghị</span>
-          <p>
-            Công tác quản lý nhà nước về giáo dục thường xuyên trong năm học này đã được đổi mới theo hướng đẩy mạnh phân cấp, tăng cường quyền tự chủ và quản trị cho cơ sở, cùng với đó là tăng cường trách nhiệm giải trình của người đứng đầu cơ sở; công tác thanh tra, kiểm tra, giám sát được cụ thể hóa và chuyên sâu theo từng lĩnh vực cụ thể; chất lượng, hiệu quả các chương trình giáo dục thường xuyên được chú trọng.
-          </p>
-          <p>
-            Công tác đào tạo, bồi dưỡng, nâng cao chất lượng đội ngũ cán bộ quản lý, giáo viên, cộng tác viên trong các cơ sở giáo dục được quan tâm thường xuyên; Mạng lưới cơ sở giáo dục thường xuyên được duy trì ổn định; Nhận thức về giáo dục thường xuyên liên tục có chuyển biến tích cực từ các cấp quản lý địa phương và nhận thức của người dân về học tập suốt đời không ngừng được nâng cao.           ​
-          </p>
-          <p>
-            Hàng năm, các Sở Giáo dục và Đào tạo đã ban hành các văn bản chỉ đạo, kiểm tra, giám sát toàn bộ hệ thống trung tâm giáo dục thường xuyên và trung tâm giáo dục nghề nghiệp - giáo dục thường xuyên hoạt động đúng quy định. Chỉ đạo Sở Giáo dục và Đào tạo chỉ đạo các trung tâm học tập cộng đồng đánh giá, xếp loại theo hướng dẫn của Bộ Giáo dục và Đào tạo.
-          </p>
-          <p>
-            Hoạt động của các trung tâm học tập cộng đồng bước đầu đã góp phần nâng cao nhận thức của người dân trong việc chấp hành chủ trương, chính sách, pháp luật của Nhà nước; góp phần thực hiện mục tiêu phát triển kinh tế - xã hội của địa phương: giảm hộ nghèo, tăng thu nhập bình quân đầu người, ổn định trật tự an toàn xã hội. 
-          </p>
-          <p>
-            Việc các địa phương thực hiện tốt công tác phổ cập giáo dục tiểu học và trung học cơ sở, cùng với sự phát triển kinh tế - xã hội của địa phương đã dẫn đến số học sinh theo học chương trình giáo dục thường xuyên bậc trung học cơ sở trong năm học 2023-2024 giảm so với năm học trước. Nhiều địa phương đã tích cực chỉ đạo Ban chỉ đạo phổ cập giáo dục và xóa mù chữ ở các xã đẩy mạnh công tác tuyên truyền, vận động, huy động những người chưa biết chữ, chưa biết chữ, những người chưa đạt chuẩn xóa mù chữ tham gia các lớp học xóa mù chữ.  
-          </p>
-          <p>
-Các Sở Giáo dục và Đào tạo đã tập trung chỉ đạo, hướng dẫn triển khai chương trình giáo dục thường xuyên mới ở bậc THCS và THPT. Một số trung tâm cũng đã chủ động tham mưu xây dựng cơ sở vật chất, mua sắm trang thiết bị, chuẩn bị nguồn lực giáo viên để sẵn sàng triển khai chương trình giáo dục thường xuyên mới ở bậc THPT. Nhiều trung tâm đã bám sát định hướng đổi mới Chương trình giáo dục thường xuyên bậc THPT để chủ động tuyển dụng giáo viên còn thiếu hoặc cử giáo viên đi đào tạo, bồi dưỡng, tập huấn bổ sung để sẵn sàng triển khai Chương trình. Giáo dục thường xuyên chất lượng, hiệu quả ở bậc THCS và THPT.
-          </p>
-          <h2>
-            Phối hợp nhịp nhàng, trơn tru và hiệu quả
-          </h2>
-          <img src="/img/img_Sune/news/blogs/blog2-3.avif" alt="blog-2-3">
-          <span class="picture-cap">Thứ trưởng Phạm Ngọc Thưởng, Vụ trưởng Vụ Giáo dục Trung học, Vụ trưởng Vụ Giáo dục Thường xuyên chủ trì buổi thảo luận</span>
-          <p>
-            Tại hội nghị, đại diện các Sở Giáo dục và Đào tạo đã thảo luận, nêu ý kiến, kiến ​​nghị liên quan đến tình trạng thiếu hụt giáo viên và tuyển dụng giáo viên; chương trình giáo dục các cấp; quy mô mạng lưới trường lớp và cơ sở vật chất; chính sách giáo dục đối với nhà giáo; chính sách đối với học sinh, nhất là giáo dục vùng sâu, vùng xa, vùng đặc biệt khó khăn.Đánh giá tình hình triển khai Chương trình giáo dục phổ thông năm 2018 trên địa bàn, Giám đốc Sở Giáo dục và Đào tạo tỉnh Thừa Thiên Huế Nguyễn Tấn nhận xét: Bộ Giáo dục và Đào tạo đã phối hợp chặt chẽ với cơ sở và các địa phương trong quá trình triển khai chương trình. Điều đó thể hiện ở việc có những điều chỉnh kịp thời trong quá trình triển khai. Đặc biệt là giải quyết những khó khăn trong triển khai dạy học tích hợp và tình trạng thiếu giáo viên ở các môn học mới. Ông Nguyễn Tấn cũng đề xuất một số giải pháp nhằm giải quyết tình trạng thiếu giáo viên và cơ sở vật chất để triển khai chương trình giáo dục phổ thông mới hiệu quả, đồng bộ.
-          </p>
-          <p>
-            Theo Giám đốc Sở Giáo dục và Đào tạo tỉnh Quảng Trị Lê Thị Hương, năm học 2023-2024, tỉnh Quảng Trị đã đạt được những kết quả đáng ghi nhận với sự nỗ lực của toàn ngành giáo dục và các địa phương. Tuy nhiên, bên cạnh những kết quả đạt được, trong quá trình triển khai vẫn còn nhiều bất cập, khó khăn. Do đó, Giám đốc Sở Giáo dục và Đào tạo tỉnh Quảng Trị đề xuất Bộ Giáo dục và Đào tạo tổ chức hội nghị tổng kết triển khai Chương trình giáo dục phổ thông năm 2018, tạo điều kiện chia sẻ kinh nghiệm, giải pháp cũng như tháo gỡ khó khăn cho học sinh các địa phương và thảo luận định hướng, kế hoạch trong giai đoạn tới.
-          </p>
-          <p>
-            Phát biểu bế mạc hội nghị, Thứ trưởng Phạm Ngọc Thưởng đánh giá: Những kết quả đạt được trong năm học vừa qua đối với giáo dục trung học và giáo dục thường xuyên là những kết quả chung, thể hiện sự nỗ lực rất lớn của các đơn vị trường học trực thuộc Bộ Giáo dục và Đào tạo và ngành giáo dục của 63 tỉnh, thành phố. Với những điều kiện, hoàn cảnh kinh tế - xã hội khác nhau, các địa phương đã nỗ lực, vượt qua khó khăn, vượt lên chính mình để đạt được những kết quả tốt, hoàn thành mục tiêu năm học đã đề ra.
-          </p> 
-          <img src="/img/img_Sune/news/blogs/blog2-4.avif" alt="blog-2-4">
-          <span class="picture-cap">Giám đốc Sở Giáo dục và Đào tạo tỉnh Quảng Trị Lê Thị Hương phát biểu tại hội nghị</span>
-          <p>
-            Bên cạnh những kết quả đạt được, Thứ trưởng cũng chỉ ra một số hạn chế trong quá trình triển khai nhiệm vụ năm học, trong đó có công tác thanh tra, kiểm tra. “Nếu chúng ta không tự thanh tra thì thanh tra sẽ tự bỏ sức. Đối với những đơn vị, địa phương có bộ máy chưa thực hiện đúng quy định thì cần có văn bản yêu cầu thực hiện đúng quy định, thậm chí là thanh tra, hướng dẫn cụ thể, thiết thực”, Thứ trưởng phát biểu.
-          </p>
-          <p>
-            Từ các ý kiến ​​trao đổi của các địa phương, Thứ trưởng yêu cầu các đơn vị thuộc Bộ Giáo dục và Đào tạo tổng hợp, tiếp thu, hoàn thiện báo cáo, lựa chọn những nội dung phù hợp để đưa vào nhiệm vụ của năm học tiếp theo Thứ trưởng yêu cầu các Sở Giáo dục và Đào tạo nghiêm túc tự đánh giá, khắc phục những yếu kém, cần thực hiện tự kiểm tra, đánh giá thường xuyên và kiểm tra đúng mức các vấn đề.
-          </p>
-          <p>
-            Ghi nhận các Sở GD-ĐT tiếp tục tập trung nâng cao chất lượng dạy và học, Thứ trưởng nhấn mạnh: Đây không phải là nhiệm vụ mới nhưng phải luôn có giải pháp, linh hoạt bằng cách tổ chức các hội nghị, hội thảo, tọa đàm, chương trình để giải quyết những vấn đề khó khăn, vướng mắc, góp phần nâng cao chất lượng giáo dục.
-          </p>
-          <img src="/img/img_Sune/news/blogs/blog2-5.avif" alt="blog-2-5">
-          <span class="picture-cap">Thứ trưởng Bộ Giáo dục và Đào tạo Phạm Ngọc Thưởng phát biểu bế mạc hội nghị</span>
-          <p>
-            Theo Thứ trưởng, trong quá trình triển khai, cần chú trọng đến việc truyền cảm hứng, khơi dậy lòng say mê cho người học. “Đó là vai trò của người thầy và môi trường giáo dục. Phải để học sinh hứng thú học tập rồi mới trao đổi về phương pháp học tập, phong cách học tập. Dạy học phải cá thể hóa, giáo dục học sinh trung bình thành học sinh giỏi, phát triển học sinh yếu thành học sinh trung bình, từng bước nâng cao chất lượng giáo dục. Công tác kiểm tra, đánh giá cần được thực hiện thường xuyên, đặc biệt là kiểm tra, đánh giá đầu và cuối cấp học. Chủ động làm quen với phương pháp, hình thức để giáo viên và học sinh không bị bỡ ngỡ”, Thứ trưởng chỉ đạo.
-          </p>
-          <p>
-            Ngoài ra, Thứ trưởng cũng lưu ý các địa phương về việc xây dựng chương trình học tập, xây dựng văn hóa đọc trong nhà trường, cộng đồng và xã hội; phát triển các phong trào thi đua thiết thực, hiệu quả ở các cấp trong toàn ngành giáo dục; Quản lý hoạt động dạy thêm, học thêm tại các địa phương...
-          </p>
-          <p>
-            Bước vào năm học 2024-2025, Thứ trưởng mong muốn các đơn vị trực thuộc Bộ Giáo dục và Đào tạo, các Sở Giáo dục và Đào tạo, các cơ sở giáo dục, đội ngũ nhà giáo tiếp tục phát huy những kết quả đã đạt được, gắn kết chặt chẽ hơn nữa giữa Bộ Giáo dục và Đào tạo với các Sở Giáo dục và Đào tạo, các địa phương để có sự phối hợp nhịp nhàng, thông suốt và hiệu quả trong công tác giáo dục và đào tạo.
-          </p>
-      </div>
     </div>
-<!-- ACTION CALL -->
-<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="col-lg-8 text-center" data-aos="fade">
-          <h2 class="display-6 mb-3 overflow-hidden">Bạn đã sẵn sàng để mở đón bầu trời kiến thức?</h2>
-        </div>
-        <div class="col-12">
-          <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;" data-aos="fade-down">Liên hệ</a>
-        </div>
-      </div>
+    <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"
+        class="copyright link-fancy" target="_blank">SunEd</a>
     </div>
-  </div>
-</div>
-    </main>
-<!-- footer -->
-<footer>
-  <div class="container small border-top">
-    <div class="row py-5 d-flex justify-content-between">
+  </footer>
 
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3 overflow-hidden">
-          VĂN PHÒNG CHÍNH</h3>
-        <address class="text-secondary mt-3">
-          478 Nguyễn Tất Thành, Phường 18, Quận 4, Ho Chi Minh City, Viet Nam.<br><br>
-          <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-          <a href="">info@suned.edu.vn</a>
-        </address>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3 overflow-hidden">
-          ĐIỀU HƯỚNG
-        </h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/news-vn.html">Tin tức</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 p-5">
-        <h3 class="h6 mb-3 overflow-hidden">Kênh truyền thông</h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-  <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"class="copyright link-fancy"
-      target="_blank">SunEd</a>
-  </div>
-</footer>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/aos.js"></script>
-<script>
-AOS.init({
-   duration: 800, // values from 0 to 3000, with step 50ms
- });
- </script>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
 
- <script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
 
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
 
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
 
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
+      console.log(scrollpos)
+    })
+  </script>
 
-    console.log(scrollpos)
-  })
-</script>
+</body>
 
-  </body>
 </html>

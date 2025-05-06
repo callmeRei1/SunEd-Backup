@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-      <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <link rel="apple-touch-icon" sizes="180x180" href="img/img_Sune/index/sunedfav.png">
@@ -16,238 +16,261 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/contact.css">
   <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-/* inter-300 - latin */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X6M0JGJ7RW');
-</script>
+    gtag('config', 'G-X6M0JGJ7RW');
+  </script>
 </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <!-- NAV -->
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+  <!-- NAV -->
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="index.html">
+        <img src="/img/img_Sune/index/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html" aria-label="Brings you to the frontpage">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus.html">
+              About us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#numbers">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact_vn.html">
+              VN
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Contact -->
+    <div class="contact-information">
+      <div class="container contact-information-container">
+        <div class="title">
+          <h1>Contact</h1>
+        </div>
+        <div class="contact-details">
+          <h2>Expanding horizons</h2>
+          <h2 class="overflow-hidden">Empowering futures with <span style="color: #fdb92e;">Sun</span><span
+              style="color: #3c4493;">Ed</span></h2>
+          <p>478 Nguyen Tat Thanh Street, Ward 18, District 4, Ho Chi Minh City, Viet Nam.</p>
+          <a href="tel:+84 779 661 879">+84 779 661 879 (whatsapp/Zalo/Viber)</a>
+          <a href="mailto:info@suned.edu.vn">info@suned.edu.vn</a>
+        </div>
+      </div>
+    </div>
+    <!-- CONTACT FORM -->
+    <div class="contact">
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="index.html">
-          <img src="/img/img_Sune/index/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <div class="row">
+          <div class="col-6 contact-left">
+            <div class="text-center">
+              <h2 data-aos="fade-right" data-aos-delay="200">Level up your life!</h2>
+              <img src="img/img_Sune/contact-1.avif" alt="Building-img" class="shadow" data-aos="fade-up"
+                data-aos-delay="500">
+            </div>
+          </div>
+          <div class="col-6 contact-right">
+            <h3 data-aos="fade-left" data-aos-delay="200">Contact Form</h3>
+            <form data-aos="fade-left" data-aos-delay="500" action="https://formspree.io/f/myzedevr" method="POST">
+              <div class="mb-3">
+                <label class="form-label">First Name *</label>
+                <input type="text" class="form-control" required="">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Last Name *</label>
+                <input type="text" class="form-control" required="">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email *</label>
+                <input type="email" class="form-control" required="">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" rows="3">This is a message</textarea>
+              </div>
+              <button type="submit" class="btn btn-custom w-100">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ACTION CALL -->
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <h2 class="display-6 mb-3">Ready to expand your horizons?</h2>
+            </div>
+            <div class="col-12">
+              <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;"
+                data-aos="fade-down">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner -->
+    <div class="our-partner">
+      <h2 class="tittle">Our Partner</h2>
+      <div class="carousel-partner">
+        <div class="wrap">
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">HEAD OFFICE</h3>
+          <address class="text-secondary mt-3">
+            478 Nguyen Tat Thanh Street, Ward 18,District 4, Ho Chi Minh City, Viet Nam.<br><br>
+            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
+            <a href="">info@suned.edu.vn</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">
+            NAVIGATION
+          </h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html" aria-label="Brings you to the frontpage">
-                Home
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus.html">
-                About us
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#numbers">
-                Contact
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news.html">
-                News
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">Contact</a>
             </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3">FOLLOW US</h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/contact_vn.html">
-                VN
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page"
+                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
-    <main>
-      <!-- Contact -->
-      <div class="contact-information">
-        <div class="container contact-information-container">
-            <div class="title">
-                <h1>Contact</h1>
-            </div>
-            <div class="contact-details">
-                <h2>Expanding horizons</h2>
-                <h2 class="overflow-hidden">Empowering futures with <span style="color: #fdb92e;" >Sun</span><span style="color: #3c4493;">Ed</span></h2>
-                <p>478 Nguyen Tat Thanh Street, Ward 18, District 4, Ho Chi Minh City, Viet Nam.</p>
-                <a href="tel:+84 779 661 879">+84 779 661 879 (whatsapp/Zalo/Viber)</a>
-                <a href="mailto:info@suned.edu.vn">info@suned.edu.vn</a>
-            </div>
-        </div>
-      </div>
-      <!-- CONTACT FORM -->
-      <div class="contact">
-  <div class="container">
-      <div class="row">
-          <div class="col-6 contact-left">
-              <div class="text-center">
-                  <h2 data-aos="fade-right" data-aos-delay="200">Level up your life!</h2>
-                  <img src="img/img_Sune/contact-1.avif" alt="Building-img" class="shadow" data-aos="fade-up" data-aos-delay="500">
-              </div>
-          </div>
-          <div class="col-6 contact-right">
-                  <h3 data-aos="fade-left" data-aos-delay="200">Contact Form</h3>
-                  <form data-aos="fade-left" data-aos-delay="500" action="https://formspree.io/f/myzedevr"
-                  method="POST">
-                      <div class="mb-3">
-                          <label class="form-label">First Name *</label>
-                          <input type="text" class="form-control" required="">
-                      </div>
-                      <div class="mb-3">
-                          <label class="form-label">Last Name *</label>
-                          <input type="text" class="form-control" required="">
-                      </div>
-                      <div class="mb-3">
-                          <label class="form-label">Email *</label>
-                          <input type="email" class="form-control" required="">
-                      </div>
-                      <div class="mb-3">
-                          <label class="form-label">Message</label>
-                          <textarea class="form-control" rows="3">This is a message</textarea>
-                      </div>
-                      <button type="submit" class="btn btn-custom w-100">Send</button>
-                  </form>
-          </div>
-      </div>
-  </div>
-      </div>
-<!-- ACTION CALL -->
-<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="col-lg-8 text-center" data-aos="fade">
-          <h2 class="display-6 mb-3">Ready to expand your horizons?</h2>
-        </div>
-        <div class="col-12">
-          <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;" data-aos="fade-down">Contact Us</a>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-    </main>
-<!-- footer -->
-<footer>
-  <div class="container small border-top">
-    <div class="row py-5 d-flex justify-content-between">
 
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">HEAD OFFICE</h3>
-        <address class="text-secondary mt-3">
-          478 Nguyen Tat Thanh Street, Ward 18,District 4, Ho Chi Minh City, Viet Nam.<br><br>
-          <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-          <a href="">info@suned.edu.vn</a>
-        </address>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">
-          NAVIGATION
-        </h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 p-5">
-        <h3 class="h6 mb-3">FOLLOW US</h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-          </li>
-        </ul>
-      </div>
+    <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/" class="link-fancy"
+        target="_blank">SunEd</a>
     </div>
-  </div>
+  </footer>
 
-  <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"class="link-fancy"
-      target="_blank">SunEd</a>
-  </div>
-</footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/aos.js"></script>
-<script>
-AOS.init({
-   duration: 800, // values from 0 to 3000, with step 50ms
- });
- </script>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
 
- <script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
 
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
 
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
 
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
+      console.log(scrollpos)
+    })
+  </script>
 
-    console.log(scrollpos)
-  })
-</script>
+</body>
 
-  </body>
 </html>

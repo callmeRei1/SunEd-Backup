@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-      <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <link rel="apple-touch-icon" sizes="180x180" href="img/img_Sune/index/sunedfav.png">
@@ -16,235 +16,290 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/about.css">
   <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-/* inter-300 - latin */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X6M0JGJ7RW');
-</script>
+    gtag('config', 'G-X6M0JGJ7RW');
+  </script>
 </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <!-- NAV -->
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+  <!-- NAV -->
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="index.html">
+        <img src="/img/img_Sune/index/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
+              Trang chủ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus_vn.html">
+              Giới thiệu
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact_vn.html">
+              Liên hệ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/news_vn.html">
+              Tin tức
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus.html">
+              EN
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- OUR PERSPECTIVE -->
+    <div class="perspective">
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="index.html">
-          <img src="/img/img_Sune/index/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <div class="row">
+          <div class="col-6 left-col">
+            <h1><span style="color: #fdb92e;"
+                class="animate__animated animate__fadeInUp animate__delay-2s">Sun</span><span
+                class="animate__animated animate__fadeInLeft animate__delay-3s">flower</span></h1>
+            <h1><span style="color: #3c4493;"
+                class="animate__animated animate__fadeInUp animate__delay-2s">Ed</span><span
+                class="animate__animated animate__fadeInLeft animate__delay-3s">ucation</span></h1>
+            <img src="/img/img_Sune/Aboutus/aboutus-1.avif" alt="perspective">
+            <img src="/img/img_Sune/Aboutus/aboutus-1.avif" alt="perspective" class="img-1">
+            <img src="/img/img_Sune/Aboutus/aboutus-1.avif" alt="perspective" class="img-2">
+          </div>
+          <div class="col-6 right-col">
+            <h2 class="animate__animated animate__fadeInUp animate__delay-2s">Đôi lời tâm sự</h2>
+            <p>
+              William Butler Yeats, một trong những nhân vật tiêu biểu của nền văn học Thế kỷ 20 với Giải thưởng Nobel
+              Văn học năm 1923 đến từ Ireland, đã từng nói: “Giáo dục không phải là việc đổ đầy một cái xô, mà là việc
+              thắp lên một ngọn lửa”. Câu nói của ông gói gọn việc học thực sự như một sự thức tỉnh của tâm trí và tinh
+              thần. Nói cách khác, quá trình phát triển nhận thức sẽ khuyến khích cá nhân khơi dậy niềm đam mê và sự tò
+              mò, mở rộng tầm nhìn, thay vì kết nạp thông tin một cách thụ động.
+            </p>
+            <p>
+              Nhờ di sản Nho giáo, ở Việt Nam, thành tích giáo dục được coi trọng ở mọi tầng lớp trong xã hội. Trên thực
+              tế, thế hệ trẻ Việt Nam được kỳ vọng sẽ theo đuổi bằng cấp như chìa khóa thành công trong sự nghiệp tương
+              lai. Việc tiếp thu kiến thức thực tế bằng cách nào đó bị bỏ qua. Niềm vui học tập không được đề cao.
+            </p>
+            <p>
+              Tuy nhiên, cùng với sự tăng trưởng kinh tế và đầu tư nước ngoài gần đây, ngành giáo dục đang dần chuyển
+              mình để đáp ứng nhu cầu cao của người học cũng như thị trường lao động trong nước và thế giới. Ngoài ra,
+              ngày càng có nhiều chương trình giáo dục xuyên quốc gia được đưa vào Việt Nam để cung cấp các chương trình
+              đào tạo khác nhau, giúp cải thiện đáng kể phương pháp giảng dạy và học tập tại địa phương. Người học hiện
+              nay có nhiều cơ hội để tận hưởng ý nghĩa thực sự của giáo dục và tham gia nhiều hơn vào các hoạt động học
+              tập khác nhau, trong các khóa học chính khóa hoặc ngoại khóa.
+            </p>
+            <p>
+              Để trang bị cho học sinh sinh viên những kiến ​​thức và năng lực cần thiết trong bối cảnh toàn cầu hóa,
+              bên cạnh việc thực hiện chương trình giáo dục phổ thông được đổi mới, theo Kết luận số 91-KL/TW của Đại
+              hội Đảng lần thứ XI, hiện thực hóa giáo dục và đào tạo Việt Nam đạt trình độ tiên tiến của khu vực châu Á
+              vào năm 2030 và đạt trình độ tiên tiến của thế giới vào năm 2045 là một trong những yêu cầu của Bộ Chính
+              trị. Điều 8 của Kết luận đưa ra yêu cầu “Đẩy mạnh hội nhập quốc tế trong giáo dục và đào tạo đáp ứng yêu
+              cầu nâng cao chấ t lượ ng nguồn nhân lự c phục vụ phát triển đất nước trong giai đoạn mới.” Do đó, việc
+              nâng cao trình độ ngoại ngữ của học sinh được ưu tiên với mục tiêu dần đưa tiếng Anh trở thành ngôn ngữ
+              thứ hai trong trường học.
+            </p>
+            <p>
+              Đáng chú ý, do Việt Nam là điểm đến thu hút đầu tư nước ngoài ngày càng tăng ở Đông Nam Á nên nhu cầu giáo
+              dục chất lượng cao đã leo lên những đỉnh cao mới. Nắm bắt được vai trò quan trọng của việc học thực sự đối
+              với thế hệ trẻ trong Cuộc cách mạng công nghiệp lần thứ 4 cùng với sự phát triển mạnh mẽ của công nghệ số
+              và trí tuệ nhân tạo, SunEd tìm cách tạo điều kiện cho mỗi cá nhân phát triển tối ưu, hướng đến sự hoàn
+              thiện về mặt cá nhân và nghề nghiệp thông qua giáo dục khai phóng, dưới hình thức học tập kết hợp hoặc học
+              tập trực tuyến.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WHY SUNED -->
+    <div class="why-suned">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 left-col">
+            <h1>Tại sao</h1>
+            <h1><span style="color: #fdb92e;">Sun</span><span style="color: #3c4493;">Ed</span>?</h1>
+            <img src="/img/img_Sune/Aboutus/aboutus-2.avif" alt="why-suned">
+          </div>
+          <div class="col-6 right-col">
+            <h2>Lý do chọn SunEd?</h2>
+            <p><strong>SunEd</strong>, còn được gọi là Sunflower Education theo tên đầy đủ, được đặt theo tên một loài
+              hoa tượng trưng cho mặt trời để nhấn mạnh cam kết của chúng tôi trong việc kết nối giáo dục hiện tại với
+              sự nghiệp tương lai cho tất cả người học đang tìm kiếm chương trình đào tạo hàng đầu. Các thành viên của
+              SunEd không chỉ giàu kinh nghiệm và chuyên nghiệp mà còn tận tâm vì tương lai tốt đẹp hơn của các thế hệ
+              người Việt. Với sự cống hiến cho giáo dục khai phóng, cùng với phụ huynh và học sinh sinh viên, chúng tôi
+              rất vinh dự được chung tay vun đắp cho các thế hệ sau những hiểu biết nền tảng và kỹ năng thực tế cần
+              thiết để thành công trong thời đại toàn cầu hóa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ACTION CALL -->
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <h2 class="display-6 mb-3">Bạn đã sẵn sàng mở đón bầu trời kiến thức cho mình?</h2>
+            </div>
+            <div class="col-12">
+              <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;"
+                data-aos="fade-down">Liên hệ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner -->
+    <div class="our-partner">
+      <h2 class="tittle">Our Partner</h2>
+      <div class="carousel-partner">
+        <div class="wrap">
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">VĂN PHÒNG CHÍNH</h3>
+          <address class="text-secondary mt-3">
+            478 Nguyễn Tất Thành, Phường 18, Quận 4, Ho Chi Minh City, Viet Nam.<br><br>
+            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
+            <a href="">info@suned.edu.vn</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">
+            ĐIỀU HƯỚNG
+          </h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
-                Trang chủ
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus_vn.html">
-                Giới thiệu
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact_vn.html">
-                Liên hệ
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/news_vn.html">Tin tức</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news_vn.html">
-                Tin tức
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
             </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3">Kênh truyền thông</h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus.html">
-                EN
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page"
+                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
-    <main>
-          <!-- OUR PERSPECTIVE -->
-    <div class="perspective">
-      <div class="container">
-          <div class="row">
-              <div class="col-6 left-col">
-                  <h1><span style="color: #fdb92e;" class="animate__animated animate__fadeInUp animate__delay-2s">Sun</span><span class="animate__animated animate__fadeInLeft animate__delay-3s">flower</span></h1>
-                  <h1><span style="color: #3c4493;" class="animate__animated animate__fadeInUp animate__delay-2s">Ed</span><span class="animate__animated animate__fadeInLeft animate__delay-3s">ucation</span></h1>
-                  <img src="/img/img_Sune/Aboutus/aboutus-1.avif" alt="perspective">
-                  <img src="/img/img_Sune/Aboutus/aboutus-1.avif" alt="perspective" class="img-1">
-                  <img src="/img/img_Sune/Aboutus/aboutus-1.avif" alt="perspective" class="img-2">
-              </div>
-              <div class="col-6 right-col">
-                  <h2 class="animate__animated animate__fadeInUp animate__delay-2s">Đôi lời tâm sự</h2>
-                  <p>
-                    William Butler Yeats, một trong những nhân vật tiêu biểu của nền văn học Thế kỷ 20 với Giải thưởng Nobel Văn học năm 1923 đến từ Ireland, đã từng nói: “Giáo dục không phải là việc đổ đầy một cái xô, mà là việc thắp lên một ngọn lửa”. Câu nói của ông gói gọn việc học thực sự như một sự thức tỉnh của tâm trí và tinh thần. Nói cách khác, quá trình phát triển nhận thức sẽ khuyến khích cá nhân khơi dậy niềm đam mê và sự tò mò, mở rộng tầm nhìn, thay vì kết nạp thông tin một cách thụ động. 
-                  </p>
-                  <p>
-                    Nhờ di sản Nho giáo, ở Việt Nam, thành tích giáo dục được coi trọng ở mọi tầng lớp trong xã hội. Trên thực tế, thế hệ trẻ Việt Nam được kỳ vọng sẽ theo đuổi bằng cấp như chìa khóa thành công trong sự nghiệp tương lai. Việc tiếp thu kiến thức thực tế bằng cách nào đó bị bỏ qua. Niềm vui học tập không được đề cao. 
-                  </p>
-                  <p>
-                    Tuy nhiên, cùng với sự tăng trưởng kinh tế và đầu tư nước ngoài gần đây, ngành giáo dục đang dần chuyển mình để đáp ứng nhu cầu cao của người học cũng như thị trường lao động trong nước và thế giới. Ngoài ra, ngày càng có nhiều chương trình giáo dục xuyên quốc gia được đưa vào Việt Nam để cung cấp các chương trình đào tạo khác nhau, giúp cải thiện đáng kể phương pháp giảng dạy và học tập tại địa phương. Người học hiện nay có nhiều cơ hội để tận hưởng ý nghĩa thực sự của giáo dục và tham gia nhiều hơn vào các hoạt động học tập khác nhau, trong các khóa học chính khóa hoặc ngoại khóa. 
-                  </p>
-                  <p>
-                    Để trang bị cho học sinh sinh viên những kiến ​​thức và năng lực cần thiết trong bối cảnh toàn cầu hóa, bên cạnh việc thực hiện chương trình giáo dục phổ thông được đổi mới, theo Kết luận số 91-KL/TW của Đại hội Đảng lần thứ XI, hiện thực hóa giáo dục và đào tạo Việt Nam đạt trình độ tiên tiến của khu vực châu Á vào năm 2030 và đạt trình độ tiên tiến của thế giới vào năm 2045 là một trong những yêu cầu của Bộ Chính trị. Điều 8 của Kết luận đưa ra yêu cầu “Đẩy mạnh hội nhập quốc tế trong giáo dục và đào tạo đáp ứng yêu cầu nâng cao chấ t lượ ng nguồn nhân lự c phục vụ phát triển đất nước trong giai đoạn mới.” Do đó, việc nâng cao trình độ ngoại ngữ của học sinh được ưu tiên với mục tiêu dần đưa tiếng Anh trở thành ngôn ngữ thứ hai trong trường học. 
-                  </p>
-                  <p>
-                    Đáng chú ý, do Việt Nam là điểm đến thu hút đầu tư nước ngoài ngày càng tăng ở Đông Nam Á nên nhu cầu giáo dục chất lượng cao đã leo lên những đỉnh cao mới. Nắm bắt được vai trò quan trọng của việc học thực sự đối với thế hệ trẻ trong Cuộc cách mạng công nghiệp lần thứ 4 cùng với sự phát triển mạnh mẽ của công nghệ số và trí tuệ nhân tạo, SunEd tìm cách tạo điều kiện cho mỗi cá nhân phát triển tối ưu, hướng đến sự hoàn thiện về mặt cá nhân và nghề nghiệp thông qua giáo dục khai phóng, dưới hình thức học tập kết hợp hoặc học tập trực tuyến. 
-                  </p>
-              </div>
-          </div>
-      </div>
     </div>
-  <!-- WHY SUNED -->
-  <div class="why-suned">
-      <div class="container">
-          <div class="row">
-              <div class="col-6 left-col">
-                  <h1>Tại sao</h1>
-                  <h1><span style="color: #fdb92e;">Sun</span><span style="color: #3c4493;">Ed</span>?</h1>
-                  <img src="/img/img_Sune/Aboutus/aboutus-2.avif" alt="why-suned">
-              </div>
-              <div class="col-6 right-col">
-                  <h2>Lý do chọn SunEd?</h2>
-                  <p><strong>SunEd</strong>, còn được gọi là Sunflower Education theo tên đầy đủ, được đặt theo tên một loài hoa tượng trưng cho mặt trời để nhấn mạnh cam kết của chúng tôi trong việc kết nối giáo dục hiện tại với sự nghiệp tương lai cho tất cả người học đang tìm kiếm chương trình đào tạo hàng đầu. Các thành viên của SunEd không chỉ giàu kinh nghiệm và chuyên nghiệp mà còn tận tâm vì tương lai tốt đẹp hơn của các thế hệ người Việt. Với sự cống hiến cho giáo dục khai phóng, cùng với phụ huynh và học sinh sinh viên, chúng tôi rất vinh dự được chung tay vun đắp cho các thế hệ sau những hiểu biết nền tảng và kỹ năng thực tế cần thiết để thành công trong thời đại toàn cầu hóa.</p>
-              </div>
-          </div>
-      </div>
+
+    <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"
+        class="copyright link-fancy" target="_blank">SunEd</a>
     </div>
-<!-- ACTION CALL -->
-<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="col-lg-8 text-center" data-aos="fade">
-          <h2 class="display-6 mb-3">Bạn đã sẵn sàng mở đón bầu trời kiến thức cho mình?</h2>
-        </div>
-        <div class="col-12">
-          <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;" data-aos="fade-down">Liên hệ</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    </main>
+  </footer>
 
-<footer>
-  <div class="container small border-top">
-    <div class="row py-5 d-flex justify-content-between">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">VĂN PHÒNG CHÍNH</h3>
-        <address class="text-secondary mt-3">
-          478 Nguyễn Tất Thành, Phường 18, Quận 4, Ho Chi Minh City, Viet Nam.<br><br>
-          <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-          <a href="">info@suned.edu.vn</a>
-        </address>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">
-          ĐIỀU HƯỚNG
-        </h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/news_vn.html">Tin tức</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 p-5">
-        <h3 class="h6 mb-3">Kênh truyền thông</h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
 
-  <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"class="copyright link-fancy"
-      target="_blank">SunEd</a>
-  </div>
-</footer>
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/aos.js"></script>
-<script>
-AOS.init({
-   duration: 800, // values from 0 to 3000, with step 50ms
- });
- </script>
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
 
- <script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
 
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+      console.log(scrollpos)
+    })
+  </script>
 
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
+</body>
 
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
-
-    console.log(scrollpos)
-  })
-</script>
-
-  </body>
 </html>

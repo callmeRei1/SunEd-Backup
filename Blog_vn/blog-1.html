@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-      <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <link rel="apple-touch-icon" sizes="180x180" href="/img/img_Sune/index/sunedfav.png">
@@ -16,316 +16,418 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/blog.css">
   <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-/* inter-300 - latin */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X6M0JGJ7RW');
-</script>
+    gtag('config', 'G-X6M0JGJ7RW');
+  </script>
 </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <!-- NAV -->
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+  <!-- NAV -->
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="/index_vn.html">
+        <img src="/img/img_Sune/index/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
+              Trang chủ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus_vn.html">
+              Giới thiệu
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact_vn.html">
+              Liên hệ
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/news_vn.html">
+              Tin tức
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog-1.html">
+              EN
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- BLOGS -->
+    <div class="blog">
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="/index_vn.html">
-          <img src="/img/img_Sune/index/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <h1>
+          Ngành giáo dục tập trung cải cách, đổi mới sáng tạo cho năm học tới
+        </h1>
+        <span><em>10/09/2024 - 13:04</em></span>
+        <span>
+          <a
+            href="https://vietnamnews.vn/opinion/1662693/education-sector-focuses-on-reform-and-innovation-for-the-upcoming-academic-year.html">https://vietnamnews.vn/opinion/1662693/education-sector-focuses-on-reform-and-innovation-for-the-upcoming-academic-year.html</a>
+        </span>
+        <img src="/img/img_Sune/news/blogs/blog1-1.avif" alt="blog-1" />
+        <span class="picture-cap">Minister of Education and Training Nguyễn Kim Sơn beats the drum to
+          officially open the 2024-2025 school year at Hà Nội's Nguyễn Đình
+          Chiểu Secondary School on September 5. — VNA/VNS Photos</span>
+        <h2>
+          Bộ trưởng Bộ Giáo dục và Đào tạo Nguyễn Kim Sơn trả lời báo Tin Tức về chiến lược giải quyết những diễn biến
+          quan trọng trong ngành giáo dục.
+        </h2>
+        <p>
+          Năm học 2024-25 đánh dấu một cột mốc quan trọng khi chương trình giáo dục phổ thông năm 2018 được triển khai
+          đồng bộ ở tất cả 12 lớp học lần đầu tiên. Năm học này cũng đánh dấu sự kết thúc của năm năm thực hiện Luật
+          Giáo dục năm 2019, với dự thảo Luật Giáo viên chuẩn bị được thảo luận tại Quốc hội. Bộ trưởng Bộ Giáo dục và
+          Đào tạo Nguyễn Kim Sơn đã trao đổi với báo Tin Tức về các chiến lược giải quyết những diễn biến quan trọng
+          này.
+        </p>
+        <h2>
+          Ông có thể cho biết những thành tựu nổi bật của ngành giáo dục trong năm học 2023-24 không?
+        </h2>
+        <p>
+          Năm học 2023-24 đánh dấu 10 năm thực hiện Nghị quyết 29. Thực hiện chỉ đạo của Bộ Chính trị, Bộ Giáo dục và
+          Đào tạo cùng các cơ quan chủ chốt đã tổng kết 10 năm qua. Ngày 12/8, Bộ Chính trị đã ban hành Kết luận số 91,
+          nhấn mạnh yêu cầu tiếp tục đổi mới.
+        </p>
+        <p>
+          Kết luận này có ý nghĩa quan trọng trong việc thống nhất các nỗ lực thúc đẩy cải cách giáo dục toàn diện để
+          đáp ứng nhu cầu phát triển trong tương lai. Năm ngoái, Chính phủ và Thủ tướng Phạm Minh Chính đã tập trung vào
+          giáo dục mầm non, đưa ra chương trình giáo dục mầm non mới và dự thảo nghị quyết về phổ cập giáo dục cho trẻ
+          em từ 3 đến 5 tuổi.
+        </p>
+        <p>
+          Trong giáo dục phổ thông, những thay đổi về chương trình giảng dạy năm 2018 đã được đón nhận nồng nhiệt. Chính
+          quyền địa phương đã đầu tư vào những cải cách này, với kỳ thi tốt nghiệp trung học phổ thông năm 2023-2024 đã
+          kết thúc thành công như kỳ thi cuối cùng theo chương trình năm 2006. Hệ thống thi mới, bắt đầu từ năm 2025, đã
+          được phê duyệt và được ủng hộ rộng rãi.
+        </p>
+        <p>
+          Năm nay cũng đáng chú ý đối với các trường chuyên của Việt Nam, với các đội tuyển Olympic quốc gia đạt được
+          những thành tích đáng chú ý, bao gồm huy chương vàng, bạc và thứ hạng cao trong các cuộc thi quốc tế. Học sinh
+          Việt Nam đã xuất sắc tại Hội chợ Khoa học và Kỹ thuật quốc tế, giành giải nhì.
+        </p>
+        <p>
+          Giáo dục đại học chứng kiến ​​số lượng kỷ lục các ứng viên đại học và cải thiện đáng kể chất lượng. Chuyển đổi
+          số tiến triển với việc hoàn thiện cơ sở dữ liệu giáo dục và tích hợp với cơ sở dữ liệu dân số quốc gia. Tăng
+          số lượng đơn đăng ký đào tạo giáo viên và cải thiện mức lương cơ bản đã tác động tích cực đến các nhà giáo
+          dục.
+        </p>
+        <p>
+          Việc biên soạn và rà soát sách giáo khoa đáp ứng được kỳ vọng về chất lượng và sự hỗ trợ ngày càng tăng cho
+          giáo viên đã được đón nhận nồng nhiệt. Năm học cũng có các sự kiện thể thao lớn trong nước và quốc tế, bao gồm
+          việc tổ chức thành công Đại hội thể thao sinh viên Đông Nam Á lần thứ 13 và Đại hội thể thao Phù Đổng toàn
+          quốc lần thứ 10.
+        </p>
+        <h2>
+          Những ưu tiên chính của ngành giáo dục trong năm học mới là gì?
+        </h2>
+        <p>
+          Trong năm học 2024-25, ngành giáo dục sẽ tập trung thực hiện các chính sách quan trọng của quốc gia và các
+          nghị quyết của Đảng, ưu tiên cải cách giáo dục thông qua kỷ luật, đổi mới và nâng cao chất lượng.
+        </p>
+        <p>
+          Các mục tiêu chính bao gồm thực hiện Kết luận số 91 về cải cách giáo dục, đánh giá chương trình giáo dục phổ
+          thông năm 2018, biên soạn chương trình giáo dục mầm non mới, tăng cường quyền tự chủ của trường đại học và
+          thúc đẩy đào tạo nguồn nhân lực. Trọng tâm sẽ được đặt vào việc phát triển các kỹ năng trong vi điện tử bán
+          dẫn, trí tuệ nhân tạo và điện toán đám mây.
+        </p>
+        <p>
+          Bộ GD&ĐT sẽ tư vấn cho Chính phủ về chương trình hành động thực hiện Kết luận số 91 và xây dựng kế hoạch hành
+          động của riêng mình để đảm bảo thực hiện hiệu quả. Ngành cũng sẽ cập nhật các văn bản pháp luật để giải quyết
+          các vấn đề mới nổi và cải thiện môi trường chính sách, với trọng tâm chính là hoàn thiện dự thảo Luật Giáo
+          viên.
+        </p>
+        <p>
+          Ngoài ra, Bộ sẽ sớm ban hành Chiến lược phát triển giáo dục Việt Nam đến năm 2030 và tầm nhìn đến năm 2045,
+          nhằm giải quyết những thách thức hiện tại và đạt được thành công lớn hơn trong năm học mới.
+        </p>
+        <h2>
+          Năm học 2024-25, ngành giáo dục sẽ tiếp tục triển khai chương trình giáo dục phổ thông mới ở các lớp 5, 9 và
+          12. Năm nay cũng là năm đầu tiên tổ chức kỳ thi tốt nghiệp phổ thông theo chương trình giáo dục phổ thông mới.
+          Bộ GD&ĐT đã ban hành những chỉ đạo cụ thể nào cho năm học này?
+        </h2>
+        <p>
+          Bất chấp những thách thức gặp phải trong quá trình cải cách giáo dục gần đây, quá trình này đã nêu bật cam kết
+          và nỗ lực của toàn bộ hệ thống chính trị, chính quyền địa phương và ngành giáo dục. Năm nay đặc biệt quan
+          trọng và Bộ GD&ĐT đã chuẩn bị rất kỹ lưỡng. Hình thức thi tốt nghiệp trung học phổ thông mới, sẽ được áp dụng
+          vào năm 2025, đã được xây dựng với sự tham vấn rộng rãi và nhận được sự ủng hộ mạnh mẽ của công chúng. Quy
+          định cho kỳ thi năm 2025 dự kiến ​​sẽ được ban hành vào tháng 11 năm 2024 và được thiết kế để thực tế và ổn
+          định cho học sinh, giáo viên và trường học.
+        </p>
+        <p>
+          Để đảm bảo quá trình chuyển đổi diễn ra suôn sẻ, chúng tôi sẽ tiến hành thử nghiệm rộng rãi hình thức thi mới,
+          các sở giáo dục địa phương sẽ sẵn sàng triển khai thử nghiệm này và giải quyết mọi vấn đề.
+        </p>
+        <p>
+          Lịch trình và hướng dẫn năm học đã được công bố sớm, nêu rõ các nhiệm vụ chính như triển khai chương trình
+          giảng dạy năm 2018 cho điểm cuối kỳ và chuẩn bị cho kỳ thi tốt nghiệp năm 2025.
+        </p>
+        <p>
+          Trong nhiều cuộc họp, bao gồm cả cuộc họp với giám đốc giáo dục và các cuộc đánh giá toàn ngành, Bộ GD&ĐT và
+          các quan chức địa phương đã thảo luận về các nhiệm vụ, chia sẻ kinh nghiệm và tìm kiếm giải pháp cho các thách
+          thức.
+        </p>
+        <p>
+          Bộ GD&ĐT vẫn cam kết theo dõi chặt chẽ và hỗ trợ các địa phương thực hiện các nhiệm vụ trọng tâm trong năm học
+          2024-25.
+        </p>
+        <img src="/img/img_Sune/news/blogs/blog1-2.avif" alt="blog-1-2" />
+        <span class="picture-cap">Học sinh tỉnh Hòa Bình trong ngày đầu tiên của năm học mới</span>
+        <h2>
+          Tình trạng thiếu giáo viên tiếp tục ảnh hưởng đến nhiều tỉnh, thành phố, đặc biệt là đối với những người đủ
+          điều kiện giảng dạy chương trình giáo dục mới. Bộ GD&ĐT đã có những biện pháp hoặc kế hoạch gì để giải quyết
+          vấn đề này?
+        </h2>
+        <p>
+          Hiện nay, cả nước có khoảng 1,6 triệu giáo viên. Trong năm học 2023-24, đã tuyển dụng được 19.474 giáo viên
+          mới. Tuy nhiên, số lượng học sinh tăng đã dẫn đến việc tăng số lớp học: thêm 7.198 ở cấp trung học cơ sở (cần
+          thêm 13.676 giáo viên) và thêm 1.213 ở cấp trung học phổ thông (cần thêm 2.729 giáo viên). Điều này đã góp
+          phần gây ra tình trạng thiếu giáo viên dai dẳng ở nhiều khu vực.
+        </p>
+        <p>
+          Các báo cáo sơ bộ cho thấy tình trạng thiếu giáo viên cho năm học 2024-25 sẽ tăng thêm 19.856 người, bao gồm
+          6.000 người nữa cần cho giáo dục mầm non và 13.856 người cho giáo dục phổ thông. Tình trạng thiếu hụt chủ yếu
+          là do số lượng học sinh ngày càng tăng, dẫn đến 2.327 nhóm bổ sung trong giáo dục mầm non và 7.150 lớp nữa
+          trong giáo dục phổ thông.
+        </p>
+        <p>
+          Bộ đã chỉ đạo chính quyền địa phương tuyển dụng tất cả các vị trí giảng dạy và yêu cầu đào tạo thêm giáo viên.
+          Các trường đại học đang được khuyến khích đào tạo giáo viên cho các môn học mới và ngôn ngữ dân tộc thiểu số.
+        </p>
+        <p>
+          Bộ GD&ĐT sẽ tiếp tục cập nhật chính sách, pháp luật để nâng cao vị thế của nhà giáo, trong đó có việc trình dự
+          thảo Luật Nhà giáo lên Quốc hội. Luật này nhằm tạo hành lang pháp lý cho việc tuyển dụng, quản lý, công nhận
+          giáo viên và trao quyền cho các cơ quan quản lý giáo dục kiểm soát chặt chẽ hơn việc bổ nhiệm giáo viên.
+        </p>
+        <p>
+          Phối hợp với Bộ Nội vụ, Bộ GD&ĐT sẽ tư vấn về định mức biên chế theo Quyết định số 72 của Trung ương, đôn đốc
+          các địa phương sử dụng hết định mức hiện có và đề nghị bổ sung. Các địa phương cũng được khuyến khích thực
+          hiện các chính sách hỗ trợ để đảm bảo an ninh việc làm và sự hài lòng cho giáo viên.
+        </p>
+        <p>
+          Các chính sách gần đây, bao gồm các ưu đãi cho giáo viên thực tập và tăng lương, đã khiến nghề giáo viên trở
+          nên hấp dẫn hơn. Nhiều khu vực đã áp dụng các biện pháp để thu hút và giữ chân giáo viên, và dự thảo Luật Giáo
+          viên được thiết kế để giải quyết những nhu cầu này, thể hiện tiến bộ đáng kể trong việc giải quyết tình trạng
+          thiếu giáo viên.
+        </p>
+        <h2>
+          Khi năm học mới đang đến gần, tình trạng thiếu chỗ học vẫn tiếp diễn ở các thành phố lớn và cơ sở hạ tầng
+          trường học ở những khu vực khó khăn và bị ảnh hưởng bởi lũ lụt vẫn còn thiếu thốn. Bộ GD&ĐT đã giải quyết và
+          hỗ trợ các địa phương như thế nào để giải quyết những vấn đề này?
+        </h2>
+        <p>
+          Các địa phương gần đây đã tập trung vào việc mở rộng mạng lưới trường học, cải thiện cơ sở hạ tầng và nâng cấp
+          cơ sở vật chất giảng dạy. Tuy nhiên, khoảng 15,5 phần trăm phòng học trên toàn quốc vẫn chưa được xây dựng đầy
+          đủ, với tình trạng thiếu hụt dai dẳng ở các khu vực đông dân cư, miền núi, vùng sâu vùng xa và đặc biệt khó
+          khăn. Khả năng cung cấp thiết bị giảng dạy đáp ứng các tiêu chuẩn theo quy định cũng thấp, chỉ ở mức 50,63
+          phần trăm.
+        </p>
+        <p>
+          Để đạt được mục tiêu năm 2030 là nâng cấp toàn bộ cơ sở giáo dục, cần có sự nỗ lực đáng kể từ chính quyền địa
+          phương, dưới sự chỉ đạo của Bộ GD&ĐT. Đối với năm học 2024-25, các sở giáo dục địa phương cần xây dựng kế
+          hoạch năm 2025-30 để đảm bảo đầu tư chủ động cho giáo dục. Các địa phương phải phân bổ ít nhất 20 phần trăm
+          ngân sách của mình cho giáo dục và tận dụng các chính sách và ưu đãi hiện có.
+        </p>
+
+        <p>
+          Các mục tiêu chính bao gồm sử dụng hiệu quả ngân sách nhà nước, tiếp tục nâng cấp cơ sở vật chất, xóa bỏ các
+          lớp học tạm thời và mở rộng các lớp học ở những khu vực đông dân hoặc đang phát triển nhanh chóng. Cơ sở hạ
+          tầng và thiết bị giảng dạy đầy đủ để hỗ trợ chương trình giáo dục phổ thông mới là rất quan trọng.
+        </p>
+        <p>
+          Dự thảo Luật Nhà giáo mà Bộ đã xây dựng và công bố để lấy ý kiến ​​nhân dân dự kiến ​​sẽ là điểm nhấn quan
+          trọng. Ủy ban Thường vụ Quốc hội đã đưa dự thảo này vào chương trình xây dựng luật năm 2024, với đợt thẩm định
+          ban đầu dự kiến ​​vào tháng 10 năm 2024 và phê duyệt cuối cùng vào tháng 5 năm 2025. Sự phát triển này hứa hẹn
+          sẽ mang lại lợi ích cho 1,6 triệu giáo viên trên toàn quốc, giải quyết các vấn đề quan trọng liên quan đến
+          sinh kế và phát triển nghề nghiệp của họ.
+        </p>
+        <h2>
+          Khi năm học mới bắt đầu, bạn muốn chia sẻ thông điệp gì tới hàng triệu học sinh, giáo viên và nhân viên giáo
+          dục trên toàn quốc?
+        </h2>
+        <p>
+          Khi nền kinh tế và xã hội của đất nước phát triển, nhu cầu về giáo dục ngày càng khắt khe. Ngành giáo dục chưa
+          bao giờ phải đối mặt với những trách nhiệm và thách thức to lớn như hiện nay. Trong năm học qua, ngành đã có
+          những nỗ lực đáng kể để vượt qua nhiều trở ngại.
+        </p>
+        <p>
+          Năm học 2023-24 đã kết thúc với một lưu ý tích cực, và khi chúng ta hướng tới năm học mới, tôi muốn ghi nhận
+          và cảm ơn những nỗ lực đặc biệt của tất cả các nhân viên giáo dục, bao gồm các nhà quản lý, giáo viên và nhân
+          viên, cũng như học sinh. Khi chúng ta bắt đầu năm học mới này, tôi khuyến khích tất cả mọi người, các nhà quản
+          lý, giáo viên và nhân viên, tiếp tục làm việc chăm chỉ với sự cống hiến mới và các giải pháp sáng tạo.
+        </p>
+
+        <p>
+          Phát huy truyền thống tốt đẹp của ngành, chúng ta hãy phấn đấu đưa nền giáo dục Việt Nam phát triển hơn nữa
+          theo mục tiêu của Đảng và Nhà nước. Tôi chúc các thầy cô giáo ngày càng vui vẻ, nhiệt huyết trong công việc,
+          và hy vọng các em học sinh sẽ có một năm học tràn đầy sáng tạo và tiến bộ. — VNS
+        </p>
+      </div>
+    </div>
+    <!-- ACTION CALL -->
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <h2 class="display-6 mb-3 overflow-hidden">Bạn đã sẵn sàng để mở đón bầu trời kiến thức?</h2>
+            </div>
+            <div class="col-12">
+              <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;"
+                data-aos="fade-down">Liên hệ</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner -->
+    <div class="our-partner">
+      <h2 class="tittle">Our Partner</h2>
+      <div class="carousel-partner">
+        <div class="wrap">
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3 overflow-hidden">
+            VĂN PHÒNG CHÍNH</h3>
+          <address class="text-secondary mt-3">
+            478 Nguyễn Tất Thành, Phường 18, Quận 4, Ho Chi Minh City, Viet Nam.<br><br>
+            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
+            <a href="">info@suned.edu.vn</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3 overflow-hidden">
+            ĐIỀU HƯỚNG
+          </h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
-                Trang chủ
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus_vn.html">
-                Giới thiệu
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/contact_vn.html">
-                Liên hệ
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/news-vn.html">Tin tức</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news_vn.html">
-                Tin tức
-              </a>
+              <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
             </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3 overflow-hidden">Kênh truyền thông</h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/blog-1.html">
-                EN
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page"
+                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
-    <main>
-      <!-- BLOGS -->
-      <div class="blog">
-        <div class="container">
-            <h1>
-              Ngành giáo dục tập trung cải cách, đổi mới sáng tạo cho năm học tới
-            </h1>
-            <span><em>10/09/2024 - 13:04</em></span>
-            <span>
-                <a
-                    href="https://vietnamnews.vn/opinion/1662693/education-sector-focuses-on-reform-and-innovation-for-the-upcoming-academic-year.html">https://vietnamnews.vn/opinion/1662693/education-sector-focuses-on-reform-and-innovation-for-the-upcoming-academic-year.html</a>
-            </span>
-            <img src="/img/img_Sune/news/blogs/blog1-1.avif" alt="blog-1" />
-            <span class="picture-cap">Minister of Education and Training Nguyễn Kim Sơn beats the drum to
-                officially open the 2024-2025 school year at Hà Nội's Nguyễn Đình
-                Chiểu Secondary School on September 5. — VNA/VNS Photos</span>
-            <h2>
-              Bộ trưởng Bộ Giáo dục và Đào tạo Nguyễn Kim Sơn trả lời báo Tin Tức về chiến lược giải quyết những diễn biến quan trọng trong ngành giáo dục.
-            </h2>
-            <p>
-              Năm học 2024-25 đánh dấu một cột mốc quan trọng khi chương trình giáo dục phổ thông năm 2018 được triển khai đồng bộ ở tất cả 12 lớp học lần đầu tiên. Năm học này cũng đánh dấu sự kết thúc của năm năm thực hiện Luật Giáo dục năm 2019, với dự thảo Luật Giáo viên chuẩn bị được thảo luận tại Quốc hội. Bộ trưởng Bộ Giáo dục và Đào tạo Nguyễn Kim Sơn đã trao đổi với báo Tin Tức về các chiến lược giải quyết những diễn biến quan trọng này.
-            </p>
-            <h2>
-              Ông có thể cho biết những thành tựu nổi bật của ngành giáo dục trong năm học 2023-24 không?
-            </h2>
-            <p>
-              Năm học 2023-24 đánh dấu 10 năm thực hiện Nghị quyết 29. Thực hiện chỉ đạo của Bộ Chính trị, Bộ Giáo dục và Đào tạo cùng các cơ quan chủ chốt đã tổng kết 10 năm qua. Ngày 12/8, Bộ Chính trị đã ban hành Kết luận số 91, nhấn mạnh yêu cầu tiếp tục đổi mới.
-            </p>
-            <p>
-              Kết luận này có ý nghĩa quan trọng trong việc thống nhất các nỗ lực thúc đẩy cải cách giáo dục toàn diện để đáp ứng nhu cầu phát triển trong tương lai. Năm ngoái, Chính phủ và Thủ tướng Phạm Minh Chính đã tập trung vào giáo dục mầm non, đưa ra chương trình giáo dục mầm non mới và dự thảo nghị quyết về phổ cập giáo dục cho trẻ em từ 3 đến 5 tuổi.
-            </p>
-            <p>
-              Trong giáo dục phổ thông, những thay đổi về chương trình giảng dạy năm 2018 đã được đón nhận nồng nhiệt. Chính quyền địa phương đã đầu tư vào những cải cách này, với kỳ thi tốt nghiệp trung học phổ thông năm 2023-2024 đã kết thúc thành công như kỳ thi cuối cùng theo chương trình năm 2006. Hệ thống thi mới, bắt đầu từ năm 2025, đã được phê duyệt và được ủng hộ rộng rãi.
-            </p>
-            <p>
-              Năm nay cũng đáng chú ý đối với các trường chuyên của Việt Nam, với các đội tuyển Olympic quốc gia đạt được những thành tích đáng chú ý, bao gồm huy chương vàng, bạc và thứ hạng cao trong các cuộc thi quốc tế. Học sinh Việt Nam đã xuất sắc tại Hội chợ Khoa học và Kỹ thuật quốc tế, giành giải nhì.
-            </p>
-            <p>
-              Giáo dục đại học chứng kiến ​​số lượng kỷ lục các ứng viên đại học và cải thiện đáng kể chất lượng. Chuyển đổi số tiến triển với việc hoàn thiện cơ sở dữ liệu giáo dục và tích hợp với cơ sở dữ liệu dân số quốc gia. Tăng số lượng đơn đăng ký đào tạo giáo viên và cải thiện mức lương cơ bản đã tác động tích cực đến các nhà giáo dục.
-            </p>
-            <p>
-              Việc biên soạn và rà soát sách giáo khoa đáp ứng được kỳ vọng về chất lượng và sự hỗ trợ ngày càng tăng cho giáo viên đã được đón nhận nồng nhiệt. Năm học cũng có các sự kiện thể thao lớn trong nước và quốc tế, bao gồm việc tổ chức thành công Đại hội thể thao sinh viên Đông Nam Á lần thứ 13 và Đại hội thể thao Phù Đổng toàn quốc lần thứ 10.
-            </p>
-            <h2>
-              Những ưu tiên chính của ngành giáo dục trong năm học mới là gì?
-            </h2>
-            <p>
-              Trong năm học 2024-25, ngành giáo dục sẽ tập trung thực hiện các chính sách quan trọng của quốc gia và các nghị quyết của Đảng, ưu tiên cải cách giáo dục thông qua kỷ luật, đổi mới và nâng cao chất lượng.
-            </p>
-            <p>
-              Các mục tiêu chính bao gồm thực hiện Kết luận số 91 về cải cách giáo dục, đánh giá chương trình giáo dục phổ thông năm 2018, biên soạn chương trình giáo dục mầm non mới, tăng cường quyền tự chủ của trường đại học và thúc đẩy đào tạo nguồn nhân lực. Trọng tâm sẽ được đặt vào việc phát triển các kỹ năng trong vi điện tử bán dẫn, trí tuệ nhân tạo và điện toán đám mây.
-            </p>
-            <p>
-              Bộ GD&ĐT sẽ tư vấn cho Chính phủ về chương trình hành động thực hiện Kết luận số 91 và xây dựng kế hoạch hành động của riêng mình để đảm bảo thực hiện hiệu quả. Ngành cũng sẽ cập nhật các văn bản pháp luật để giải quyết các vấn đề mới nổi và cải thiện môi trường chính sách, với trọng tâm chính là hoàn thiện dự thảo Luật Giáo viên.
-            </p>
-            <p>
-              Ngoài ra, Bộ sẽ sớm ban hành Chiến lược phát triển giáo dục Việt Nam đến năm 2030 và tầm nhìn đến năm 2045, nhằm giải quyết những thách thức hiện tại và đạt được thành công lớn hơn trong năm học mới.
-            </p>
-            <h2>
-              Năm học 2024-25, ngành giáo dục sẽ tiếp tục triển khai chương trình giáo dục phổ thông mới ở các lớp 5, 9 và 12. Năm nay cũng là năm đầu tiên tổ chức kỳ thi tốt nghiệp phổ thông theo chương trình giáo dục phổ thông mới. Bộ GD&ĐT đã ban hành những chỉ đạo cụ thể nào cho năm học này?
-            </h2>
-            <p>
-              Bất chấp những thách thức gặp phải trong quá trình cải cách giáo dục gần đây, quá trình này đã nêu bật cam kết và nỗ lực của toàn bộ hệ thống chính trị, chính quyền địa phương và ngành giáo dục. Năm nay đặc biệt quan trọng và Bộ GD&ĐT đã chuẩn bị rất kỹ lưỡng. Hình thức thi tốt nghiệp trung học phổ thông mới, sẽ được áp dụng vào năm 2025, đã được xây dựng với sự tham vấn rộng rãi và nhận được sự ủng hộ mạnh mẽ của công chúng. Quy định cho kỳ thi năm 2025 dự kiến ​​sẽ được ban hành vào tháng 11 năm 2024 và được thiết kế để thực tế và ổn định cho học sinh, giáo viên và trường học.
-            </p>
-            <p>
-              Để đảm bảo quá trình chuyển đổi diễn ra suôn sẻ, chúng tôi sẽ tiến hành thử nghiệm rộng rãi hình thức thi mới, các sở giáo dục địa phương sẽ sẵn sàng triển khai thử nghiệm này và giải quyết mọi vấn đề.
-            </p>
-            <p>
-              Lịch trình và hướng dẫn năm học đã được công bố sớm, nêu rõ các nhiệm vụ chính như triển khai chương trình giảng dạy năm 2018 cho điểm cuối kỳ và chuẩn bị cho kỳ thi tốt nghiệp năm 2025.
-            </p>
-            <p>
-              Trong nhiều cuộc họp, bao gồm cả cuộc họp với giám đốc giáo dục và các cuộc đánh giá toàn ngành, Bộ GD&ĐT và các quan chức địa phương đã thảo luận về các nhiệm vụ, chia sẻ kinh nghiệm và tìm kiếm giải pháp cho các thách thức.
-            </p>
-            <p>
-              Bộ GD&ĐT vẫn cam kết theo dõi chặt chẽ và hỗ trợ các địa phương thực hiện các nhiệm vụ trọng tâm trong năm học 2024-25.
-            </p>
-            <img src="/img/img_Sune/news/blogs/blog1-2.avif" alt="blog-1-2" />
-            <span class="picture-cap">Học sinh tỉnh Hòa Bình trong ngày đầu tiên của năm học mới</span>
-            <h2>
-              Tình trạng thiếu giáo viên tiếp tục ảnh hưởng đến nhiều tỉnh, thành phố, đặc biệt là đối với những người đủ điều kiện giảng dạy chương trình giáo dục mới. Bộ GD&ĐT đã có những biện pháp hoặc kế hoạch gì để giải quyết vấn đề này?
-            </h2>
-            <p>
-              Hiện nay, cả nước có khoảng 1,6 triệu giáo viên. Trong năm học 2023-24, đã tuyển dụng được 19.474 giáo viên mới. Tuy nhiên, số lượng học sinh tăng đã dẫn đến việc tăng số lớp học: thêm 7.198 ở cấp trung học cơ sở (cần thêm 13.676 giáo viên) và thêm 1.213 ở cấp trung học phổ thông (cần thêm 2.729 giáo viên). Điều này đã góp phần gây ra tình trạng thiếu giáo viên dai dẳng ở nhiều khu vực.
-            </p>
-            <p>
-              Các báo cáo sơ bộ cho thấy tình trạng thiếu giáo viên cho năm học 2024-25 sẽ tăng thêm 19.856 người, bao gồm 6.000 người nữa cần cho giáo dục mầm non và 13.856 người cho giáo dục phổ thông. Tình trạng thiếu hụt chủ yếu là do số lượng học sinh ngày càng tăng, dẫn đến 2.327 nhóm bổ sung trong giáo dục mầm non và 7.150 lớp nữa trong giáo dục phổ thông.
-            </p>
-            <p>
-              Bộ đã chỉ đạo chính quyền địa phương tuyển dụng tất cả các vị trí giảng dạy và yêu cầu đào tạo thêm giáo viên. Các trường đại học đang được khuyến khích đào tạo giáo viên cho các môn học mới và ngôn ngữ dân tộc thiểu số.  
-            </p>
-            <p>
-              Bộ GD&ĐT sẽ tiếp tục cập nhật chính sách, pháp luật để nâng cao vị thế của nhà giáo, trong đó có việc trình dự thảo Luật Nhà giáo lên Quốc hội. Luật này nhằm tạo hành lang pháp lý cho việc tuyển dụng, quản lý, công nhận giáo viên và trao quyền cho các cơ quan quản lý giáo dục kiểm soát chặt chẽ hơn việc bổ nhiệm giáo viên.
-            </p>
-            <p>
-              Phối hợp với Bộ Nội vụ, Bộ GD&ĐT sẽ tư vấn về định mức biên chế theo Quyết định số 72 của Trung ương, đôn đốc các địa phương sử dụng hết định mức hiện có và đề nghị bổ sung. Các địa phương cũng được khuyến khích thực hiện các chính sách hỗ trợ để đảm bảo an ninh việc làm và sự hài lòng cho giáo viên.
-            </p>
-            <p>
-              Các chính sách gần đây, bao gồm các ưu đãi cho giáo viên thực tập và tăng lương, đã khiến nghề giáo viên trở nên hấp dẫn hơn. Nhiều khu vực đã áp dụng các biện pháp để thu hút và giữ chân giáo viên, và dự thảo Luật Giáo viên được thiết kế để giải quyết những nhu cầu này, thể hiện tiến bộ đáng kể trong việc giải quyết tình trạng thiếu giáo viên.
-            </p>
-            <h2>
-              Khi năm học mới đang đến gần, tình trạng thiếu chỗ học vẫn tiếp diễn ở các thành phố lớn và cơ sở hạ tầng trường học ở những khu vực khó khăn và bị ảnh hưởng bởi lũ lụt vẫn còn thiếu thốn. Bộ GD&ĐT đã giải quyết và hỗ trợ các địa phương như thế nào để giải quyết những vấn đề này?
-            </h2>
-            <p>
-              Các địa phương gần đây đã tập trung vào việc mở rộng mạng lưới trường học, cải thiện cơ sở hạ tầng và nâng cấp cơ sở vật chất giảng dạy. Tuy nhiên, khoảng 15,5 phần trăm phòng học trên toàn quốc vẫn chưa được xây dựng đầy đủ, với tình trạng thiếu hụt dai dẳng ở các khu vực đông dân cư, miền núi, vùng sâu vùng xa và đặc biệt khó khăn. Khả năng cung cấp thiết bị giảng dạy đáp ứng các tiêu chuẩn theo quy định cũng thấp, chỉ ở mức 50,63 phần trăm.
-            </p>
-            <p>
-              Để đạt được mục tiêu năm 2030 là nâng cấp toàn bộ cơ sở giáo dục, cần có sự nỗ lực đáng kể từ chính quyền địa phương, dưới sự chỉ đạo của Bộ GD&ĐT. Đối với năm học 2024-25, các sở giáo dục địa phương cần xây dựng kế hoạch năm 2025-30 để đảm bảo đầu tư chủ động cho giáo dục. Các địa phương phải phân bổ ít nhất 20 phần trăm ngân sách của mình cho giáo dục và tận dụng các chính sách và ưu đãi hiện có.
-            </p>
-
-            <p>
-              Các mục tiêu chính bao gồm sử dụng hiệu quả ngân sách nhà nước, tiếp tục nâng cấp cơ sở vật chất, xóa bỏ các lớp học tạm thời và mở rộng các lớp học ở những khu vực đông dân hoặc đang phát triển nhanh chóng. Cơ sở hạ tầng và thiết bị giảng dạy đầy đủ để hỗ trợ chương trình giáo dục phổ thông mới là rất quan trọng.
-            </p>
-            <p>
-              Dự thảo Luật Nhà giáo mà Bộ đã xây dựng và công bố để lấy ý kiến ​​nhân dân dự kiến ​​sẽ là điểm nhấn quan trọng. Ủy ban Thường vụ Quốc hội đã đưa dự thảo này vào chương trình xây dựng luật năm 2024, với đợt thẩm định ban đầu dự kiến ​​vào tháng 10 năm 2024 và phê duyệt cuối cùng vào tháng 5 năm 2025. Sự phát triển này hứa hẹn sẽ mang lại lợi ích cho 1,6 triệu giáo viên trên toàn quốc, giải quyết các vấn đề quan trọng liên quan đến sinh kế và phát triển nghề nghiệp của họ.
-            </p>
-            <h2>
-              Khi năm học mới bắt đầu, bạn muốn chia sẻ thông điệp gì tới hàng triệu học sinh, giáo viên và nhân viên giáo dục trên toàn quốc?
-            </h2>
-            <p>
-              Khi nền kinh tế và xã hội của đất nước phát triển, nhu cầu về giáo dục ngày càng khắt khe. Ngành giáo dục chưa bao giờ phải đối mặt với những trách nhiệm và thách thức to lớn như hiện nay. Trong năm học qua, ngành đã có những nỗ lực đáng kể để vượt qua nhiều trở ngại.
-            </p>
-            <p>
-              Năm học 2023-24 đã kết thúc với một lưu ý tích cực, và khi chúng ta hướng tới năm học mới, tôi muốn ghi nhận và cảm ơn những nỗ lực đặc biệt của tất cả các nhân viên giáo dục, bao gồm các nhà quản lý, giáo viên và nhân viên, cũng như học sinh. Khi chúng ta bắt đầu năm học mới này, tôi khuyến khích tất cả mọi người, các nhà quản lý, giáo viên và nhân viên, tiếp tục làm việc chăm chỉ với sự cống hiến mới và các giải pháp sáng tạo.
-            </p>
-
-            <p>
-              Phát huy truyền thống tốt đẹp của ngành, chúng ta hãy phấn đấu đưa nền giáo dục Việt Nam phát triển hơn nữa theo mục tiêu của Đảng và Nhà nước. Tôi chúc các thầy cô giáo ngày càng vui vẻ, nhiệt huyết trong công việc, và hy vọng các em học sinh sẽ có một năm học tràn đầy sáng tạo và tiến bộ. — VNS
-            </p>
-        </div>
-      </div>
-<!-- ACTION CALL -->
-<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="col-lg-8 text-center" data-aos="fade">
-          <h2 class="display-6 mb-3 overflow-hidden">Bạn đã sẵn sàng để mở đón bầu trời kiến thức?</h2>
-        </div>
-        <div class="col-12">
-          <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;" data-aos="fade-down">Liên hệ</a>
-        </div>
-      </div>
     </div>
-  </div>
-</div>
-    </main>
-<footer>
-  <div class="container small border-top">
-    <div class="row py-5 d-flex justify-content-between">
-
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3 overflow-hidden">
-          VĂN PHÒNG CHÍNH</h3>
-        <address class="text-secondary mt-3">
-          478 Nguyễn Tất Thành, Phường 18, Quận 4, Ho Chi Minh City, Viet Nam.<br><br>
-          <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-          <a href="">info@suned.edu.vn</a>
-        </address>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3 overflow-hidden">
-          ĐIỀU HƯỚNG
-        </h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/news-vn.html">Tin tức</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 p-5">
-        <h3 class="h6 mb-3 overflow-hidden">Kênh truyền thông</h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-          </li>
-        </ul>
-      </div>
+    <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"
+        class="copyright link-fancy" target="_blank">SunEd</a>
     </div>
-  </div>
-  <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"class="copyright link-fancy"
-      target="_blank">SunEd</a>
-  </div>
-</footer>
+  </footer>
 
 
-<script src="/js/bootstrap.bundle.min.js"></script>
-<script src="/js/aos.js"></script>
-<script>
-AOS.init({
-   duration: 800, // values from 0 to 3000, with step 50ms
- });
- </script>
+  <script src="/js/bootstrap.bundle.min.js"></script>
+  <script src="/js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 
- <script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
 
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
 
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
 
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
 
-    console.log(scrollpos)
-  })
-</script>
+      console.log(scrollpos)
+    })
+  </script>
 
-  </body>
+</body>
+
 </html>

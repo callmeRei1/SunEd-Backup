@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-      <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <link rel="apple-touch-icon" sizes="180x180" href="img/img_Sune/index/sunedfav.png">
@@ -16,283 +16,305 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/blog.css">
   <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-/* inter-300 - latin */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X6M0JGJ7RW');
-</script>
+    gtag('config', 'G-X6M0JGJ7RW');
+  </script>
 </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <!-- NAV -->
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+  <!-- NAV -->
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="index.html">
+        <img src="/img/img_Sune/index/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html" aria-label="Brings you to the frontpage">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus.html">
+              About us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#numbers">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithus">
+              EN
+            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithus">
+              VN
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- BLOGS -->
+    <div class="blog">
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="index.html">
-          <img src="/img/img_Sune/index/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <h1>
+          Roadmap needed to make English the second language in schools
+        </h1>
+        <span><em>
+            October 02, 2024 - 06:37</em></span>
+        <span>
+          <a
+            href="https://vietnamnews.vn/opinion/1664080/roadmap-needed-to-make-english-the-second-language-in-schools.html ">
+            https://vietnamnews.vn/opinion/1664080/roadmap-needed-to-make-english-the-second-language-in-schools.html
+          </a>
+        </span>
+        <img src="/img/img_Sune/news/blogs/bblog-6.avif" alt="blog-6" />
+        <span class="picture-cap">An English lesson at a high school in Hà Nội. — VNA/VNS Photo Thanh Tùng</span>
+        <h2>
+          In Việt Nam, this initiative seems difficult to implement, even though the education sector has made
+          significant efforts.
+        </h2>
+        <p>The Ministry of Education and Training is aiming to improve the foreign language proficiency of students
+          and gradually move to making English the second language in schools, to promote international
+          integration and meet the demands of enhancing the quality of the workforce in this new era. Nguyễn Thị
+          Việt Nga, a member of the National Assembly's Committee on Culture and Education, spoke with VOV about
+          the challenges and necessary steps to achieve this goal.</p>
+        <h2>Can you explain the difficulties the education sector will face in making English the second language in
+          schools?</h2>
+        <p>In Việt Nam, this initiative seems difficult to implement, even though the education sector has made
+          significant efforts. In my opinion, there are a few key issues.</p>
+        <p>First, we need to review our training programmes. Currently, English programmes are designed more
+          academically than practically. Vietnamese students often excel in international language certification
+          exams, but this is because they are trained academically without focusing on real-world language use.
+          This is why many students struggle when it comes to applying the language in real situations.
+
+          ​</p>
+        <p>Second, we need to reconsider the environment in which English is used. A foreign language needs practice
+          and a proper environment to become fluent, otherwise, knowledge fades and students return to the
+          starting point.</p>
+        <h2>How can we address the inequality between students in different areas when it comes to learning and
+          practising English in schools?</h2>
+        <p>Of course, there are differences between urban and rural environments. However, being in rural or remote
+          areas doesn't mean students don't have the opportunity to learn foreign languages or can't excel in
+          them.</h2>
+        <p>
+          Many have witnessed young students in mountainous or remote regions, particularly in popular tourist
+          spots like Sa Pa, confidently speaking English and interacting fluently with foreigners. Meanwhile,
+          students in larger cities may score highly in English exams but struggle with confident and natural
+          communication in English with foreigners.
+
+          Besides, several other factors, such as context and opportunities for practising and improving language
+          skills, play a key role in determining students' foreign language proficiency.
+        </p>
+        <p>
+          Today, even in rural or remote areas, internet access and smart devices are widely available. Students
+          have various channels to learn foreign languages and teachers have many ways to support better foreign
+          language teaching. So, I don't think we should worry too much about this.
+
+          ​
+        </p>
+        <h2>
+          What factors does the educational sector needs to consider when making English the second language in
+          schools?
+
+        </h2>
+        <p>
+          To establish English as a second language, we must first consider the roadmap and steps for
+          implementation. We need to determine how to use English effectively so that it truly becomes the second
+          language, rather than simply declaring it so.
+        </p>
+        <p>
+          Việt Nam is currently undergoing deep international integration and while English is a common language,
+          there are many other languages from different countries to consider. We should not overly focus on
+          English and equate foreign language learning solely with learning English. Doing so could lead to an
+          imbalance and create certain barriers.
+
+          We should avoid an extreme approach like the one seen between 2009 and 2013-2014.
+        </p>
+        <p>
+          In higher and postgraduate education, there is a requirement for English proficiency for graduation.
+          However, when students enter university, they are allowed to take exams in five languages: English,
+          Russian, French, German and Chinese. But for graduation, only English is required. This creates a
+          significant waste, as students studying other languages are forced to switch to English, often delaying
+          the completion of their master's or PhD programmes due to the lack of an English certificate.
+        </p>
+        <p>
+          HIn the current period of international integration, I hope that foreign language education will receive
+          equal attention and development, tailored to the needs, interests, abilities and local conditions of
+          each region and school. — VNS
+        </p>
+      </div>
+    </div>
+
+    <!-- ACTION CALL -->
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <h2 class="display-6 mb-3">Ready to expand your horizons?</h2>
+            </div>
+            <div class="col-12">
+              <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;"
+                data-aos="fade-down">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner -->
+    <div class="our-partner">
+      <h2 class="tittle">Our Partner</h2>
+      <div class="carousel-partner">
+        <div class="wrap">
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">HEAD OFFICE</h3>
+          <address class="text-secondary mt-3">
+            478 Nguyen Tat Thanh Street, Ward 18,District 4, Ho Chi Minh City, Viet Nam.<br><br>
+            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
+            <a href="">info@suned.edu.vn</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">
+            NAVIGATION
+          </h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html" aria-label="Brings you to the frontpage">
-                Home
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus.html">
-                About us
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#numbers">
-                Contact
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news.html">
-                News
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">Contact</a>
             </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3">FOLLOW US</h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="#workwithus">
-                EN
-              </a>
-            <li class="nav-item">
-              <a class="nav-link" href="#workwithus">
-                VN
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page"
+                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
-    <main>
-          <!-- BLOGS -->
-    <div class="blog">
-      <div class="container">
-          <h1>
-              Roadmap needed to make English the second language in schools
-          </h1>
-          <span><em>
-                  October 02, 2024 - 06:37</em></span>
-          <span>
-              <a
-                  href="https://vietnamnews.vn/opinion/1664080/roadmap-needed-to-make-english-the-second-language-in-schools.html ">
-                  https://vietnamnews.vn/opinion/1664080/roadmap-needed-to-make-english-the-second-language-in-schools.html
-              </a>
-          </span>
-          <img src="/img/img_Sune/news/blogs/bblog-6.avif" alt="blog-6" />
-          <span class="picture-cap">An English lesson at a high school in Hà Nội. — VNA/VNS Photo Thanh Tùng</span>
-          <h2>
-              In Việt Nam, this initiative seems difficult to implement, even though the education sector has made
-              significant efforts.
-          </h2>
-          <p>The Ministry of Education and Training is aiming to improve the foreign language proficiency of students
-              and gradually move to making English the second language in schools, to promote international
-              integration and meet the demands of enhancing the quality of the workforce in this new era. Nguyễn Thị
-              Việt Nga, a member of the National Assembly's Committee on Culture and Education, spoke with VOV about
-              the challenges and necessary steps to achieve this goal.</p>
-          <h2>Can you explain the difficulties the education sector will face in making English the second language in
-              schools?</h2>
-          <p>In Việt Nam, this initiative seems difficult to implement, even though the education sector has made
-              significant efforts. In my opinion, there are a few key issues.</p>
-          <p>First, we need to review our training programmes. Currently, English programmes are designed more
-              academically than practically. Vietnamese students often excel in international language certification
-              exams, but this is because they are trained academically without focusing on real-world language use.
-              This is why many students struggle when it comes to applying the language in real situations.
-
-              ​</p>
-          <p>Second, we need to reconsider the environment in which English is used. A foreign language needs practice
-              and a proper environment to become fluent, otherwise, knowledge fades and students return to the
-              starting point.</p>
-          <h2>How can we address the inequality between students in different areas when it comes to learning and
-              practising English in schools?</h2>
-          <p>Of course, there are differences between urban and rural environments. However, being in rural or remote
-              areas doesn't mean students don't have the opportunity to learn foreign languages or can't excel in
-              them.</h2>
-          <p>
-              Many have witnessed young students in mountainous or remote regions, particularly in popular tourist
-              spots like Sa Pa, confidently speaking English and interacting fluently with foreigners. Meanwhile,
-              students in larger cities may score highly in English exams but struggle with confident and natural
-              communication in English with foreigners.
-
-              Besides, several other factors, such as context and opportunities for practising and improving language
-              skills, play a key role in determining students' foreign language proficiency.
-          </p>
-          <p>
-              Today, even in rural or remote areas, internet access and smart devices are widely available. Students
-              have various channels to learn foreign languages and teachers have many ways to support better foreign
-              language teaching. So, I don't think we should worry too much about this.
-
-              ​
-          </p>
-          <h2>
-              What factors does the educational sector needs to consider when making English the second language in
-              schools?
-
-          </h2>
-          <p>
-              To establish English as a second language, we must first consider the roadmap and steps for
-              implementation. We need to determine how to use English effectively so that it truly becomes the second
-              language, rather than simply declaring it so.
-          </p>
-          <p>
-              Việt Nam is currently undergoing deep international integration and while English is a common language,
-              there are many other languages from different countries to consider. We should not overly focus on
-              English and equate foreign language learning solely with learning English. Doing so could lead to an
-              imbalance and create certain barriers.
-
-              We should avoid an extreme approach like the one seen between 2009 and 2013-2014.
-          </p>
-          <p>
-              In higher and postgraduate education, there is a requirement for English proficiency for graduation.
-              However, when students enter university, they are allowed to take exams in five languages: English,
-              Russian, French, German and Chinese. But for graduation, only English is required. This creates a
-              significant waste, as students studying other languages are forced to switch to English, often delaying
-              the completion of their master's or PhD programmes due to the lack of an English certificate.
-          </p>
-          <p>
-              HIn the current period of international integration, I hope that foreign language education will receive
-              equal attention and development, tailored to the needs, interests, abilities and local conditions of
-              each region and school. — VNS
-          </p>
-      </div>
     </div>
 
-<!-- ACTION CALL -->
-<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="col-lg-8 text-center" data-aos="fade">
-          <h2 class="display-6 mb-3">Ready to expand your horizons?</h2>
-        </div>
-        <div class="col-12">
-          <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;" data-aos="fade-down">Contact Us</a>
-        </div>
-      </div>
+    <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"
+        class="copyright link-fancy" target="_blank">SunEd</a>
     </div>
-  </div>
-</div>
-    </main>
-<!-- footer -->
-<footer>
-  <div class="container small border-top">
-    <div class="row py-5 d-flex justify-content-between">
+  </footer>
 
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">HEAD OFFICE</h3>
-        <address class="text-secondary mt-3">
-          478 Nguyen Tat Thanh Street, Ward 18,District 4, Ho Chi Minh City, Viet Nam.<br><br>
-          <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-          <a href="">info@suned.edu.vn</a>
-        </address>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">
-          NAVIGATION
-        </h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 p-5">
-        <h3 class="h6 mb-3">FOLLOW US</h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 
-  <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"class="copyright link-fancy"
-      target="_blank">SunEd</a>
-  </div>
-</footer>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/aos.js"></script>
-<script>
-AOS.init({
-   duration: 800, // values from 0 to 3000, with step 50ms
- });
- </script>
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
 
- <script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
 
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
 
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
+      console.log(scrollpos)
+    })
+  </script>
 
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
+</body>
 
-    console.log(scrollpos)
-  })
-</script>
-
-  </body>
 </html>

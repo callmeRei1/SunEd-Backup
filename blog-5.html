@@ -1,8 +1,8 @@
 <!doctype html>
 <html class="h-100" lang="en">
 
-  <head>
-      <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
   <meta name="description" content="">
   <link rel="apple-touch-icon" sizes="180x180" href="img/img_Sune/index/sunedfav.png">
@@ -16,289 +16,379 @@
   <link rel="stylesheet" href="/css/custom.css">
   <link rel="stylesheet" href="/css/blog.css">
   <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-/* inter-300 - latin */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
 
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: local(''),
-       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-</style>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-X6M0JGJ7RW');
-</script>
+    gtag('config', 'G-X6M0JGJ7RW');
+  </script>
 </head>
 
-  <body data-bs-spy="scroll" data-bs-target="#navScroll">
-    <!-- NAV -->
-    <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+  <!-- NAV -->
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="index.html">
+        <img src="/img/img_Sune/index/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/index.html" aria-label="Brings you to the frontpage">
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutus.html">
+              About us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#numbers">
+              Contact
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/news.html">
+              News
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithus">
+              EN
+            </a>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithus">
+              VN
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- BLOGS -->
+    <div class="blog">
       <div class="container">
-        <a class="navbar-brand pe-4 fs-4" href="index.html">
-          <img src="/img/img_Sune/index/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <h1>
+          Vietnam embraces chance to become international student hub
+        </h1>
+        <span><em>
+            17 October 2024</em></span>
+        <span>
+          <a href="https://www.universityworldnews.com/post.php?story=20241017205523202">
+            https://www.universityworldnews.com/post.php?story=20241017205523202</a>
+        </span>
+        <img src="/img/img_Sune/news/blogs/blog-5.avif" alt="blog-5" />
+        <p>
+          Vietnam has an opportunity to become an international student hub, a development that will help to address a
+          persistent imbalance in student mobility patterns which currently puts the country in third place – after
+          China and India – for net student exports, according to a recent report.
+        </p>
+        <p>According to UNESCO data there were 129,000 more Vietnamese students studying in other countries in 2023 than
+          the total number of international students coming to Vietnam to study and far more than the approximately
+          21,000 students – mainly from neighbouring countries such as Laos, Cambodia and China – in Vietnam. </p>
+        <p>Vietnam is now keen to emulate the successes of Malaysia and Singapore, which had similar net outflows of
+          students in the early 2000s but have subsequently emerged as major education hubs in Asia. </p>
+        <p>A new report commissioned by the British Council and released this week argues that this ambition on the part
+          of Vietnam is achievable.</p>
+        <p>Viet Nam: Towards A New International Education Hub in Southeast Asia: Lessons and evidence looks into the
+          prospects for Vietnam as an international education hub based on analysis of hubs globally, and by conducting
+          a comprehensive review of international engagement in Vietnam. </p>
+        <p>Some 120 universities in Vietnam were surveyed in the report, prepared by British company Education Insight,
+          together with interviews with over 30 higher education experts in Vietnam and internationally. The report also
+          included data from ongoing student surveys in Vietnamese and English. </p>
+        <p>“This is a collaborative work between the Ministry of Education and Training (MOET) and the British Council,”
+          said Hoang Van Anh, head of education at the British Council office in Hanoi, noting the British Council’s
+          commitment to “support more engagement for UK universities with Vietnamese counterparts to enhance two-way
+          student mobility”. </p>
+        <p>She noted that Vietnam is already popular with students in its immediate region such as Laos, Cambodia and
+          China, and pointed to increasing intra-regional mobility within Southeast Asia. </p>
+        <p>This presents an opportunity for Vietnam to become an international student hub which will address the
+          persistent imbalance in student mobility by retaining Vietnamese students in the country, and attracting
+          international students, she said. </p>
+        <h2>Ecosystem investment </h2>
+        <p>
+          Previous education hubs in Vietnam, initiated in the late 1990s to early 2000s, were mainly aimed at local
+          students, according to the report, including relocating universities from congested urban areas to the suburbs
+          to accommodate more students and teachers. However, “to date no educational hub project has achieved
+          significant success”, according to the report.
+        </p>
+        <p>
+          It identified some reasons as being lack of urban infrastructure, including transportation and advanced
+          research facilities. Cities also offer more job prospects and facilities, which are also valued by
+          international students.
+        </p>
+        <p>
+          Janet Illieva, CEO and founder of Education Insight, said: “There is now a renewed push to attract
+          international students in the country and to improve the ecosystem for international universities, investors
+          and students.”
+        </p>
+        <p>
+          With such a large number of young people going overseas to study – mainly to the United States, United Kingdom
+          and Australia – the Vietnam government is also concerned about brain drain and believes international higher
+          education hubs will help keep these students in the country.
+        </p>
+        <p>
+          While students study abroad to access programmes in universities with higher global rankings and better
+          resources than those available domestically, Nguyen Xuan Vang, former director general of Vietnam
+          International Education Development (VIED) and International Cooperation Department of MOET, told University
+          World News: “The [Vietnamese] government has many policies and incentives to attract students back home.”
+        </p>
+        <p>
+          They include the scholarships to study abroad with a bond to ensure “they will return and contribute to the
+          national development”, said Vang, who is also a former president of Hanoi University.
+        </p>
+        <p>
+          He added the government supported job placements and provided incentives. “The government has … issued
+          policies to attract talented overseas Vietnamese and foreigners to work in Vietnam,” he said.
+        </p>
+        <p>
+          For example, Vietnam’s visa policies allow international students to access post-study work opportunities and
+          to be accompanied by their dependents.
+        </p>
+        <p>
+          Vang said international students contribute to Vietnam’s economic growth, arguing that Vietnam needed
+          internationalisation for its national development.
+        </p>
+        <p>
+          Priority for higher education internationalisation has been given to natural sciences, engineering,
+          technology, environment, and social sciences at Vietnamese universities “which will bring about quality
+          improvement, international competitiveness, access to global knowledge, as well as better cross-cultural
+          understanding to assist in Vietnam’s economic development,” he said.
+        </p>
+        <h2>
+          Branch campuses and international students
+        </h2>
+        <p>
+          Deputy Minister of Education and Training Nguyen Van Phuc said: “Vietnam wishes to become an attractive
+          destination for international students, encouraging international universities to establish branches in
+          Vietnam, and encouraging domestic universities to strengthen cooperation with prestigious international
+          universities to develop joint training programmes, scientific research and technology transfer.”
+        </p>
+        <p>
+          He was speaking at an event co-organised by the ministry and the British Council in Hanoi on 26 September
+          where the initial findings from the report were shared.
+        </p>
+        <p>
+          He added: “This not only improves the quality of teaching and research but also contributes to promoting the
+          internationalisation of education, attracting students from all over the world to study and research, making
+          Vietnam a high-quality education centre in the region.”
+        </p>
+        <p>
+          According to the report, Vietnam currently receives 4,300 – 5,000 students from overseas for full-time
+          programmes and 1,400 – 3,900 students enrol in short-term programmes each year.
+        </p>
+        <p>Full-time students mainly come from Laos, Korea, Singapore, Cambodia, China, and short-term students mainly
+          from Korea, China, Singapore, the Philippines and France.
+        </p>
+        <p>Vang sees this as encouraging, noting in the past, most foreign students came to Vietnam under
+          government-sponsored scholarship agreements. Today the number of self-funded or partially self-funded
+          international students is steadily increasing. </p>
+        <p>However, some 44% of full-time international students and 63% of short-term students mainly study at just
+          five Vietnamese universities (out of a total of 242), showing that only a small number of institutions are
+          able to attract international students. </p>
+        <p>Many self-funded students go abroad for short programmes such as summer schools. </p>
+        <h2>Cross-cultural benefits </h2>
+        <p>Kami Pham, a second-year marketing student at the University of Greenwich in Vietnam, told University World
+          News: “I chose the exchange programme in the UK to explore Western culture, lifestyle, and perspectives.”</p>
+        <p>She added: “I had never travelled before, and I wanted to step out of my comfort zone [as I] plan to study
+          for a masters degree overseas.”</p>
+        <p>Kami spent two weeks at a summer school at the University of Greenwich’s London campus.</p>
+        <p>“I learned how to self-study and become more independent. Back in Vietnam, I often relied on group work,
+          doing everything with friends and waiting for the other to do something,” she said.
+        </p>
+        <p>“During my two-week experience of studying and living in London, I wanted to do most things on my own,” she
+          noted.</p>
+        <p>Dr Van Vu, senior lecturer and director of the Centre of Scientific Information, Academy of Journalism and
+          Communication in Hanoi, told University World News: “These efforts are beneficial for Vietnam’s higher
+          education: they enrich cross-cultural communication, improve standards of education governance, and promote
+          international research, and publication.”</p>
+        <p>His own institution has a franchised programme from Middlesex University in the UK, which has been adapted to
+          provide students with local context, local examples and local case studies, which better prepare students for
+          successful employment.</p>
+        <p>“It is important to develop critical thinking about Western values and models in a Vietnam context,” argued
+          Vu.</p>
+        <h2>Challenges to growth</h2>
+        <p>But international branch campuses are not a panacea. In August the Hanoi branch campus of Australia’s RMIT
+          University announced it will suspend new admissions for the term beginning this month as it had received
+          “enough students”.</p>
+        <p>It will not accept new applications for the February and June 2025 terms, with admissions set to resume in
+          October 2025.
+        </p>
+        <p>It said the suspension was "to ensure the quality of learning experience and facilities for all students".
+        </p>
+        <p>The announcement followed a recent meeting with the ministry during which Deputy Education Minister Hoang
+          Minh Son noted that the university discussed seeking additional space for operations and potential expansion.
+        </p>
+        <p>Sources said expansion within the urban area is restricted by space requirements set out in its 2018 Decree
+          86 on foreign investment in education in Vietnam which requires nine square metres per student.</p>
+        <p>Vietnamese academics have varied views on foreign universities setting up branch campuses and bringing in
+          their own staff.</p>
+        <p>“They are divided on the question, as some see it as an opportunity while others see it as a threat,” said
+          Van Vu.</p>
+        <p>“There is a possibility for cooperation with local universities [that should involve] qualified Vietnamese
+          teachers, who have good command of English and suitable specialisations, being invited to serve as guest
+          lecturers at these foreign universities,” he added.</p>
+      </div>
+    </div>
+
+    <!-- ACTION CALL -->
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <h2 class="display-6 mb-3">Ready to expand your horizons?</h2>
+            </div>
+            <div class="col-12">
+              <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;"
+                data-aos="fade-down">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- partner -->
+    <div class="our-partner">
+      <h2 class="tittle">Our Partner</h2>
+      <div class="carousel-partner">
+        <div class="wrap">
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+          <img src="/img/partner_1.png" alt="" />
+          <img src="/img/partner_2.png" alt="" />
+          <img src="/img/partner_3.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">HEAD OFFICE</h3>
+          <address class="text-secondary mt-3">
+            478 Nguyen Tat Thanh Street, Ward 18,District 4, Ho Chi Minh City, Viet Nam.<br><br>
+            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
+            <a href="">info@suned.edu.vn</a>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">
+            NAVIGATION
+          </h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="/index.html" aria-label="Brings you to the frontpage">
-                Home
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/aboutus.html">
-                About us
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#numbers">
-                Contact
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">News</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/news.html">
-                News
-              </a>
+              <a class="nav-link link-secondary ps-0" href="#">Contact</a>
             </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 p-5">
+          <h3 class="h6 mb-3">FOLLOW US</h3>
+          <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link" href="#workwithus">
-                EN
-              </a>
-            <li class="nav-item">
-              <a class="nav-link" href="#workwithus">
-                VN
-              </a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page"
+                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-
-    <main>
-          <!-- BLOGS -->
-    <div class="blog">
-      <div class="container">
-          <h1>
-              Vietnam embraces chance to become international student hub 
-          </h1>
-          <span><em>
-              17 October 2024</em></span>
-          <span>
-              <a
-                  href="https://www.universityworldnews.com/post.php?story=20241017205523202"> https://www.universityworldnews.com/post.php?story=20241017205523202</a>
-          </span>
-          <img src="/img/img_Sune/news/blogs/blog-5.avif" alt="blog-5" />
-          <p>
-              Vietnam has an opportunity to become an international student hub, a development that will help to address a persistent imbalance in student mobility patterns which currently puts the country in third place – after China and India – for net student exports, according to a recent report. 
-          </p>
-          <p>According to UNESCO data there were 129,000 more Vietnamese students studying in other countries in 2023 than the total number of international students coming to Vietnam to study and far more than the approximately 21,000 students – mainly from neighbouring countries such as Laos, Cambodia and China – in Vietnam. </p>
-          <p>Vietnam is now keen to emulate the successes of Malaysia and Singapore, which had similar net outflows of students in the early 2000s but have subsequently emerged as major education hubs in Asia. </p>
-          <p>A new report commissioned by the British Council and released this week argues that this ambition on the part of Vietnam is achievable.</p>
-          <p>Viet Nam: Towards A New International Education Hub in Southeast Asia: Lessons and evidence looks into the prospects for Vietnam as an international education hub based on analysis of hubs globally, and by conducting a comprehensive review of international engagement in Vietnam. </p>
-          <p>Some 120 universities in Vietnam were surveyed in the report, prepared by British company Education Insight, together with interviews with over 30 higher education experts in Vietnam and internationally. The report also included data from ongoing student surveys in Vietnamese and English. </p>
-          <p>“This is a collaborative work between the Ministry of Education and Training (MOET) and the British Council,” said Hoang Van Anh, head of education at the British Council office in Hanoi, noting the British Council’s commitment to “support more engagement for UK universities with Vietnamese counterparts to enhance two-way student mobility”. </p>
-          <p>She noted that Vietnam is already popular with students in its immediate region such as Laos, Cambodia and China, and pointed to increasing intra-regional mobility within Southeast Asia. </p>
-          <p>This presents an opportunity for Vietnam to become an international student hub which will address the persistent imbalance in student mobility by retaining Vietnamese students in the country, and attracting international students, she said. </p>
-          <h2>Ecosystem investment </h2>       
-          <p>
-              Previous education hubs in Vietnam, initiated in the late 1990s to early 2000s, were mainly aimed at local students, according to the report, including relocating universities from congested urban areas to the suburbs to accommodate more students and teachers. However, “to date no educational hub project has achieved significant success”, according to the report. 
-          </p>
-          <p>
-              It identified some reasons as being lack of urban infrastructure, including transportation and advanced research facilities. Cities also offer more job prospects and facilities, which are also valued by international students. 
-          </p>
-          <p>
-              Janet Illieva, CEO and founder of Education Insight, said: “There is now a renewed push to attract international students in the country and to improve the ecosystem for international universities, investors and students.” 
-          </p>
-          <p>
-              With such a large number of young people going overseas to study – mainly to the United States, United Kingdom and Australia – the Vietnam government is also concerned about brain drain and believes international higher education hubs will help keep these students in the country. 
-          </p>
-          <p>
-              While students study abroad to access programmes in universities with higher global rankings and better resources than those available domestically, Nguyen Xuan Vang, former director general of Vietnam International Education Development (VIED) and International Cooperation Department of MOET, told University World News: “The [Vietnamese] government has many policies and incentives to attract students back home.”   
-          </p>
-          <p>
-              They include the scholarships to study abroad with a bond to ensure “they will return and contribute to the national development”, said Vang, who is also a former president of Hanoi University. 
-          </p>
-          <p>
-              He added the government supported job placements and provided incentives. “The government has … issued policies to attract talented overseas Vietnamese and foreigners to work in Vietnam,” he said. 
-          </p>
-          <p>
-              For example, Vietnam’s visa policies allow international students to access post-study work opportunities and to be accompanied by their dependents. 
-          </p>
-          <p>
-              Vang said international students contribute to Vietnam’s economic growth, arguing that Vietnam needed internationalisation for its national development. 
-          </p> 
-          <p>
-              Priority for higher education internationalisation has been given to natural sciences, engineering, technology, environment, and social sciences at Vietnamese universities “which will bring about quality improvement, international competitiveness, access to global knowledge, as well as better cross-cultural understanding to assist in Vietnam’s economic development,” he said. 
-          </p>
-          <h2>
-              Branch campuses and international students 
-          </h2>
-          <p>
-              Deputy Minister of Education and Training Nguyen Van Phuc said: “Vietnam wishes to become an attractive destination for international students, encouraging international universities to establish branches in Vietnam, and encouraging domestic universities to strengthen cooperation with prestigious international universities to develop joint training programmes, scientific research and technology transfer.” 
-          </p>
-          <p>
-              He was speaking at an event co-organised by the ministry and the British Council in Hanoi on 26 September where the initial findings from the report were shared.
-          </p>
-          <p>
-              He added: “This not only improves the quality of teaching and research but also contributes to promoting the internationalisation of education, attracting students from all over the world to study and research, making Vietnam a high-quality education centre in the region.” 
-          </p>
-          <p>
-              According to the report, Vietnam currently receives 4,300 – 5,000 students from overseas for full-time programmes and 1,400 – 3,900 students enrol in short-term programmes each year. 
-          </p>
-          <p>Full-time students mainly come from Laos, Korea, Singapore, Cambodia, China, and short-term students mainly from Korea, China, Singapore, the Philippines and France. 
-          </p>
-          <p>Vang sees this as encouraging, noting in the past, most foreign students came to Vietnam under government-sponsored scholarship agreements. Today the number of self-funded or partially self-funded international students is steadily increasing. </p>
-          <p>However, some 44% of full-time international students and 63% of short-term students mainly study at just five Vietnamese universities (out of a total of 242), showing that only a small number of institutions are able to attract international students. </p>
-          <p>Many self-funded students go abroad for short programmes such as summer schools. </p>
-          <h2>Cross-cultural benefits </h2>
-          <p>Kami Pham, a second-year marketing student at the University of Greenwich in Vietnam, told University World News: “I chose the exchange programme in the UK to explore Western culture, lifestyle, and perspectives.”</p>
-          <p>She added: “I had never travelled before, and I wanted to step out of my comfort zone [as I] plan to study for a masters degree overseas.”</p>
-          <p>Kami spent two weeks at a summer school at the University of Greenwich’s London campus.</p>
-          <p>“I learned how to self-study and become more independent. Back in Vietnam, I often relied on group work, doing everything with friends and waiting for the other to do something,” she said.
-          </p>
-          <p>“During my two-week experience of studying and living in London, I wanted to do most things on my own,” she noted.</p>
-          <p>Dr Van Vu, senior lecturer and director of the Centre of Scientific Information, Academy of Journalism and Communication in Hanoi, told University World News: “These efforts are beneficial for Vietnam’s higher education: they enrich cross-cultural communication, improve standards of education governance, and promote international research, and publication.”</p>
-          <p>His own institution has a franchised programme from Middlesex University in the UK, which has been adapted to provide students with local context, local examples and local case studies, which better prepare students for successful employment.</p>
-          <p>“It is important to develop critical thinking about Western values and models in a Vietnam context,” argued Vu.</p>
-          <h2>Challenges to growth</h2>
-          <p>But international branch campuses are not a panacea. In August the Hanoi branch campus of Australia’s RMIT University announced it will suspend new admissions for the term beginning this month as it had received “enough students”.</p>
-          <p>It will not accept new applications for the February and June 2025 terms, with admissions set to resume in October 2025.
-          </p>
-          <p>It said the suspension was "to ensure the quality of learning experience and facilities for all students".</p>
-          <p>The announcement followed a recent meeting with the ministry during which Deputy Education Minister Hoang Minh Son noted that the university discussed seeking additional space for operations and potential expansion.</p>
-          <p>Sources said expansion within the urban area is restricted by space requirements set out in its 2018 Decree 86 on foreign investment in education in Vietnam which requires nine square metres per student.</p>
-          <p>Vietnamese academics have varied views on foreign universities setting up branch campuses and bringing in their own staff.</p>
-          <p>“They are divided on the question, as some see it as an opportunity while others see it as a threat,” said Van Vu.</p>
-          <p>“There is a possibility for cooperation with local universities [that should involve] qualified Vietnamese teachers, who have good command of English and suitable specialisations, being invited to serve as guest lecturers at these foreign universities,” he added.</p>
-      </div>
     </div>
 
-<!-- ACTION CALL -->
-<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
-  <div class="container">
-    <div class="row d-flex justify-content-center">
-      <div class="row d-flex justify-content-center text-center">
-        <div class="col-lg-8 text-center" data-aos="fade">
-          <h2 class="display-6 mb-3">Ready to expand your horizons?</h2>
-        </div>
-        <div class="col-12">
-          <a href="#" class="btn btn-xl shadow me-3 mt-2" style="background-color:#ffbc2c;border-radius: 10px;" data-aos="fade-down">Contact Us</a>
-        </div>
-      </div>
+    <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"
+        class="copyright link-fancy" target="_blank">SunEd</a>
     </div>
-  </div>
-</div>
-    </main>
-<!-- footer -->
-<footer>
-  <div class="container small border-top">
-    <div class="row py-5 d-flex justify-content-between">
+  </footer>
 
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">HEAD OFFICE</h3>
-        <address class="text-secondary mt-3">
-          478 Nguyen Tat Thanh Street, Ward 18,District 4, Ho Chi Minh City, Viet Nam.<br><br>
-          <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-          <a href="">info@suned.edu.vn</a>
-        </address>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-        <h3 class="h6 mb-3">
-          NAVIGATION
-        </h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">News</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-12 col-lg-6 col-xl-3 p-5">
-        <h3 class="h6 mb-3">FOLLOW US</h3>
-        <ul class="nav flex-column">
-          <li class="nav-item">
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-            <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
 
-  <div class="container text-center py-3 small">© 2024 by <a href="https://www.suned.edu.vn/"class="copyright link-fancy"
-      target="_blank">SunEd</a>
-  </div>
-</footer>
+  <script>
+    let scrollpos = window.scrollY
+    const header = document.querySelector(".navbar")
+    const header_height = header.offsetHeight
 
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/aos.js"></script>
-<script>
-AOS.init({
-   duration: 800, // values from 0 to 3000, with step 50ms
- });
- </script>
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
 
- <script>
-  let scrollpos = window.scrollY
-  const header = document.querySelector(".navbar")
-  const header_height = header.offsetHeight
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
 
-  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+      if (scrollpos >= header_height) { add_class_on_scroll() }
+      else { remove_class_on_scroll() }
 
-  window.addEventListener('scroll', function() {
-    scrollpos = window.scrollY;
+      console.log(scrollpos)
+    })
+  </script>
 
-    if (scrollpos >= header_height) { add_class_on_scroll() }
-    else { remove_class_on_scroll() }
+</body>
 
-    console.log(scrollpos)
-  })
-</script>
-
-  </body>
 </html>

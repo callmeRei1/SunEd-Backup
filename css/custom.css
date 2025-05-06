@@ -1,7 +1,7 @@
 /* General */
-*{
+/* *{
     overflow-x: hidden;
-}
+} */
     /* CONTACT */
     .contact .contact-right button{
         border: 0.5px black solid;
@@ -10,7 +10,6 @@
         background-color: black;
         color: white;
     }
-
     .news .news-title {
         padding-bottom: 0;
     }
@@ -250,6 +249,40 @@
         font-size: 0.6rem;
         font-weight: 500;
     }
+    /* .our-partner */
+    .our-partner {
+        margin: 0;
+        background: black;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .carousel-partner{
+        overflow: hidden;
+        width: 400px;
+      }
+      
+      .wrap {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 250px;
+        justify-items: stretch;
+        animation: slide 15s linear infinite;
+      }
+      .wrap img{
+        width: 70%;
+        height: 10rem;
+        padding: 0px 20px;
+        object-fit: contain;
+      }
+      
+      @keyframes slide {
+        to {
+          translate: calc(-4 * 250px);
+        }
+      }
 }
 /* >=992px */
 @media (min-width: 992px) {
@@ -318,6 +351,40 @@
         font-size: 0.6rem;
         font-weight: 500;
     }
+    /* our-partner */
+    .our-partner {
+        margin: 0;
+        background: black;
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .carousel-partner{
+        overflow: hidden;
+        width: 400px;
+      }
+      
+      .wrap {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 250px;
+        justify-items: stretch;
+        animation: slide 15s linear infinite;
+      }
+      .wrap img{
+        width: 70%;
+        height: 10rem;
+        padding: 0px 20px;
+        object-fit: contain;
+      }
+      
+      @keyframes slide {
+        to {
+          translate: calc(-4 * 250px);
+        }
+      }
 }
 /* >= 1024px */
 @media (min-width: 1024px) {
@@ -387,4 +454,42 @@
         font-size: 0.6rem;
         font-weight: 500;
     }
+    .our-partner{
+        margin: 0;
+        background: white;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .our-partner .tittle{
+        color: black;
+        padding-bottom: 4rem;
+        font-weight: 800;
+      }
+      .carousel-partner{
+        overflow: hidden;
+        width: 650px;
+      }
+      
+      .wrap {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: 250px;
+        justify-items: stretch;
+        animation: slide 10s linear infinite;
+      }
+      .wrap img{
+        width: 80%;
+        height: 10rem;
+        padding: 0px 20px;
+        object-fit: contain;
+      }
+      
+      @keyframes slide {
+        to {
+          translate: calc(-4 * 250px);
+        }
+      }    
 }
