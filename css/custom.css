@@ -30,7 +30,7 @@
 @media (max-width: 375px){
     *{
         box-sizing: border-box;
-        overflow-x: hidden!important;
+        /* overflow-x: hidden!important; */
     }
     /* NAVBAR */
     .navbar .navbar-brand img{
@@ -80,6 +80,7 @@
 }
 /* >= 375 */
 @media (min-width: 375px){
+    
     /* NAV */
     .navbar .navbar-brand img{
         width:6rem;
@@ -135,6 +136,46 @@
         text-align: center;
         padding: 1rem 0;
     }
+     /* OUR partner */
+     /* OUR partner */
+        .our-partner{
+            margin: 0;
+            background: white;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .our-partner .tittle{
+            color: black;
+            padding-bottom: 4rem;
+            font-weight: 800;
+        }
+        .carousel-partner{
+            overflow: hidden;
+            width: 500px;
+        }
+        
+        .wrap {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 150px;
+            justify-items: stretch;
+            animation: slide 15s linear infinite;
+        }
+        .wrap img{
+            width: 40%;
+            height: auto;
+            padding: 0px 4px;
+            object-fit: contain;
+        }
+      
+      @keyframes slide {
+        to {
+          translate: calc(-4 * 250px);
+        }
+      }    
 }
 @media (min-width: 425px){
     /* NAV */
@@ -201,6 +242,25 @@
     footer{
         width: 100vw;
     }
+    /* partner */
+.carousel-partner{
+    overflow: hidden;
+    width: 500px;
+}
+
+.wrap {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 200px;
+    justify-items: stretch;
+    animation: slide 15s linear infinite;
+}
+.wrap img{
+    width: 50%;
+    height: auto;
+    padding: 0px 4px;
+    object-fit: contain;
+}
 }
 /* <=770px */
 @media (min-width: 770px){
@@ -249,19 +309,24 @@
         font-size: 0.6rem;
         font-weight: 500;
     }
-    /* .our-partner */
-    .our-partner {
+     /* OUR partner */
+     .our-partner{
         margin: 0;
-        background: black;
-        height: 40vh;
+        background: white;
+        height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
       }
+      .our-partner .tittle{
+        color: black;
+        padding-bottom: 4rem;
+        font-weight: 800;
+      }
       .carousel-partner{
         overflow: hidden;
-        width: 400px;
+        width:500px;
       }
       
       .wrap {
@@ -269,7 +334,7 @@
         grid-auto-flow: column;
         grid-auto-columns: 250px;
         justify-items: stretch;
-        animation: slide 15s linear infinite;
+        animation: slide 10s linear infinite;
       }
       .wrap img{
         width: 70%;
@@ -351,40 +416,40 @@
         font-size: 0.6rem;
         font-weight: 500;
     }
-    /* our-partner */
-    .our-partner {
-        margin: 0;
-        background: black;
-        height: 40vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-      .carousel-partner{
-        overflow: hidden;
-        width: 400px;
-      }
-      
-      .wrap {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: 250px;
-        justify-items: stretch;
-        animation: slide 15s linear infinite;
-      }
-      .wrap img{
-        width: 70%;
-        height: 10rem;
-        padding: 0px 20px;
-        object-fit: contain;
-      }
-      
-      @keyframes slide {
-        to {
-          translate: calc(-4 * 250px);
-        }
-      }
+        /* OUR partner */
+        .our-partner{
+            margin: 0;
+            background: white;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          }
+          .our-partner .tittle{
+            color: black;
+            padding-bottom: 4rem;
+            font-weight: 800;
+          }
+          .carousel-partner{
+            overflow: hidden;
+            width: 650px;
+          }
+          
+          .wrap {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 250px;
+            justify-items: stretch;
+            animation: slide 10s linear infinite;
+          }
+          .wrap img{
+            width: 70%;
+            height: auto;
+            padding: 0px 20px;
+            object-fit: contain;
+          }
+          
 }
 /* >= 1024px */
 @media (min-width: 1024px) {
@@ -454,6 +519,7 @@
         font-size: 0.6rem;
         font-weight: 500;
     }
+    /* OUR partner */
     .our-partner{
         margin: 0;
         background: white;
