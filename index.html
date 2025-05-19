@@ -77,6 +77,14 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navScroll">
   <!-- popup -->
+<div class="popup" id="popup">
+<div  class="container">
+  <button onclick="closePopup()" class="btn-popup-close">X</button>
+  <img src="/img/img_Sune/Summer_eng.png" alt="">
+  <a href="/news.html">Join now!</a>
+</div>
+</div>
+<!-- ------------------------ -->
   <!-- navbar -->
   <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
     <div class="container">
@@ -387,7 +395,18 @@
         class="copyright ink-fancy" target="_blank">SunEd</a>
     </div>
   </footer>
-
+  <!-- popup script -->
+<script>
+  document.documentElement.style.overflow = 'hidden'; // chặn scroll cho toàn bộ trang
+  
+  function closePopup() {
+    const popup = document.getElementById('popup');
+    popup.style.display = 'none';
+    // Cho phép scroll lại
+    document.documentElement.style.overflow = 'auto';
+  }
+  </script>
+  <!-- ------ -->
   <script src="js/bootstrap.bundle.min.js"></script>
   <script src="js/aos.js"></script>
   <script>
