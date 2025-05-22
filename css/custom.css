@@ -85,7 +85,6 @@
 .news .news-content a:hover {
     font-weight: 700;
 }
-
 /* footer */
 footer .copyright {
     text-decoration: none;
@@ -166,8 +165,44 @@ footer .copyright {
     .navbar button.navbar-toggler {
         margin-right: 2rem;
     }
-
-    /* CAROUSEL */
+/* navar - dropdown */
+    .dropdown-menu {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    position: absolute;
+  }
+  .no-bullet {
+    list-style-type: none;
+    padding-left: 0; /* (tuỳ chọn) bỏ thụt đầu dòng */
+  }
+    .nav-item:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+    .nav-item a{
+    text-decoration: none;
+}
+    .nav-decor {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 5px;
+    background-image: linear-gradient(to right, white, white);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 0.5s ease;
+  }
+    .nav-decor:hover {
+    background-size: 100% 2px;
+  }
+  .nav-item-style{
+    font-weight: 700;
+    color: #FFBC2C;
+  }
+/* CAROUSEL */
     .carousel .col {
         margin-left: 1rem;
     }
@@ -609,7 +644,7 @@ footer .copyright {
     .navbar .navbar-collapse {
         display: flex;
         justify-content: flex-end;
-        margin-right: 1rem;
+        margin-right: 4rem;
     }
 
     /* CAROUSEL */
