@@ -67,14 +67,24 @@ body {
 
 .advanced .idea h4 {
     font-size: 1.2rem;
-    padding: 10px;
-    width: 550px;
+    padding: 1rem;
+    width: 500px;
     text-align: center;
+    color: white;
+    border-radius: 20px;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6),
+    2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6); */
+    background-color:black;
+    box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 8px 20px rgba(0, 0, 0, 0.15),
+    0 8px 20px rgba(0, 0, 0, 0.15),
+    0 8px 20px rgba(0, 0, 0, 0.15)
+    ;
 }
 
 .advanced .idea h4:hover {
     font-size: 1.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .advanced .idea-1 {
@@ -92,7 +102,7 @@ body {
 .advanced .idea-3 {
     position: absolute;
     top: 150px;
-    left: 700px;
+    left: 600px;
 }
 
 .advanced .idea-4 {
@@ -109,7 +119,7 @@ body {
 
 .advanced .idea-6 {
     position: absolute;
-    bottom: 150px;
+    bottom: 180px;
     right: 750px;
 }
 
@@ -136,16 +146,17 @@ body {
 
 .details .col-6 h2 {
     text-align: center;
-    margin: 2rem 0;
+    margin-top: 6rem;
+    padding: 3rem;
 }
 
 .details .col-6 img {
     width: 100%;
-    height: 70%;
+    height: 40rem;
 }
 
 .details .col-6 .content_wrap {
-    margin: 10rem 0;
+    padding: 16rem 0;
 }
 
 .details .col-6 li {
@@ -189,6 +200,9 @@ body {
     box-shadow:
     0 4px 6px rgba(0, 0, 0, 0.1),
     0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.subjects .btn:hover {
+    text-decoration: underline;
 }
 .subjects .card-body span{
     font-weight: 700;
