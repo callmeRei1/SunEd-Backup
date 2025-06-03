@@ -1,7 +1,7 @@
 /* General */
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 /* Mặc định: Mobile nhỏ (<480px) */
 @media (max-width: 440px) {

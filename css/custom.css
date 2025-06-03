@@ -157,6 +157,10 @@ footer .copyright {
 @media (min-width: 375px) {
 
     /* NAV */
+    .navbar {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        padding: 1rem 0;
+    }
     .navbar .navbar-brand img {
         width: 6rem;
         padding-left: 1rem;
