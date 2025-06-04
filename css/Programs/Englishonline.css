@@ -8,11 +8,22 @@ body {
 
 .qualifications .row-1 h1 {
     margin: 3rem 0;
+    text-align: center;
+    font-weight: 700;
 }
 
 .qualifications .row-1 .right-col {
     font-size: 1.25rem;
     font-weight: 600;
+    padding: 3rem;
+    background-color: lightgray;
+    border-radius: 20px;
+    box-shadow:
+    0 4px 6px rgba(0, 0, 0, 0.1),
+    0 8px 20px rgba(0, 0, 0, 0.15),
+    0 8px 20px rgba(0, 0, 0, 0.15),
+    0 8px 20px rgba(0, 0, 0, 0.15)
+    ;
 }
 
 .qualifications .row-1 .right-col p {
@@ -71,7 +82,7 @@ body {
     width: 500px;
     text-align: center;
     color: white;
-    border-radius: 20px;
+    border-radius: 30px;
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6),
     2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6); */
     background-color:black;
@@ -101,7 +112,7 @@ body {
 
 .advanced .idea-3 {
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 600px;
 }
 
@@ -148,6 +159,7 @@ body {
     text-align: center;
     margin-top: 6rem;
     padding: 3rem;
+    font-weight: 700;
 }
 
 .details .col-6 img {
@@ -192,7 +204,7 @@ body {
     padding: 1rem 1rem;
 }
 .subjects .btn {
-    background-color: #3E4095;
+    background-color: #3b3da1;
     color: white;
     font-weight: 600;
     font-size: 1.2rem;
