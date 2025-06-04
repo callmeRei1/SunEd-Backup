@@ -37,7 +37,7 @@ const cardsData = [
       div.innerHTML = `
         <h4>${card.title}</h4>
         <button onclick="toggleDetail(this)">View</button>
-        <div class="card-detail" style="display: none; margin-top: 10px; color: #555;">
+        <div class="card-detail" style="display: none; margin-top: 10px;">
           ${card.description}
         </div>
       `;

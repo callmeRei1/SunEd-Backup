@@ -19,37 +19,35 @@
   }
   
   .card {
-    background: white;
+    background: #a77a21;
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 0 10px #ddd;
+    box-shadow: 0 0 10px #ddd,0 0 10px #ddd;
     margin: 5px 20px;
     align-items: center;
-  }
-  
-  .card img {
-    width: 100%;
-    height: 150px;
-    object-fit: contain;
   }
   
   .card h4 {
     margin: 1rem 0 0.5rem;
     font-size: 1.2rem;
     height: 2rem;
+    text-shadow: 0 0 10px #ddd,0 0 10px #ddd;
   }
   
   .card button {
     background-color: #5b5bff;
     width: fit-content;
     color: white;
+    border: 1px solid;
     padding: 8px 2rem;
-    border: none;
     border-radius: 12px;
     cursor: pointer;
     margin-top: 1rem;
   }
-  
+  .card .card-detail{
+    color: white;
+    font-weight: 500;
+  }
   .pagination {
     margin-top: 20px;
     display: flex;
