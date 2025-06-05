@@ -1,227 +1,575 @@
-body {
-    max-width: 100vw;
+/* Small devices (≥576px) */
+@media (min-width: 375px) {
+    body {
+        max-width: 100vw;
+        overflow-x: hidden;
+    }
+    /* carousel */
+    .carousel {
+        width: 100vw;
+        height:40vh;
+        position: relative;
+        background-image: url(/img/6.png);
+        background-size:cover;
+        background-position: center;
+        background-repeat: none;
+    }
+    .carousel .container {
+        position: absolute;
+        bottom: 25%;
+        left: 0;
+        margin-left: 5px;
+    }
+
+    .carousel .container h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        padding: 1rem 0;
+    }
+
+    .carousel .container p {
+        font-size: 1rem;
+        margin: 0.1rem 0;
+        color: #3b3da1;
+    }
+
+    .carousel .container .logo {
+        font-size: 2rem;
+        font-weight: 800;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel .container a {
+        font-size: 1rem;
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    /* qualification */
+    .qualifications .row-1 {
+        margin: 3rem auto;
+    }
+
+    .qualifications .row-1 h1 {
+        margin: 3rem 0;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .qualifications .row-1 .right-col {
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 3rem;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .qualifications .row-1 .right-col p {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .qualifications .row-2 .img-container {
+        display: flex;
+        /* Sắp xếp các phần tử con theo hàng ngang */
+        justify-content: center;
+        /* Căn giữa theo chiều ngang */
+        align-items: center;
+        /* Căn giữa theo chiều dọc (nếu cần) */
+        gap: 60px;
+        /* Khoảng cách giữa các ảnh */
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
+
+    .row-2 .img-container img {
+        width: 200px;
+        height: auto;
+    }
+
+    /* advanced */
+    .advanced {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        min-width: 100vw;
+        min-height: 800px;
+        margin-top: 4rem;
+        padding: 2rem 0;
+        position: relative;
+    }
+
+    .advanced .tittle {
+        position: absolute;
+        top: 300px;
+        left: calc(32%);
+        text-align: center;
+    }
+
+    .advanced .tittle h1 {
+        width: 700px;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #FFBC2C;
+        -webkit-text-stroke: 0.5px black;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .advanced .idea h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+        width: 500px;
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6),
+        2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6); */
+        background-color: black;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .advanced .idea h4:hover {
+        font-size: 1.5rem;
+    }
+
+    .advanced .idea-1 {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    .advanced .idea-2 {
+        position: absolute;
+        top: 80px;
+        right: 50px;
+    }
+
+    .advanced .idea-3 {
+        position: absolute;
+        top: 100px;
+        left: 600px;
+    }
+
+    .advanced .idea-4 {
+        position: absolute;
+        top: 650px;
+        left: 150px;
+    }
+
+    .advanced .idea-5 {
+        position: absolute;
+        bottom: 50px;
+        right: 170px;
+    }
+
+    .advanced .idea-6 {
+        position: absolute;
+        bottom: 140px;
+        right: 750px;
+    }
+
+    .advanced .idea-7 {
+        position: absolute;
+        bottom: 350px;
+        right: 50px;
+    }
+
+    .advanced .idea-8 {
+        position: absolute;
+        top: 400px;
+        left: 60px;
+    }
+
+    /* details */
+    .details .row {
+        height: fit-content;
+    }
+
+    .details .col-6 {
+        height: 100%;
+    }
+
+    .details .col-6 h2 {
+        text-align: center;
+        margin-top: 6rem;
+        padding: 3rem;
+        font-weight: 700;
+    }
+
+    .details .col-6 img {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .details .col-6 .content_wrap {
+        padding: 16rem 0;
+    }
+
+    .details .col-6 li {
+        font-size: 1.5rem;
+    }
+
+    /* Subject */
+    .subjects {
+        padding: 4rem 0;
+    }
+
+    .subjects .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cột đều nhau */
+        background-color: #FFDB5C;
+        gap: 5rem;
+        padding: 5rem;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .subjects h2 {
+        text-align: center;
+        padding: 2rem 0;
+        font-weight: 700;
+    }
+
+    .subjects .items {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    .subjects .btn {
+        background-color: #3b3da1;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .subjects .btn:hover {
+        text-decoration: underline;
+    }
+
+    .subjects .card-body span {
+        font-weight: 700;
+    }
+
+    .subjects .card-body {
+        background-color: #FFBC2C;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
 }
 
-.qualifications .row-1 {
-    margin: 3rem auto;
+/* Medium devices (≥768px) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
 }
 
-.qualifications .row-1 h1 {
-    margin: 3rem 0;
-    text-align: center;
-    font-weight: 700;
+/* Large devices (≥992px) */
+@media (min-width: 992px) {
+    body {
+        font-size: 19px;
+    }
 }
 
-.qualifications .row-1 .right-col {
-    font-size: 1.25rem;
-    font-weight: 600;
-    padding: 3rem;
-    background-color: lightgray;
-    border-radius: 20px;
-    box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 8px 20px rgba(0, 0, 0, 0.15),
-    0 8px 20px rgba(0, 0, 0, 0.15),
-    0 8px 20px rgba(0, 0, 0, 0.15)
-    ;
-}
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
 
-.qualifications .row-1 .right-col p {
-    font-size: 1.4rem;
-    font-weight: 600;
-}
+    .carousel {
+        width: 100vw;
+        height: 80vh;
+        position: relative;
+    }
 
-.qualifications .row-2 .img-container {
-    display: flex;
-    /* Sắp xếp các phần tử con theo hàng ngang */
-    justify-content: center;
-    /* Căn giữa theo chiều ngang */
-    align-items: center;
-    /* Căn giữa theo chiều dọc (nếu cần) */
-    gap: 60px;
-    /* Khoảng cách giữa các ảnh */
-    margin-bottom: 4rem;
-    margin-top: 2rem;
-}
+    .carousel img {
+        width: 100vw;
+        height: auto;
+    }
 
-.row-2 .img-container img {
-    width: 200px;
-    height: auto;
-}
+    .carousel .container {
+        position: absolute;
+        bottom: 20%;
+        left: 5%;
+    }
 
-/* advanced */
-.advanced {
-    overflow-x: hidden;
-    overflow-y: hidden;
-    min-width: 100vw;
-    min-height: 800px;
-    margin-top: 4rem;
-    padding: 2rem 0;
-    position: relative;
-}
+    .carousel .container h1 {
+        font-size: 7rem;
+        font-weight: 800;
+        padding: 1rem 0;
+    }
 
-.advanced .tittle {
-    position: absolute;
-    top: 300px;
-    left: calc(32%);
-    text-align: center;
-}
+    .carousel .container p {
+        font-size: 4rem;
+        margin: 1rem 0;
+    }
 
-.advanced .tittle h1 {
-    width: 700px;
-    font-size: 3rem;
-    font-weight: 700;
-    color: #FFBC2C;
-    -webkit-text-stroke: 0.5px black;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
+    .carousel .container .logo {
+        font-size: 7.5rem;
+        font-weight: 800;
+        margin-left: 7%;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    .carousel .container a {
+        font-size: 2rem;
+        padding: 0.5rem 1.5rem;
+        text-decoration: none;
+        font-weight: 500;
+        display: block;
+        margin-top: 4rem;
+        margin-left: 20rem;
+        width: max-content;
+        border-radius: 15px;
+        border: solid 3px black;
+    }
+    /* qualification */
+    .qualifications .row-1 {
+        margin: 3rem auto;
+    }
 
-.advanced .idea h4 {
-    font-size: 1.2rem;
-    padding: 1rem;
-    width: 500px;
-    text-align: center;
-    color: white;
-    border-radius: 30px;
-    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6),
-    2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6); */
-    background-color:black;
-    box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 8px 20px rgba(0, 0, 0, 0.15),
-    0 8px 20px rgba(0, 0, 0, 0.15),
-    0 8px 20px rgba(0, 0, 0, 0.15)
-    ;
-}
+    .qualifications .row-1 h1 {
+        margin: 3rem 0;
+        text-align: center;
+        font-weight: 700;
+    }
 
-.advanced .idea h4:hover {
-    font-size: 1.5rem;
-}
+    .qualifications .row-1 .right-col {
+        font-size: 1.25rem;
+        font-weight: 600;
+        padding: 3rem;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
 
-.advanced .idea-1 {
-    position: absolute;
-    top: 40px;
-    left: 40px;
-}
+    .qualifications .row-1 .right-col p {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
 
-.advanced .idea-2 {
-    position: absolute;
-    top: 80px;
-    right: 50px;
-}
+    .qualifications .row-2 .img-container {
+        display: flex;
+        /* Sắp xếp các phần tử con theo hàng ngang */
+        justify-content: center;
+        /* Căn giữa theo chiều ngang */
+        align-items: center;
+        /* Căn giữa theo chiều dọc (nếu cần) */
+        gap: 60px;
+        /* Khoảng cách giữa các ảnh */
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
 
-.advanced .idea-3 {
-    position: absolute;
-    top: 100px;
-    left: 600px;
-}
+    .row-2 .img-container img {
+        width: 200px;
+        height: auto;
+    }
 
-.advanced .idea-4 {
-    position: absolute;
-    top: 650px;
-    left: 150px;
-}
+    /* advanced */
+    .advanced {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        min-width: 100vw;
+        min-height: 800px;
+        margin-top: 4rem;
+        padding: 2rem 0;
+        position: relative;
+    }
 
-.advanced .idea-5 {
-    position: absolute;
-    bottom: 50px;
-    right: 170px;
-}
+    .advanced .tittle {
+        position: absolute;
+        top: 300px;
+        left: calc(32%);
+        text-align: center;
+    }
 
-.advanced .idea-6 {
-    position: absolute;
-    bottom: 180px;
-    right: 750px;
-}
+    .advanced .tittle h1 {
+        width: 700px;
+        font-size: 3rem;
+        font-weight: 700;
+        color: #FFBC2C;
+        -webkit-text-stroke: 0.5px black;
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    }
 
-.advanced .idea-7 {
-    position: absolute;
-    bottom: 350px;
-    right: 50px;
-}
+    .advanced .idea h4 {
+        font-size: 1.2rem;
+        padding: 1rem;
+        width: 500px;
+        text-align: center;
+        color: white;
+        border-radius: 30px;
+        /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6),
+        2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6),2px 2px 4px rgba(0, 0, 0, 0.6); */
+        background-color: black;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
 
-.advanced .idea-8 {
-    position: absolute;
-    top: 400px;
-    left: 60px;
-}
+    .advanced .idea h4:hover {
+        font-size: 1.5rem;
+    }
 
-/* details */
-.details .row {
-    height: fit-content;
-}
+    .advanced .idea-1 {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
 
-.details .col-6 {
-    height: 100%;
-}
+    .advanced .idea-2 {
+        position: absolute;
+        top: 80px;
+        right: 50px;
+    }
 
-.details .col-6 h2 {
-    text-align: center;
-    margin-top: 6rem;
-    padding: 3rem;
-    font-weight: 700;
-}
+    .advanced .idea-3 {
+        position: absolute;
+        top: 100px;
+        left: 600px;
+    }
 
-.details .col-6 img {
-    width: 100%;
-    height: 40rem;
-}
+    .advanced .idea-4 {
+        position: absolute;
+        top: 650px;
+        left: 150px;
+    }
 
-.details .col-6 .content_wrap {
-    padding: 16rem 0;
-}
+    .advanced .idea-5 {
+        position: absolute;
+        bottom: 50px;
+        right: 170px;
+    }
 
-.details .col-6 li {
-    font-size: 1.5rem;
-}
+    .advanced .idea-6 {
+        position: absolute;
+        bottom: 140px;
+        right: 750px;
+    }
 
-/* Subject */
-.subjects{
-    padding: 4rem 0;
-}
-.subjects .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* 3 cột đều nhau */
-    background-color: #FFDB5C;
-    gap: 5rem;
-    padding: 5rem;
-    border-radius: 20px;
-    box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 8px 20px rgba(0, 0, 0, 0.15),
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 8px 20px rgba(0, 0, 0, 0.15);
-}
-.subjects h2{
-    text-align: center;
-    padding: 2rem 0;
-    font-weight: 700;
-}
-.subjects .items{
-    width: 100%;
-    text-align: center;
-    padding: 1rem 1rem;
-}
-.subjects .btn {
-    background-color: #3b3da1;
-    color: white;
-    font-weight: 600;
-    font-size: 1.2rem;
-    border-radius: 10px;
-    box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 8px 20px rgba(0, 0, 0, 0.15);
-}
-.subjects .btn:hover {
-    text-decoration: underline;
-}
-.subjects .card-body span{
-    font-weight: 700;
-}
-.subjects .card-body{
-    background-color: #FFBC2C;
-    box-shadow:
-    0 4px 6px rgba(0, 0, 0, 0.1),
-    0 8px 20px rgba(0, 0, 0, 0.15);
+    .advanced .idea-7 {
+        position: absolute;
+        bottom: 350px;
+        right: 50px;
+    }
+
+    .advanced .idea-8 {
+        position: absolute;
+        top: 400px;
+        left: 60px;
+    }
+
+    /* details */
+    .details .row {
+        height: fit-content;
+    }
+
+    .details .col-6 {
+        height: 100%;
+    }
+
+    .details .col-6 h2 {
+        text-align: center;
+        margin-top: 6rem;
+        padding: 3rem;
+        font-weight: 700;
+    }
+
+    .details .col-6 img {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .details .col-6 .content_wrap {
+        padding: 16rem 0;
+    }
+
+    .details .col-6 li {
+        font-size: 1.5rem;
+    }
+
+    /* Subject */
+    .subjects {
+        padding: 4rem 0;
+    }
+
+    .subjects .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cột đều nhau */
+        background-color: #FFDB5C;
+        gap: 5rem;
+        padding: 5rem;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .subjects h2 {
+        text-align: center;
+        padding: 2rem 0;
+        font-weight: 700;
+    }
+
+    .subjects .items {
+        width: 100%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    .subjects .btn {
+        background-color: #3b3da1;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .subjects .btn:hover {
+        text-decoration: underline;
+    }
+
+    .subjects .card-body span {
+        font-weight: 700;
+    }
+
+    .subjects .card-body {
+        background-color: #FFBC2C;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
 }
