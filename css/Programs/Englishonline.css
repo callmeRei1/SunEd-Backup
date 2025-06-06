@@ -36,6 +36,7 @@
         width: 100vw;
         height:40vh;
         position: relative;
+        background-color: #3b3da1;
         background-image: url("/img/7.png");
         background-size:cover;
         background-position: center;
@@ -95,8 +96,8 @@
             0 8px 20px rgba(0, 0, 0, 0.15),
             0 8px 20px rgba(0, 0, 0, 0.15),
             0 8px 20px rgba(0, 0, 0, 0.15);
-        width: 500px;
-        margin: 0 10px;
+        max-width: 400px;
+        margin: 0 5px;
     }
 
     .qualifications .row-1 .right-col p {
@@ -264,6 +265,7 @@
 @media (min-width: 768px) {
     body {
         font-size: 18px;
+        background-color: #FFDB5C;
     }
 }
 
@@ -271,6 +273,7 @@
 @media (min-width: 992px) {
     body {
         font-size: 19px;
+        background-color: aliceblue;
     }
 }
 
