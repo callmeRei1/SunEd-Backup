@@ -3,6 +3,7 @@
     body {
         max-width: 100vw;
         overflow-x: hidden;
+        background-color: aquamarine;
     }
     /* Nav */
     nav {
@@ -95,6 +96,7 @@
             0 8px 20px rgba(0, 0, 0, 0.15),
             0 8px 20px rgba(0, 0, 0, 0.15);
         width: 500px;
+        margin: 0 10px;
     }
 
     .qualifications .row-1 .right-col p {
@@ -109,14 +111,14 @@
         /* Căn giữa theo chiều ngang */
         align-items: center;
         /* Căn giữa theo chiều dọc (nếu cần) */
-        gap: 60px;
+        gap: 10px;
         /* Khoảng cách giữa các ảnh */
         margin-bottom: 4rem;
         margin-top: 2rem;
     }
 
     .row-2 .img-container img {
-        width: 200px;
+        width: 50px;
         height: auto;
     }
 
@@ -161,30 +163,6 @@
             0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
-    .advanced .idea-1 {
-    }
-
-    .advanced .idea-2 {
-    }
-
-    .advanced .idea-3 {
-    }
-
-    .advanced .idea-4 {
-    }
-
-    .advanced .idea-5 {
-    }
-
-    .advanced .idea-6 {
-    }
-
-    .advanced .idea-7 {
-    }
-
-    .advanced .idea-8 {
-    }
-
     /* details */
     .details .row {
         height: fit-content;
@@ -217,7 +195,7 @@
 
     /* Subject */
     .subjects {
-        padding: 4rem 0;
+        padding: 1rem 0;
     }
 
     .subjects .container {
@@ -225,8 +203,8 @@
         grid-template-columns: repeat(3, 1fr);
         /* 3 cột đều nhau */
         background-color: #FFDB5C;
-        gap: 5rem;
-        padding: 5rem;
+        gap: 0.5rem;
+        padding: 1rem;
         border-radius: 20px;
         box-shadow:
             0 4px 6px rgba(0, 0, 0, 0.1),
@@ -237,10 +215,18 @@
 
     .subjects h2 {
         text-align: center;
-        padding: 2rem 0;
+        padding: 1rem 0;
         font-weight: 700;
+        font-size: 1.2rem;
     }
-
+    .subjects p{
+        font-size:1rem ;
+        font-weight:700;
+        display:block;
+        width: 60vw;
+        margin: 0 auto;
+        text-align: center;
+    }
     .subjects .items {
         width: 100%;
         text-align: center;
