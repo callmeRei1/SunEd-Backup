@@ -41,10 +41,9 @@
         background-repeat: none;
     }
     .carousel .container {
-        position: absolute;
-        bottom: 30px;
-        left: 0;
         margin-left: 5px;
+        margin: 2rem 0;
+        padding: 1rem;
     }
 
     .carousel .container h1 {
