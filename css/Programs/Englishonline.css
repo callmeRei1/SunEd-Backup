@@ -35,7 +35,7 @@
         width: 100vw;
         height:40vh;
         position: relative;
-        background-image: url(/img/7.png);
+        background-image: url("/img/7.png");
         background-size:cover;
         background-position: center;
         background-repeat: none;
