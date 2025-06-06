@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red; /* Viền đỏ cho mọi phần tử */
+    /* outline: 1px solid red; Viền đỏ cho mọi phần tử */
   }
 body{
     box-sizing: border-box;
@@ -8,7 +8,6 @@ body{
 @media (min-width: 320px) {
     body {
         overflow-x: hidden;
-        background-color: aquamarine;
         box-sizing: border-box;
     }
     /* Nav */
@@ -47,10 +46,10 @@ body{
         background-repeat: none;
     }
     .carousel .container {
-        margin-left: 5px;
-        margin-top: 4rem;
         padding: 1rem;
+        padding-top: 8rem;
         width: fit-content;
+        margin: auto 0;
     }
 
     .carousel .container h1 {
@@ -264,6 +263,10 @@ body{
             0 4px 6px rgba(0, 0, 0, 0.1),
             0 8px 20px rgba(0, 0, 0, 0.15);
     }
+    /* our partner */
+    .our-partner{
+        display: none;
+    }
 }
 
 /* Medium devices (≥768px) */
@@ -360,7 +363,7 @@ body{
         font-size: 1.4rem;
         font-weight: 600;
     }
-
+    
     .qualifications .row-2 .img-container {
         display: flex;
         /* Sắp xếp các phần tử con theo hàng ngang */
@@ -371,11 +374,11 @@ body{
         gap: 60px;
         /* Khoảng cách giữa các ảnh */
         margin-bottom: 4rem;
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .row-2 .img-container img {
-        width: 200px;
+        width: 100px;
         height: auto;
     }
 
