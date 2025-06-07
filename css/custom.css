@@ -312,7 +312,6 @@ footer .copyright {
 }
 
 @media (min-width: 425px) {
-
     /* NAV */
     .navbar .navbar-brand img {
         width: 8rem;
@@ -490,27 +489,26 @@ footer .copyright {
 
     .carousel-partner {
         overflow: hidden;
-        width: 500px;
+        width: 400px;
     }
 
     .wrap {
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: 250px;
+        grid-auto-columns: 200px;
         justify-items: stretch;
         animation: slide 10s linear infinite;
     }
 
     .wrap img {
-        width: 70%;
+        width: 60%;
         height: 10rem;
-        padding: 0px 20px;
         object-fit: contain;
     }
 
     @keyframes slide {
         to {
-            translate: calc(-4 * 250px);
+            translate: calc(-4 * 200px);
         }
     }
 }
