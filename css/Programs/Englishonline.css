@@ -495,7 +495,7 @@ body {
         font-size: 2rem;
     }
     .details .content_wrap li{
-        font-size: 1rem
+        font-size: 1rem;
     }
     /* Advanced */
     .advanced{
@@ -551,60 +551,71 @@ body {
 }
         /* Navbar */
     /* Carousel */
+    .carousel{
+        height: 80vh;
+    }
     .carousel .container{
-        padding-top: 8rem;
+        padding-left: 15rem;
+        padding-top:15rem;
     }
-
+    .carousel .container h1{
+        font-size: 8rem;
+    }
+    .carousel .container span{
+        font-size: 7.5rem;
+    }
+    .carousel .container p{
+        font-size: 4rem;
+    }
+    .carousel .container a{
+        font-size: 3rem;
+    }
     /* Details */
-    .details {
-        height: fit-content;
-    }
+
     .details .right-col h2{
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .details .content_wrap li{
-        font-size: 1rem
+        font-size: 1.5rem;
     }
     /* Advanced */
-    .advanced{
-        height: 70vh;
-    }
-    .advanced .tittle{
-        top: 35%;
-        left: 35%;
-    }
     .advanced .tittle h1{
-        font-size: 2rem;
-        padding: 1rem;
-    }
-    .advanced .tittle h1 span{
-        font-size: 2.5rem;
+        font-size: 3rem;
+        width: 40rem;
     }
     .advanced .idea h4{
-        font-size: 1rem;
-        width: 300px;
+        font-size: 1.2rem;
+        width: 400px;
     }
-    .advanced .idea-1{
+    .advanced .idea-2{
+        top: 35%;
         left: 10%;
     }
+    .advanced .idea-3{
+        top: 60%;
+    }
     .advanced .idea-4{
-        top: 40%;
+        top: 45%;
+        right: 10%;
     }
     .advanced .idea-5{
-        position: absolute;
-        top: 20%;
-        right: 30%;
+        top: 10%;
+        right: 35%;
+    }
+    .advanced .idea-6{
+        left: 30%;
     }
     .advanced .idea-7{
-        top: 0%;
+        top: 10%;
+        right: 5%;
     }
     .advanced .idea-8{
-        top: 70%;
-        right: 20%;
+        right: 10%;
     }
     /* qualifications */
-    .qualifications .left-col h1{
-        font-size: 2.5rem;
+    .qualifications .row-1 .right-col {
+        font-size: 1.5rem;
+        width: 400%;
     }
     /* .subjects */
     .subjects h2{
