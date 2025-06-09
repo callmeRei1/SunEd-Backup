@@ -209,7 +209,7 @@ body {
 
     .subjects .container {
         display: grid;
-        width: 90vw;
+        width: 100vw;
         grid-template-columns: repeat(3, 1fr);
         /* 3 cột đều nhau */
         background-color: #FFDB5C;
@@ -627,23 +627,6 @@ body {
         padding: 2rem 0;
         width: 100vw;
     }
-
-    /* .subjects .container {
-        display: grid;
-        width: 90vw;
-        grid-template-columns: repeat(3, 1fr);
-        /* 3 cột đều nhau */
-        /* background-color: #FFDB5C;
-        gap: 0.5rem;
-        padding: 1rem;
-        border-radius: 20px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
-    } */ 
-
     .subjects h2 {
         padding: 1rem 0;
         font-weight: 700;
