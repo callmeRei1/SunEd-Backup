@@ -626,6 +626,7 @@ body {
     .subjects {
         padding: 2rem 0;
         width: 100vw;
+        margin: auto;
     }
     .subjects h2 {
         padding: 1rem 0;
@@ -647,5 +648,8 @@ body {
         text-align: center;
         padding: 1rem 1rem;
     }
-
+    /* .our-partner */
+    .our-partner{
+        display: contents;
+    }
 }

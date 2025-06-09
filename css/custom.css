@@ -94,7 +94,6 @@ footer .copyright {
 @media (max-width: 375px) {
     * {
         box-sizing: border-box;
-        /* overflow-x: hidden!important; */
     }
 
     /* NAVBAR */
@@ -267,48 +266,6 @@ footer .copyright {
     }
 
     /* OUR partner */
-    /* OUR partner */
-    .our-partner {
-        margin: 0;
-        background: white;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .our-partner .tittle {
-        color: black;
-        padding-bottom: 4rem;
-        font-weight: 800;
-    }
-
-    .carousel-partner {
-        overflow: hidden;
-        width: 500px;
-    }
-
-    .wrap {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: 150px;
-        justify-items: stretch;
-        animation: slide 15s linear infinite;
-    }
-
-    .wrap img {
-        width: 40%;
-        height: auto;
-        padding: 0px 4px;
-        object-fit: contain;
-    }
-
-    @keyframes slide {
-        to {
-            translate: calc(-4 * 250px);
-        }
-    }
 }
 
 @media (min-width: 425px) {
@@ -471,46 +428,6 @@ footer .copyright {
     }
 
     /* OUR partner */
-    .our-partner {
-        margin: 0;
-        background: white;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .our-partner .tittle {
-        color: black;
-        padding-bottom: 4rem;
-        font-weight: 800;
-    }
-
-    .carousel-partner {
-        overflow: hidden;
-        width: 400px;
-    }
-
-    .wrap {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: 200px;
-        justify-items: stretch;
-        animation: slide 10s linear infinite;
-    }
-
-    .wrap img {
-        width: 60%;
-        height: 10rem;
-        object-fit: contain;
-    }
-
-    @keyframes slide {
-        to {
-            translate: calc(-4 * 200px);
-        }
-    }
 }
 
 /* >=992px */
@@ -594,43 +511,6 @@ footer .copyright {
     .contact .contact-right button {
         font-size: 0.6rem;
         font-weight: 500;
-    }
-
-    /* OUR partner */
-    .our-partner {
-        margin: 0;
-        background: white;
-        height: 50vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .our-partner .tittle {
-        color: black;
-        padding-bottom: 4rem;
-        font-weight: 800;
-    }
-
-    .carousel-partner {
-        overflow: hidden;
-        width: 650px;
-    }
-
-    .wrap {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-columns: 250px;
-        justify-items: stretch;
-        animation: slide 10s linear infinite;
-    }
-
-    .wrap img {
-        width: 70%;
-        height: auto;
-        padding: 0px 20px;
-        object-fit: contain;
     }
 
 }
@@ -732,13 +612,15 @@ footer .copyright {
 
     .our-partner .tittle {
         color: black;
-        padding-bottom: 4rem;
         font-weight: 800;
+        text-align: center;
+        padding: 4rem ;
     }
 
     .carousel-partner {
-        overflow: hidden;
+        margin: auto;
         width: 650px;
+        padding-bottom: 4rem;
     }
 
     .wrap {
