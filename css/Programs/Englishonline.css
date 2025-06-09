@@ -1,7 +1,3 @@
-* {
-    /* outline: 1px solid red; Viền đỏ cho mọi phần tử */
-}
-
 body {
     box-sizing: border-box;
     max-width: 100%;
@@ -546,9 +542,6 @@ body {
 
 /* Extra large devices (≥1200px) */
 @media (min-width: 1200px) {
-    *{
-        outline: 1px solid red; 
-}
         /* Navbar */
     /* Carousel */
     .carousel{
@@ -613,12 +606,63 @@ body {
         right: 10%;
     }
     /* qualifications */
+    .qualifications {
+        /* display: block; */
+        flex-direction: row;
+    }
     .qualifications .row-1 .right-col {
         font-size: 1.5rem;
-        width: 400%;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+        max-width: 800px;
+        margin: 0 5px;
     }
     /* .subjects */
-    .subjects h2{
+    .subjects {
+        padding: 2rem 0;
+        width: 100vw;
+    }
+
+    /* .subjects .container {
+        display: grid;
+        width: 90vw;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cột đều nhau */
+        /* background-color: #FFDB5C;
+        gap: 0.5rem;
+        padding: 1rem;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    } */ 
+
+    .subjects h2 {
+        padding: 1rem 0;
+        font-weight: 700;
         font-size: 2rem;
     }
+
+    .subjects p {
+        font-size: 1rem;
+        font-weight: 700;
+        display: inline;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .subjects .items {
+        width: 50%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
 }
