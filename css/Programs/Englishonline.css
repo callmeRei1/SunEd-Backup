@@ -334,6 +334,7 @@ body {
     .details .col-6 h2 {
         font-size: 1.5rem;
     }
+
     .details .col-6 li {
         font-size: 1rem;
     }
@@ -343,11 +344,13 @@ body {
         position: relative;
         height: 60vh;
     }
-    .advanced .tittle{
+
+    .advanced .tittle {
         position: absolute;
         top: 40%;
         left: 30%;
     }
+
     .advanced .tittle span {
         font-size: 1.5rem;
     }
@@ -380,46 +383,54 @@ body {
             0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
-    .advanced .idea-1{
+    .advanced .idea-1 {
         position: absolute;
         top: 5%;
         left: 20%;
     }
-    .advanced .idea-2{
+
+    .advanced .idea-2 {
         position: absolute;
         top: 25%;
     }
-    .advanced .idea-3{
+
+    .advanced .idea-3 {
         position: absolute;
         top: 50%;
         left: 10px;
     }
-    .advanced .idea-4{
+
+    .advanced .idea-4 {
         position: absolute;
         top: 50%;
         right: 10px;
     }
-    .advanced .idea-5{
+
+    .advanced .idea-5 {
         position: absolute;
         top: 20%;
         right: 30%;
     }
-    .advanced .idea-6{
+
+    .advanced .idea-6 {
         position: absolute;
         top: 70%;
         left: 10%;
     }
-    .advanced .idea-7{
+
+    .advanced .idea-7 {
         position: absolute;
         top: 20%;
         right: 10px;
     }
-    .advanced .idea-8{
+
+    .advanced .idea-8 {
         position: absolute;
         top: 60%;
         right: 30%;
     }
-      /* qualification */
+
+    /* qualification */
     .qualifications .row-1 h1 {
         margin-top: 20px;
         font-size: 1.7rem;
@@ -439,6 +450,7 @@ body {
         width: 150px;
         padding: 10px;
     }
+
     /* Subject */
     .subjects {
         padding: 1rem;
@@ -454,162 +466,202 @@ body {
     .subjects .items {
         width: 60%;
     }
+
     .subjects .card {
         height: fit-content;
     }
-    .subjects .card button{
+
+    .subjects .card button {
         margin-top: 2rem;
     }
-    .subjects .card h4{
+
+    .subjects .card h4 {
         font-size: 1.5rem;
     }
-    .subjects .card-detail{
+
+    .subjects .card-detail {
         font-size: 1.2rem;
     }
 }
 
 /* Large devices (≥922px) */
 @media (min-width: 922px) {
+
     /* Navbar */
     /* Carousel */
-    .carousel{
+    .carousel {
         background-image: url('/img/3.png');
         background-size: cover;
         margin-bottom: 1rem;
     }
-    .carousel .container h1{
+
+    .carousel .container h1 {
         font-size: 5rem;
     }
-    .carousel .container .logo{
+
+    .carousel .container .logo {
         font-size: 5.5rem;
     }
+
     /* Details */
     .details {
         height: fit-content;
     }
-    .details .right-col h2{
+
+    .details .right-col h2 {
         font-size: 2rem;
     }
-    .details .content_wrap li{
+
+    .details .content_wrap li {
         font-size: 1rem;
     }
+
     /* Advanced */
-    .advanced{
+    .advanced {
         height: 70vh;
     }
-    .advanced .tittle{
+
+    .advanced .tittle {
         top: 35%;
         left: 35%;
     }
-    .advanced .tittle h1{
+
+    .advanced .tittle h1 {
         font-size: 2rem;
         padding: 1rem;
     }
-    .advanced .tittle h1 span{
+
+    .advanced .tittle h1 span {
         font-size: 2.5rem;
     }
-    .advanced .idea h4{
+
+    .advanced .idea h4 {
         font-size: 1rem;
         width: 300px;
     }
-    .advanced .idea-1{
+
+    .advanced .idea-1 {
         left: 10%;
     }
-    .advanced .idea-4{
+
+    .advanced .idea-4 {
         top: 40%;
     }
-    .advanced .idea-5{
+
+    .advanced .idea-5 {
         position: absolute;
         top: 20%;
         right: 30%;
     }
-    .advanced .idea-7{
+
+    .advanced .idea-7 {
         top: 0%;
     }
-    .advanced .idea-8{
+
+    .advanced .idea-8 {
         top: 70%;
         right: 20%;
     }
+
     /* qualifications */
-    .qualifications .left-col h1{
+    .qualifications .left-col h1 {
         font-size: 2.5rem;
     }
+
     /* .subjects */
-    .subjects h2{
+    .subjects h2 {
         font-size: 2rem;
     }
 }
 
 /* Extra large devices (≥1200px) */
 @media (min-width: 1200px) {
-        /* Navbar */
+
+    /* Navbar */
     /* Carousel */
-    .carousel{
+    .carousel {
         height: 80vh;
     }
-    .carousel .container{
+
+    .carousel .container {
         padding-left: 15rem;
-        padding-top:15rem;
+        padding-top: 15rem;
     }
-    .carousel .container h1{
+
+    .carousel .container h1 {
         font-size: 8rem;
     }
-    .carousel .container span{
+
+    .carousel .container span {
         font-size: 7.5rem;
     }
-    .carousel .container p{
+
+    .carousel .container p {
         font-size: 4rem;
     }
-    .carousel .container a{
+
+    .carousel .container a {
         font-size: 3rem;
     }
+
     /* Details */
 
-    .details .right-col h2{
+    .details .right-col h2 {
         font-size: 3rem;
     }
-    .details .content_wrap li{
+
+    .details .content_wrap li {
         font-size: 1.5rem;
     }
+
     /* Advanced */
-    .advanced .tittle h1{
+    .advanced .tittle h1 {
         font-size: 3rem;
         width: 40rem;
     }
-    .advanced .idea h4{
+
+    .advanced .idea h4 {
         font-size: 1.2rem;
         width: 400px;
     }
-    .advanced .idea-2{
+
+    .advanced .idea-2 {
         top: 35%;
         left: 10%;
     }
-    .advanced .idea-3{
+
+    .advanced .idea-3 {
         top: 60%;
     }
-    .advanced .idea-4{
+
+    .advanced .idea-4 {
         top: 45%;
         right: 10%;
     }
-    .advanced .idea-5{
+
+    .advanced .idea-5 {
         top: 10%;
         right: 35%;
     }
-    .advanced .idea-6{
+
+    .advanced .idea-6 {
         left: 30%;
     }
-    .advanced .idea-7{
+
+    .advanced .idea-7 {
         top: 10%;
         right: 5%;
     }
-    .advanced .idea-8{
+
+    .advanced .idea-8 {
         right: 10%;
     }
+
     /* qualifications */
     .qualifications {
-        /* display: block; */
         flex-direction: row;
     }
+
     .qualifications .row-1 .right-col {
         font-size: 1.5rem;
         background-color: lightgray;
@@ -619,15 +671,17 @@ body {
             0 8px 20px rgba(0, 0, 0, 0.15),
             0 8px 20px rgba(0, 0, 0, 0.15),
             0 8px 20px rgba(0, 0, 0, 0.15);
-        max-width: 800px;
+        max-width: 600px;
         margin: 0 5px;
     }
+
     /* .subjects */
     .subjects {
         padding: 2rem 0;
         width: 100vw;
         margin: auto;
     }
+
     .subjects h2 {
         padding: 1rem 0;
         font-weight: 700;
@@ -648,8 +702,20 @@ body {
         text-align: center;
         padding: 1rem 1rem;
     }
+
     /* .our-partner */
-    .our-partner{
+    .our-partner {
         display: contents;
+    }
+}
+
+/* Extra large devices (≥1680px) */
+@media (min-width: 1680px) {
+
+    .qualifications .row-1 .right-col {
+        max-width: 800px;
+    }
+    .qualifications .row-1 .right-col p{
+        font-size: 1.5rem;
     }
 }
