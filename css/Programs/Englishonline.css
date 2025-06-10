@@ -4,10 +4,11 @@ body {
 }
 
 /* Advanced */
-.advanced{
+.advanced {
     height: fit-content;
     padding: 4rem;
 }
+
 .advanced .container {
     margin: 0;
     padding: 0;
@@ -75,6 +76,7 @@ body {
     body {
         overflow-x: hidden;
         box-sizing: border-box;
+        text-align: justify;
     }
 
     /* Nav */
@@ -110,7 +112,7 @@ body {
     /* carousel */
     .carousel {
         width: 100vw;
-        height: 40vh;
+        height: 50vh;
         background-image: url('/img/7.PNG');
         background-size: cover;
         background-position: center;
@@ -329,7 +331,9 @@ body {
 
 /* Medium devices (≥768px) */
 @media (min-width: 768px) {
-
+    body{
+        text-align: justify;
+    }
     /* Nav */
     nav img {
         background-color: white;
@@ -354,7 +358,10 @@ body {
 
     /* carousel */
     .carousel {
-        height: 50vh;
+        height: fit-content;
+        padding: 3rem;
+        background-image: url('/img/3.PNG');
+        background-position: center;
     }
 
     .carousel .container {
@@ -389,6 +396,10 @@ body {
         font-size: 1rem;
     }
 
+    .details .content_wrap {
+        text-align: justify;
+    }
+
     /* qualification */
     .qualifications .row-1 h1 {
         margin-top: 20px;
@@ -409,16 +420,20 @@ body {
         width: 150px;
         padding: 10px;
     }
-        /* advanced */
-        .advanced .container {
-            grid-template-areas:
-                "idea-1 idea-2 idea-3"
-                "idea-4 title idea-5"
-                "idea-6 idea-7 idea-8";
-        }
-        .advanced .title {
-            font-size: 24px;
-        }
+
+    /* advanced */
+    .advanced .container {
+        grid-template-areas:
+            "idea-1 idea-2 idea-3"
+            "idea-4 title idea-5"
+            "idea-6 idea-7 idea-8";
+        text-align: justify;
+    }
+
+    .advanced .title {
+        font-size: 24px;
+    }
+
     /* Subject */
     .subjects {
         padding: 1rem;
@@ -429,6 +444,7 @@ body {
         padding: 1rem 0;
         font-weight: 700;
         font-size: 2rem;
+        text-align: justify;
     }
 
     .subjects .items {
@@ -460,6 +476,7 @@ body {
         background-image: url('/img/3.png');
         background-size: cover;
         margin-bottom: 1rem;
+        height: fit-content;
     }
 
     .carousel .container h1 {
@@ -491,16 +508,19 @@ body {
             "idea-4 title idea-5"
             "idea-6 idea-7 idea-8";
     }
+
     .advanced .title {
         font-size: 2rem;
         padding: auto;
     }
-
+    
     /* qualifications */
     .qualifications .left-col h1 {
         font-size: 2.5rem;
     }
-
+    .qualifications .right-col{
+        text-align: justify;
+    }
     /* .subjects */
     .subjects h2 {
         font-size: 2rem;
@@ -513,8 +533,10 @@ body {
     /* Navbar */
     /* Carousel */
     .carousel {
-        height: 80vh;
+        height: fit-content;
+        padding: 2rem;
         background-image: url('/img/3.PNG');
+
     }
 
     .carousel .container {
