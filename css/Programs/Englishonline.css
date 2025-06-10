@@ -5,7 +5,6 @@ body {
 
 /* Advanced */
 .advanced{
-    background-color: black;
     height: fit-content;
     padding: 4rem;
 }
@@ -21,6 +20,7 @@ body {
     padding: 60px 30px;
     max-width: 1200px;
     margin: auto;
+    border-radius: 20px;
 }
 
 .advanced .title {
@@ -455,7 +455,6 @@ body {
 /* Large devices (≥922px) */
 @media (min-width: 922px) {
 
-    /* Navbar */
     /* Carousel */
     .carousel {
         background-image: url('/img/3.png');
@@ -474,6 +473,7 @@ body {
     /* Details */
     .details {
         height: fit-content;
+        margin: 4rem;
     }
 
     .details .right-col h2 {
