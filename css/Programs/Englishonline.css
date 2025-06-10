@@ -3,6 +3,74 @@ body {
     max-width: 100%;
 }
 
+/* Advanced */
+.advanced{
+    background-color: black;
+    height: fit-content;
+    padding: 4rem;
+}
+.advanced .container {
+    margin: 0;
+    padding: 0;
+    background: #2c2f8a;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    display: grid;
+    grid-gap: 30px;
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.advanced .title {
+    grid-area: title;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f7a723;
+}
+
+.advanced .box {
+    background-color: black;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.idea-1 {
+    grid-area: idea-1;
+}
+
+.idea-2 {
+    grid-area: idea-2;
+}
+
+.idea-3 {
+    grid-area: idea-3;
+}
+
+.idea-4 {
+    grid-area: idea-4;
+}
+
+.idea-5 {
+    grid-area: idea-5;
+}
+
+.idea-6 {
+    grid-area: idea-6;
+}
+
+.idea-7 {
+    grid-area: idea-7;
+}
+
+.idea-8 {
+    grid-area: idea-8;
+}
+
+
 @media (min-width: 320px) {
     body {
         overflow-x: hidden;
@@ -132,44 +200,26 @@ body {
     }
 
     /* advanced */
-    .advanced {
-        overflow-x: hidden;
-        overflow-y: hidden;
-        min-width: 100vw;
-        min-height: fit-content;
-        padding: 10px;
+    .advanced .container {
+        grid-template-areas:
+            "title"
+            "idea-1"
+            "idea-2"
+            "idea-3"
+            "idea-4"
+            "idea-5"
+            "idea-6"
+            "idea-7"
+            "idea-8";
     }
 
-    .advanced .tittle span {
-        font-size: 1.5rem;
-    }
-
-    .advanced .tittle h1 {
-        margin: 0 auto;
-        width: 200px;
-        font-size: 1rem;
-        font-weight: 700;
-        color: #FFBC2C;
-        -webkit-text-stroke: 0.5px black;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-        text-align: center;
-        padding: 10px;
-    }
-
-    .advanced .idea h4 {
-        margin: 10px auto;
-        font-size: 0.5rem;
-        padding: 1rem;
-        width: 200px;
-        text-align: center;
+    .advanced .idea {
         color: white;
-        border-radius: 30px;
-        background-color: black;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15);
+        font-size: 1.2rem;
+    }
+
+    .advanced .title {
+        font-size: 1.5rem;
     }
 
     /* details */
@@ -339,97 +389,6 @@ body {
         font-size: 1rem;
     }
 
-    /* advanced */
-    .advanced {
-        position: relative;
-        height: 60vh;
-    }
-
-    .advanced .tittle {
-        position: absolute;
-        top: 40%;
-        left: 30%;
-    }
-
-    .advanced .tittle span {
-        font-size: 1.5rem;
-    }
-
-    .advanced .tittle h1 {
-        margin: 0 auto;
-        width: 300px;
-        font-size: 1.5rem;
-        font-weight: 700;
-        color: #FFBC2C;
-        -webkit-text-stroke: 0.5px black;
-        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-        text-align: center;
-        padding: 10px;
-    }
-
-    .advanced .idea h4 {
-        margin: 10px auto;
-        font-size: 0.8rem;
-        padding: 1rem;
-        width: 200px;
-        text-align: center;
-        color: white;
-        border-radius: 30px;
-        background-color: black;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .advanced .idea-1 {
-        position: absolute;
-        top: 5%;
-        left: 20%;
-    }
-
-    .advanced .idea-2 {
-        position: absolute;
-        top: 25%;
-    }
-
-    .advanced .idea-3 {
-        position: absolute;
-        top: 50%;
-        left: 10px;
-    }
-
-    .advanced .idea-4 {
-        position: absolute;
-        top: 50%;
-        right: 10px;
-    }
-
-    .advanced .idea-5 {
-        position: absolute;
-        top: 20%;
-        right: 30%;
-    }
-
-    .advanced .idea-6 {
-        position: absolute;
-        top: 70%;
-        left: 10%;
-    }
-
-    .advanced .idea-7 {
-        position: absolute;
-        top: 20%;
-        right: 10px;
-    }
-
-    .advanced .idea-8 {
-        position: absolute;
-        top: 60%;
-        right: 30%;
-    }
-
     /* qualification */
     .qualifications .row-1 h1 {
         margin-top: 20px;
@@ -450,7 +409,16 @@ body {
         width: 150px;
         padding: 10px;
     }
-
+        /* advanced */
+        .advanced .container {
+            grid-template-areas:
+                "idea-1 idea-2 idea-3"
+                "idea-4 title idea-5"
+                "idea-6 idea-7 idea-8";
+        }
+        .advanced .title {
+            font-size: 24px;
+        }
     /* Subject */
     .subjects {
         padding: 1rem;
@@ -516,51 +484,16 @@ body {
         font-size: 1rem;
     }
 
-    /* Advanced */
-    .advanced {
-        height: 70vh;
+    /* advanced */
+    .advanced .container {
+        grid-template-areas:
+            "idea-1 idea-2 idea-3"
+            "idea-4 title idea-5"
+            "idea-6 idea-7 idea-8";
     }
-
-    .advanced .tittle {
-        top: 35%;
-        left: 35%;
-    }
-
-    .advanced .tittle h1 {
+    .advanced .title {
         font-size: 2rem;
-        padding: 1rem;
-    }
-
-    .advanced .tittle h1 span {
-        font-size: 2.5rem;
-    }
-
-    .advanced .idea h4 {
-        font-size: 1rem;
-        width: 300px;
-    }
-
-    .advanced .idea-1 {
-        left: 10%;
-    }
-
-    .advanced .idea-4 {
-        top: 40%;
-    }
-
-    .advanced .idea-5 {
-        position: absolute;
-        top: 20%;
-        right: 30%;
-    }
-
-    .advanced .idea-7 {
-        top: 0%;
-    }
-
-    .advanced .idea-8 {
-        top: 70%;
-        right: 20%;
+        padding: auto;
     }
 
     /* qualifications */
@@ -738,6 +671,10 @@ body {
 
     .advanced .idea h4 {
         font-size: 1.3rem;
-        width: 300px;
+        width: 400px;
+    }
+
+    .advanced .idea-1 {
+        top: calc();
     }
 }
