@@ -84,7 +84,6 @@ body {
     body {
         overflow-x: hidden;
         box-sizing: border-box;
-        text-align: justify;
     }
 
     /* Nav */
@@ -155,6 +154,47 @@ body {
         font-weight: 500;
     }
 
+        /* intro */
+        .intro {
+            width: 100vw;
+            height: 50vh;
+            min-height: fit-content;
+            background-color: black;
+            padding: 2rem 0;
+            color: white;
+            text-align: justify;
+        }
+    
+        .intro .row {
+            height: fit-content;
+        }
+    
+        .intro .col-6 {
+            height: 100%;
+        }
+    
+        .intro .col-6 h2 {
+            text-align: center;
+            margin-top: 1rem;
+            padding: 1rem;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+    
+        .intro .col-6 img {
+            width: 100%;
+            height: auto;
+        }
+    
+        .intro .col-6 .content_wrap {
+            padding-top: 3rem;
+            padding-right: 0.5rem;
+        }
+    
+        .intro .col-6 li {
+            font-size: 0.5rem;
+        }
+    
     /* qualification */
     .qualifications {
         display: flex;
@@ -207,6 +247,20 @@ body {
     }
 
     /* advanced */
+    .advanced{
+        width: 100vw;
+        height: fit-content;
+        padding: 1rem;
+        background-color: black;
+    }
+    .advanced .idea {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .advanced .title h1 {
+        font-size: 1.5rem;
+    }
     .advanced .container {
         grid-template-areas:
             "title"
@@ -214,58 +268,6 @@ body {
             "idea-2"
             "idea-3"
             "idea-4"
-            "idea-5"
-            "idea-6"
-            "idea-7"
-            "idea-8";
-    }
-
-    .advanced .idea {
-        color: white;
-        font-size: 1.2rem;
-    }
-
-    .advanced .title {
-        font-size: 1.5rem;
-    }
-
-    /* intro */
-    .intro {
-        width: 100vw;
-        height: 50vh;
-        background-color: black;
-        padding: 2rem 0;
-        color: white;
-    }
-
-    .intro .row {
-        height: fit-content;
-    }
-
-    .intro .col-6 {
-        height: 100%;
-    }
-
-    .intro .col-6 h2 {
-        text-align: center;
-        margin-top: 1rem;
-        padding: 1rem;
-        font-weight: 700;
-        font-size: 1.2rem;
-    }
-
-    .intro .col-6 img {
-        width: 100%;
-        height: auto;
-    }
-
-    .intro .col-6 .content_wrap {
-        padding-top: 3rem;
-        padding-right: 0.5rem;
-    }
-
-    .intro .col-6 li {
-        font-size: 0.5rem;
     }
 
     /* Subject */
