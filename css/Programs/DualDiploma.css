@@ -1,0 +1,736 @@
+body {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+/* font */
+@font-face {
+    font-family: 'ArchivoBlack';
+    src: url('/fonts/ArchivoBlack-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Advanced */
+.advanced {
+    height: fit-content;
+    padding: 4rem;
+}
+
+.advanced .container {
+    margin: 0;
+    padding: 0;
+    background: #2c2f8a;
+    font-family: Arial, sans-serif;
+    color: white;
+
+    display: grid;
+    grid-gap: 30px;
+    padding: 60px 30px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.advanced .title {
+    grid-area: title;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #f7a723;
+}
+
+.advanced .box {
+    background-color: black;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.idea-1 {
+    grid-area: idea-1;
+}
+
+.idea-2 {
+    grid-area: idea-2;
+}
+
+.idea-3 {
+    grid-area: idea-3;
+}
+
+.idea-4 {
+    grid-area: idea-4;
+}
+
+.idea-5 {
+    grid-area: idea-5;
+}
+
+.idea-6 {
+    grid-area: idea-6;
+}
+
+.idea-7 {
+    grid-area: idea-7;
+}
+
+.idea-8 {
+    grid-area: idea-8;
+}
+
+
+@media (min-width: 320px) {
+    body {
+        overflow-x: hidden;
+        box-sizing: border-box;
+        text-align: justify;
+    }
+
+    /* Nav */
+    nav {
+        width: 100vw;
+    }
+
+    nav img {
+        padding: 5px;
+    }
+
+    nav button {
+        width: 50px;
+        height: 40px;
+    }
+
+    .navbar {
+        padding: 10px 0;
+    }
+
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        width: max-content;
+        font-size: 10px;
+    }
+
+    /* carousel */
+    .carousel {
+        width: 100vw;
+        height: 50vh;
+        background-image: url('/img/img_Sune/Dual/carousel_320px.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: none;
+    }
+
+    .carousel .container {
+        padding: 1rem;
+        padding-top: 8rem;
+        width: fit-content;
+        margin: auto 0;
+    }
+
+    .carousel .container h1 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: white;
+    }
+
+    .carousel .container .logo {
+        font-size: 1.7rem;
+        font-weight: 800;
+    }
+
+    .carousel .container p {
+        color: white;
+    }
+
+    .carousel .container a {
+        color: white;
+        font-size: 0.7rem;
+        padding: 0.5rem 1.5rem;
+        font-weight: 500;
+    }
+
+    /* qualification */
+    .qualifications {
+        display: flex;
+        flex-direction: column;
+        max-width: 100vw;
+    }
+
+    .qualifications .row-1 h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .qualifications .row-1 .right-col {
+        font-size: 0.7rem;
+        font-weight: 600;
+        padding: 1rem;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+        max-width: 400px;
+        margin: 0 5px;
+    }
+
+    .qualifications .row-1 .right-col p {
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+
+    .qualifications .row-2 .img-container {
+        display: flex;
+        /* Sắp xếp các phần tử con theo hàng ngang */
+        justify-content: center;
+        /* Căn giữa theo chiều ngang */
+        align-items: center;
+        /* Căn giữa theo chiều dọc (nếu cần) */
+        gap: 10px;
+        /* Khoảng cách giữa các ảnh */
+        margin-bottom: 2rem;
+        margin-top: 2rem;
+    }
+
+    .row-2 .img-container img {
+        width: 50px;
+        height: auto;
+    }
+
+    /* advanced */
+    .advanced .container {
+        grid-template-areas:
+            "title"
+            "idea-1"
+            "idea-2"
+            "idea-3"
+            "idea-4"
+            "idea-5"
+            "idea-6"
+            "idea-7"
+            "idea-8";
+    }
+
+    .advanced .idea {
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .advanced .title {
+        font-size: 1.5rem;
+    }
+
+    /* intro */
+    .intro {
+        width: 100vw;
+        height: 50vh;
+        background-color: black;
+        padding: 2rem 0;
+        color: white;
+    }
+
+    .intro .row {
+        height: fit-content;
+    }
+
+    .intro .col-6 {
+        height: 100%;
+    }
+
+    .intro .col-6 h2 {
+        text-align: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .intro .col-6 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .intro .col-6 .content_wrap {
+        padding-top: 3rem;
+        padding-right: 0.5rem;
+    }
+
+    .intro .col-6 li {
+        font-size: 0.5rem;
+    }
+
+    /* Subject */
+    .subjects {
+        padding: 1rem 0;
+    }
+
+    .subjects .container {
+        display: grid;
+        width: 100vw;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 cột đều nhau */
+        background-color: #FFDB5C;
+        gap: 0.5rem;
+        padding: 1rem;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .subjects h2 {
+        text-align: center;
+        padding: 1rem 0;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+
+    .subjects p {
+        font-size: 1rem;
+        font-weight: 700;
+        display: block;
+        width: 60vw;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .subjects .items {
+        width: 50%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    .subjects .btn {
+        background-color: #3b3da1;
+        color: white;
+        font-weight: 600;
+        font-size: 1.2rem;
+        border-radius: 10px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .subjects .btn:hover {
+        text-decoration: underline;
+    }
+
+    .subjects .card-body span {
+        font-weight: 700;
+    }
+
+    .subjects .card-body {
+        background-color: #FFBC2C;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+    /* our partner */
+    .our-partner {
+        display: none;
+    }
+}
+
+/* Medium devices (≥768px) */
+@media (min-width: 768px) {
+
+    /* Nav */
+    nav img {
+        background-color: white;
+        padding: 5px;
+    }
+
+    nav button {
+        width: 50px;
+        height: 40px;
+    }
+
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        width: max-content;
+        font-size: 1rem;
+    }
+
+    /* carousel */
+    .carousel {
+        min-height: fit-content;
+        max-height: 80vh;
+        padding: 3rem;
+        background-image: url('/img/img_Sune/Dual/carousel_2.png');
+        background-position: center;
+    }
+
+    .carousel .container {
+        padding: 1rem;
+        padding-top: 10rem;
+        width: fit-content;
+        margin: auto 0;
+    }
+
+    .carousel .container h1 {
+        font-size: 2.5rem;
+    }
+
+    .carousel .container p {
+        font-size: 2rem;
+    }
+
+    .carousel .container .logo {
+        font-size: 3rem;
+    }
+
+    .carousel .container a {
+        font-size: 1rem;
+    }
+
+    /* intro */
+    .intro {
+        text-align: justify;
+    }
+
+    .intro .col-6 h2 {
+        font-size: 1.5rem;
+    }
+
+    .intro .col-6 li {
+        font-size: 1rem;
+    }
+
+    .intro .content_wrap {
+        text-align: justify;
+    }
+
+    /* qualification */
+    .qualifications {
+        text-align: justify;
+    }
+
+    .qualifications .row-1 h1 {
+        margin-top: 20px;
+        font-size: 1.7rem;
+    }
+
+    .qualifications .row-1 .right-col {
+        font-size: 1rem;
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .qualifications .row-1 .right-col p {
+        font-size: 1.2rem;
+    }
+
+    .row-2 .img-container img {
+        width: 150px;
+        padding: 10px;
+    }
+
+    /* advanced */
+    .advanced .container {
+        grid-template-areas:
+            "idea-1 idea-2 idea-3"
+            "idea-4 title idea-5"
+            "idea-6 idea-7 idea-8";
+        text-align: justify;
+    }
+
+    .advanced .title {
+        font-size: 24px;
+    }
+
+    /* Subject */
+    .subjects {
+        padding: 1rem;
+        margin: 10px;
+    }
+
+    .subjects h2 {
+        padding: 1rem 0;
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: justify;
+    }
+
+    .subjects .items {
+        width: 60%;
+    }
+
+    .subjects .card {
+        height: fit-content;
+    }
+
+    .subjects .card button {
+        margin-top: 2rem;
+    }
+
+    .subjects .card h4 {
+        font-size: 1.5rem;
+    }
+
+    .subjects .card-detail {
+        font-size: 1.2rem;
+    }
+}
+
+/* Large devices (≥922px) */
+@media (min-width: 922px) {
+
+    /* Carousel */
+    .carousel {
+        background-image: url('/img/img_Sune/Dual/carousel_2.png');
+        background-size: cover;
+        margin-bottom: 1rem;
+        min-height: fit-content;
+    }
+
+    .carousel .container h1 {
+        font-size: 5rem;
+    }
+
+    .carousel .container .logo {
+        font-size: 5.5rem;
+    }
+
+    /* intro */
+    .intro {
+        height: fit-content;
+        margin: 4rem;
+    }
+
+    .intro .right-col h2 {
+        font-size: 2rem;
+    }
+
+    .intro .content_wrap li {
+        font-size: 1rem;
+    }
+
+    /* advanced */
+    .advanced .container {
+        grid-template-areas:
+            "idea-1 idea-2 idea-3"
+            "idea-4 title idea-5"
+            "idea-6 idea-7 idea-8";
+    }
+
+    .advanced .title {
+        font-size: 2rem;
+        padding: auto;
+    }
+
+    /* qualifications */
+    .qualifications .left-col h1 {
+        font-size: 2.5rem;
+    }
+
+    .qualifications .right-col {
+        text-align: justify;
+    }
+
+    /* .subjects */
+    .subjects h2 {
+        font-size: 2rem;
+    }
+}
+
+/* Extra large devices (≥1200px) */
+@media (min-width: 1200px) {
+
+    /* Carousel */
+    .carousel {
+        min-height: fit-content;
+        padding: 2rem;
+        background-image: url('/img/img_Sune/Dual/carousel_2.png');
+
+    }
+
+    .carousel .container {
+        padding-left: 15rem;
+        padding-top: 15rem;
+    }
+
+    .carousel .container h1 {
+        font-size: 8rem;
+    }
+
+    .carousel .container span {
+        font-size: 7.5rem;
+    }
+
+    .carousel .container p {
+        font-size: 4rem;
+    }
+
+    .carousel .container a {
+        font-size: 3rem;
+    }
+
+    /* intro */
+
+    .intro .right-col h2 {
+        font-size: 3rem;
+    }
+
+    .intro .content_wrap li {
+        font-size: 1.5rem;
+    }
+
+    /* Advanced */
+    .advanced {
+        max-width: 100vw;
+    }
+
+    .advanced .tittle h1 {
+        font-size: 2rem;
+        width: 40rem;
+        width: 300px;
+    }
+
+    .advanced .idea h4 {
+        font-size: 1.2rem;
+        width: 300px;
+    }
+
+    .advanced .idea-2 {
+        top: 35%;
+        left: 10%;
+    }
+
+    .advanced .idea-3 {
+        top: 60%;
+    }
+
+    .advanced .idea-4 {
+        top: 45%;
+        right: 10%;
+    }
+
+    .advanced .idea-5 {
+        top: 10%;
+        right: 35%;
+    }
+
+    .advanced .idea-6 {
+        left: 30%;
+    }
+
+    .advanced .idea-7 {
+        top: 10%;
+        right: 5%;
+    }
+
+    .advanced .idea-8 {
+        right: 10%;
+    }
+
+    /* qualifications */
+    .qualifications {
+        flex-direction: row;
+    }
+
+    .qualifications .row-1 .right-col {
+        font-size: 1.5rem;
+        background-color: lightgray;
+        border-radius: 20px;
+        box-shadow:
+            0 4px 6px rgba(0, 0, 0, 0.1),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15);
+        max-width: 600px;
+        margin: 0 5px;
+    }
+
+    /* .subjects */
+    .subjects {
+        padding: 2rem 0;
+        width: 100vw;
+        margin: auto;
+    }
+
+    .subjects h2 {
+        padding: 1rem 0;
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .subjects p {
+        font-size: 1rem;
+        font-weight: 700;
+        display: inline;
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .subjects .items {
+        width: 50%;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+
+    /* .our-partner */
+    .our-partner {
+        display: contents;
+    }
+
+}
+
+/* Extra large devices (≥1680px) */
+@media (min-width: 1680px) {
+
+    /* .carousel */
+    .carousel {
+        background-image: url('/img/img_Sune/Dual/carousel_3.PNG');
+        background-size: 100%;
+        background-position: center;
+        min-height: fit-content;
+        max-height: 90vh;
+        height: 90vh;
+    }
+
+    /* .qualifications */
+    .qualifications .row-1 .right-col {
+        max-width: 800px;
+    }
+
+    .qualifications .row-1 .right-col p {
+        font-size: 1.5rem;
+    }
+
+    /* Advanced */
+    .advanced {
+        max-width: 100vw;
+    }
+
+    .advanced .tittle h1 {
+        font-size: 3rem;
+        width: 600px;
+    }
+
+    .advanced .idea h4 {
+        font-size: 1.3rem;
+        width: 400px;
+    }
+
+    .advanced .idea-1 {
+        top: calc();
+    }
+}
