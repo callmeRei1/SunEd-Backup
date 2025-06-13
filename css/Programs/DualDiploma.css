@@ -119,7 +119,7 @@ body {
     .carousel {
         width: 100vw;
         height: 50vh;
-        background-image: url('/img/img_Sune/Dual/intro_320px_2.jpg');
+        background-image: url('/img/img_Sune/Dual/intro_6.png');
         background-size: cover;
         background-position: center;
         background-repeat: none;
@@ -134,8 +134,9 @@ body {
 
     .carousel .container h1 {
         font-size: 1.2rem;
-        font-weight: 600;
+        font-weight: 700;
         color: white;
+        box-shadow: white;
     }
 
     .carousel .container .logo {
@@ -145,6 +146,8 @@ body {
 
     .carousel .container p {
         color: white;
+        box-shadow: white;
+        font-weight: 700;
     }
 
     .carousel .container a {
@@ -258,86 +261,43 @@ body {
         font-size: 1rem;
     }
 
-    .advanced .title h1 {
-        font-size: 1.5rem;
+    .advanced .container .head-tittle{
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 700;
+    }
+    .advanced .container .a{
+        font-size: 1rem;
+        text-align: center;
+        font-weight: 600;
     }
     .advanced .container {
         grid-template-areas:
             "title"
-            "idea-1"
-            "idea-2"
-            "idea-3"
-            "idea-4"
+            "a"
+            "b"
+            "c"
+            "d"
+            "e"
     }
-
-    /* Subject */
-    .subjects {
-        padding: 1rem 0;
-    }
-
-    .subjects .container {
-        display: grid;
-        width: 100vw;
-        grid-template-columns: repeat(3, 1fr);
-        /* 3 cột đều nhau */
-        background-color: #FFDB5C;
-        gap: 0.5rem;
-        padding: 1rem;
-        border-radius: 20px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .subjects h2 {
-        text-align: center;
-        padding: 1rem 0;
-        font-weight: 700;
-        font-size: 1.2rem;
-    }
-
-    .subjects p {
-        font-size: 1rem;
-        font-weight: 700;
-        display: block;
-        width: 60vw;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .subjects .items {
-        width: 50%;
-        text-align: center;
-        padding: 1rem 1rem;
-    }
-
-    .subjects .btn {
-        background-color: #3b3da1;
-        color: white;
-        font-weight: 600;
-        font-size: 1.2rem;
-        border-radius: 10px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
-    }
-
-    .subjects .btn:hover {
-        text-decoration: underline;
-    }
-
-    .subjects .card-body span {
-        font-weight: 700;
-    }
-
-    .subjects .card-body {
-        background-color: #FFBC2C;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
-    }
+    /* Bonus */
+        .bonus{
+            background-color: black;
+            color: white;
+            height: fit-content;
+            padding-bottom: 2rem;
+        }
+        .bonus .container .content{
+            text-align: center;
+            padding: 1rem;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+        .bonus .container .bonus-subpoint{
+            padding: 10px;
+            text-align: justify;
+        }
 
     /* our partner */
     .our-partner {
