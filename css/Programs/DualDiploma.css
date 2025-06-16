@@ -427,32 +427,40 @@ body {
             "d . e";
         text-align: justify;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows:  auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
     }
+
     .head-tittle {
         grid-area: head-tittle;
     }
+
     .a {
         grid-area: a;
     }
+
     .b {
         grid-area: b;
     }
+
     .c {
         grid-area: c;
     }
+
     .d {
         grid-area: d;
     }
+
     .e {
         grid-area: e;
     }
+
     .advanced .container .a {
         text-align: center;
         padding: 2rem;
         font-size: 1.2rem;
     }
-    .advanced .container .head-tittle{
+
+    .advanced .container .head-tittle {
         font-size: 1.5rem;
     }
 
@@ -530,41 +538,44 @@ body {
 /* Extra large devices (≥1680px) */
 @media (min-width: 1680px) {
 
-    /* .carousel */
-    .carousel {
-        background-image: url('/img/img_Sune/Dual/carousel_3.PNG');
-        background-size: 100%;
-        background-position: center;
-        min-height: fit-content;
-        max-height: 90vh;
-        height: 90vh;
+    /* intro */
+    .intro .col-6{
+        display: flex;
+        justify-content: center;
+        /* căn ngang */
+        align-items: center;
+        /* căn dọc */
+        height: 100vh;
     }
 
-    /* .qualifications */
-    .qualifications .row-1 .right-col {
-        max-width: 800px;
+    .intro .col-6 img {
+        margin: 0 auto;
+        width: 100%;
+        height: 50%;
     }
 
-    .qualifications .row-1 .right-col p {
-        font-size: 1.5rem;
+    /* Bonus */
+    .bonus .container .content {
+        font-size: 1.7rem;
+        padding: 2rem;
     }
 
-    /* Advanced */
-    .advanced {
-        max-width: 100vw;
+    .bonus-subpoint {
+        font-weight: 500;
+        font-size: 1.2rem;
     }
 
-    .advanced .tittle h1 {
-        font-size: 3rem;
-        width: 600px;
+    /* qualification */
+
+    .qualifications .title h1 {
+        font-size: 2rem;
     }
 
-    .advanced .idea h4 {
-        font-size: 1.3rem;
-        width: 400px;
+    .qualifications .subpoint {
+        font-size: 1.2rem;
     }
 
-    .advanced .idea-1 {
-        top: calc();
+    .row-2 .img-container img {
+        width: 150px;
     }
 }
