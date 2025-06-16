@@ -190,6 +190,7 @@ body {
     }
 
     .advanced .container {
+        display: grid;
         grid-template-areas:
             "title"
             "a"
@@ -268,7 +269,7 @@ body {
     /* our partner */
     .our-partner {
         display: none;
-    }   
+    }
 }
 
 /* Medium devices (≥768px) */
@@ -276,48 +277,38 @@ body {
 
     /* Nav */
     nav img {
-        background-color: white;
         padding: 5px;
     }
 
     nav button {
         width: 50px;
         height: 40px;
+        font-weight: 700;
     }
 
-    .navbar-toggler-icon {
-        width: 20px;
-        height: 20px;
-        align-items: center;
-    }
-
-    .navbar-collapse {
-        width: max-content;
-        font-size: 1rem;
+    .navbar button.navbar-toggler {
+        margin-left: 5rem;
+        margin-right: 0;
     }
 
     /* carousel */
     .carousel {
-        min-height: fit-content;
         max-height: 80vh;
         padding: 3rem;
-        background-image: url('/img/img_Sune/Dual/carousel_2.png');
+        background-image: url('/img/img_Sune/Dual/carousel_3.PNG');
         background-position: center;
     }
 
     .carousel .container {
-        padding: 1rem;
-        padding-top: 10rem;
-        width: fit-content;
-        margin: auto 0;
+        padding-top: 4rem;
     }
 
     .carousel .container h1 {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
     }
 
     .carousel .container p {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
 
     .carousel .container .logo {
@@ -326,299 +317,214 @@ body {
 
     .carousel .container a {
         font-size: 1rem;
+        margin-left: 3rem;
     }
 
     /* intro */
-    .intro {
-        text-align: justify;
-    }
-
     .intro .col-6 h2 {
         font-size: 1.5rem;
     }
 
     .intro .col-6 li {
-        font-size: 1rem;
-    }
-
-    .intro .content_wrap {
-        text-align: justify;
-    }
-
-    /* qualification */
-    .qualifications {
-        text-align: justify;
-    }
-
-    .qualifications .row-1 h1 {
-        margin-top: 20px;
-        font-size: 1.7rem;
-    }
-
-    .qualifications .row-1 .right-col {
-        font-size: 1rem;
-        padding: 1rem;
-        width: 100%;
-    }
-
-    .qualifications .row-1 .right-col p {
         font-size: 1.2rem;
     }
 
-    .row-2 .img-container img {
-        width: 150px;
-        padding: 10px;
-    }
 
     /* advanced */
     .advanced .container {
         grid-template-areas:
-            "idea-1 idea-2 idea-3"
-            "idea-4 title idea-5"
-            "idea-6 idea-7 idea-8";
+            "head-tittle a b"
+            "c d e";
         text-align: justify;
     }
 
-    .advanced .title {
-        font-size: 24px;
+    .advanced .container .a {
+        text-align: center;
+        padding: 2rem;
     }
 
-    /* Subject */
-    .subjects {
-        padding: 1rem;
-        margin: 10px;
-    }
-
-    .subjects h2 {
-        padding: 1rem 0;
-        font-weight: 700;
-        font-size: 2rem;
-        text-align: justify;
-    }
-
-    .subjects .items {
-        width: 60%;
-    }
-
-    .subjects .card {
-        height: fit-content;
-    }
-
-    .subjects .card button {
-        margin-top: 2rem;
-    }
-
-    .subjects .card h4 {
+    /* Bonus */
+    .bonus .container .content {
         font-size: 1.5rem;
     }
 
-    .subjects .card-detail {
-        font-size: 1.2rem;
+    .bonus-subpoint {
+        font-weight: 500;
+    }
+
+    /* qualification */
+    .qualifications {
+        min-height: fit-content;
+        width: 100vw;
+    }
+
+    .qualifications .title h1 {
+        margin-top: 20px;
+        font-size: 1.7rem;
+    }
+
+    .qualifications .subpoint {
+        font-weight: 500;
+        font-size: 1rem;
+    }
+
+    .row-2 .img-container img {
+        width: 120px;
+        padding: 10px;
     }
 }
 
 /* Large devices (≥922px) */
 @media (min-width: 922px) {
 
-    /* Carousel */
+    /* Nav */
+    nav .nav-link {
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+    }
+
+    .navbar-light.scrolled .nav-link {
+        color: black !important;
+    }
+
+    /* carousel */
     .carousel {
-        background-image: url('/img/img_Sune/Dual/carousel_2.png');
-        background-size: cover;
-        margin-bottom: 1rem;
+        height: 90vh;
+        background-image: url('/img/img_Sune/Dual/carousel_3.png');
         min-height: fit-content;
     }
 
+    .carousel .container {
+        margin-top: 5rem;
+    }
+
     .carousel .container h1 {
-        font-size: 5rem;
-    }
-
-    .carousel .container .logo {
-        font-size: 5.5rem;
-    }
-
-    /* intro */
-    .intro {
-        height: fit-content;
-        margin: 4rem;
-    }
-
-    .intro .right-col h2 {
         font-size: 2rem;
     }
 
-    .intro .content_wrap li {
-        font-size: 1rem;
+    .carousel .container a {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+
+    /* intro */
+    .intro .col-6 h2 {
+        font-size: 2rem;
+    }
+
+    .intro .col-6 li {
+        font-size: 1.2rem;
+        padding: 1rem 0;
     }
 
     /* advanced */
     .advanced .container {
         grid-template-areas:
-            "idea-1 idea-2 idea-3"
-            "idea-4 title idea-5"
-            "idea-6 idea-7 idea-8";
-    }
-
-    .advanced .title {
-        font-size: 2rem;
-        padding: auto;
-    }
-
-    /* qualifications */
-    .qualifications .left-col h1 {
-        font-size: 2.5rem;
-    }
-
-    .qualifications .right-col {
+            ". head-tittle ."
+            "b . c"
+            ". a ."
+            "d . e";
         text-align: justify;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:  auto auto auto auto;
+    }
+    .head-tittle {
+        grid-area: head-tittle;
+    }
+    .a {
+        grid-area: a;
+    }
+    .b {
+        grid-area: b;
+    }
+    .c {
+        grid-area: c;
+    }
+    .d {
+        grid-area: d;
+    }
+    .e {
+        grid-area: e;
+    }
+    .advanced .container .a {
+        text-align: center;
+        padding: 2rem;
+        font-size: 1.2rem;
+    }
+    .advanced .container .head-tittle{
+        font-size: 1.5rem;
     }
 
-    /* .subjects */
-    .subjects h2 {
+    /* Bonus */
+    .bonus .container .content {
+        font-size: 1.7rem;
+        padding: 2rem;
+    }
+
+    .bonus-subpoint {
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+
+    /* qualification */
+
+    .qualifications .title h1 {
         font-size: 2rem;
+    }
+
+    .qualifications .subpoint {
+        font-size: 1.2rem;
+    }
+
+    .row-2 .img-container img {
+        width: 150px;
     }
 }
+
 
 /* Extra large devices (≥1200px) */
 @media (min-width: 1200px) {
 
-    /* Carousel */
-    .carousel {
-        min-height: fit-content;
-        padding: 2rem;
-        background-image: url('/img/img_Sune/Dual/carousel_2.png');
-
+    /* Nav */
+    nav .nav-link {
+        font-size: 1.2rem;
     }
 
-    .carousel .container {
-        padding-left: 15rem;
-        padding-top: 15rem;
-    }
-
+    /* carousel */
     .carousel .container h1 {
-        font-size: 8rem;
-    }
-
-    .carousel .container span {
-        font-size: 7.5rem;
-    }
-
-    .carousel .container p {
-        font-size: 4rem;
-    }
-
-    .carousel .container a {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     /* intro */
-
-    .intro .right-col h2 {
-        font-size: 3rem;
-    }
-
-    .intro .content_wrap li {
+    .intro .col-6 li {
         font-size: 1.5rem;
     }
 
-    /* Advanced */
-    .advanced {
-        max-width: 100vw;
+    /* Bonus */
+    .bonus .container .content {
+        font-size: 1.7rem;
+        padding: 2rem;
     }
 
-    .advanced .tittle h1 {
-        font-size: 2rem;
-        width: 40rem;
-        width: 300px;
-    }
-
-    .advanced .idea h4 {
+    .bonus-subpoint {
+        font-weight: 500;
         font-size: 1.2rem;
-        width: 300px;
     }
 
-    .advanced .idea-2 {
-        top: 35%;
-        left: 10%;
-    }
+    /* qualification */
 
-    .advanced .idea-3 {
-        top: 60%;
-    }
-
-    .advanced .idea-4 {
-        top: 45%;
-        right: 10%;
-    }
-
-    .advanced .idea-5 {
-        top: 10%;
-        right: 35%;
-    }
-
-    .advanced .idea-6 {
-        left: 30%;
-    }
-
-    .advanced .idea-7 {
-        top: 10%;
-        right: 5%;
-    }
-
-    .advanced .idea-8 {
-        right: 10%;
-    }
-
-    /* qualifications */
-    .qualifications {
-        flex-direction: row;
-    }
-
-    .qualifications .row-1 .right-col {
-        font-size: 1.5rem;
-        background-color: lightgray;
-        border-radius: 20px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15);
-        max-width: 600px;
-        margin: 0 5px;
-    }
-
-    /* .subjects */
-    .subjects {
-        padding: 2rem 0;
-        width: 100vw;
-        margin: auto;
-    }
-
-    .subjects h2 {
-        padding: 1rem 0;
-        font-weight: 700;
+    .qualifications .title h1 {
         font-size: 2rem;
     }
 
-    .subjects p {
-        font-size: 1rem;
-        font-weight: 700;
-        display: inline;
-        width: 300px;
-        margin: 0 auto;
-        text-align: center;
+    .qualifications .subpoint {
+        font-size: 1.2rem;
     }
 
-    .subjects .items {
-        width: 50%;
-        text-align: center;
-        padding: 1rem 1rem;
+    .row-2 .img-container img {
+        width: 150px;
     }
-
-    /* .our-partner */
-    .our-partner {
-        display: contents;
-    }
-
 }
 
 /* Extra large devices (≥1680px) */
