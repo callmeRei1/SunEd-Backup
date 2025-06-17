@@ -1,4 +1,16 @@
 /* General */
+.navbar-nav .nav-link {
+    color: white;
+    font-weight: 500;
+}
+.navbar-light.scrolled .nav-link {
+    color: black !important;
+  }
+/* Đổi color item trong collapse */
+  .navbar-collapse.show .nav-link {
+    background-color: #f8f9fa;
+    color: #000;               
+}
 /* Pop-up */
 .popup {
     position: fixed;
@@ -519,6 +531,13 @@ footer .copyright {
 @media (min-width: 1024px) {
 
     /* NAV */
+    .navbar-nav .nav-link {
+        color: white;
+        font-weight: 500;
+    }
+    .navbar-light.scrolled .nav-link {
+        color: black !important;
+      }
     .navbar .navbar-brand img {
         width: 8rem;
     }
