@@ -387,7 +387,9 @@ body {
 
 /* Large devices (≥922px) */
 @media (min-width: 922px) {
-
+    main{
+        background-color: black;
+    }
     /* Nav */
     nav .nav-link {
         font-size: 1rem;
@@ -506,8 +508,17 @@ body {
     .row-2 .img-container img {
         width: 150px;
     }
+        /* Partner */
+    .our-partner{
+        display: contents;
+    }
+    .our-partner .tittle{
+        color: white;
+    }
+    .our-partner .carousel-partner .wrap img{
+        width: 170px;
+    }
 }
-
 
 /* Extra large devices (≥1200px) */
 @media (min-width: 1200px) {
