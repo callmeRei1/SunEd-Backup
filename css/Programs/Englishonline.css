@@ -83,7 +83,9 @@ body {
     nav {
         width: 100vw;
     }
-
+    .navbar-nav .nav-link{
+        color: black;
+    }
     nav img {
         background-color: white;
         padding: 5px;
