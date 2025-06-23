@@ -33,3 +33,14 @@
           translate: calc(-4 * 250px);
         }
       }
+
+      @media (min-width: 768px) {
+        .our-partner{
+          margin: 2rem 0;
+        }
+        .our-partner .wrap img{
+          padding: 2rem;
+          width: 60%;
+          height: auto;
+        }
+    }
