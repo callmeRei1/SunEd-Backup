@@ -19,7 +19,9 @@
         padding-top: 6rem;
         display: grid;
     }
-
+    .contact-information .phone{
+        margin-bottom: 1rem;
+    }
     .contact-information .container {
         display: grid;
         grid-template-columns: 1fr;
