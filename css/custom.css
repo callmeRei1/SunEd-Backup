@@ -48,6 +48,7 @@ footer .copyright {
 @media (max-width: 375px) {
     * {
         box-sizing: border-box;
+        
     }
 
 
