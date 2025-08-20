@@ -151,7 +151,61 @@ body {
         text-decoration: none;
         font-weight: 500;
     }
+    /* trainingRoadmap */
+    .TrainingRoadmap{
+        padding: 1rem;
+    }
+    .TrainingRoadmap .title{
+        text-align: center;
+        padding: 1rem;
+        font-size: 1em;
+    }
+    .TrainingRoadmap td{
+        padding: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .TrainingRoadmap th{
+        background-color: #FFBC2C;
+        font-size: 0.7rem;
+    }
+    /* trainnote */
+    .TrainingNote{
+        text-align: center;
+    }
+    .TrainingNote h2{
+        font-size: 1.5rem;
+    }
+    .TrainingNote .container {
+        text-align: center;
+        display: inline-block;  /* để box không kéo dài hết chiều ngang */
+        color: black;
+        padding: 20px 25px;
+        font-size: 0.7rem;
+        line-height: 1.6;
+        max-width: 700px;   /* giới hạn chiều rộng */
+        text-align: left;   /* chữ bên trong vẫn căn trái */
+      }
 
+    /* Training Content */
+    .TrainingContent{
+        letter-spacing: normal;
+  word-spacing: normal;
+  text-align: justify;
+    }
+    .TrainingContent .title{
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .TrainingContent th{
+        font-size: 1rem;
+        padding: 2rem;
+        text-align: center;
+        background-color: #f7a723;
+        white-space: nowrap;
+    }
+    .TrainingContent td{
+        padding: 1rem;
+    }
     /* qualification */
     .qualifications {
         display: flex;
@@ -387,6 +441,32 @@ body {
         font-size: 1rem;
     }
 
+    /* trainingRoadmap */
+        .TrainingRoadmap{
+            padding: 1rem;
+        }
+        .TrainingRoadmap .title{
+            text-align: center;
+            padding: 1rem;
+            font-size: 1.5rem;
+        }
+        .TrainingRoadmap td{
+            padding: 1rem;
+            font-size: 1rem;
+        }
+        .TrainingRoadmap th{
+            background-color: #FFBC2C;
+            font-size: 1rem;
+        }
+        /* trainnote */
+        .TrainingNote h2{
+            font-size: 1.5rem;
+        }
+        .TrainingNote .container {
+            display: inline-block;
+            color: black;
+            font-size: 1rem;
+          }
     /* details */
     .details{
         text-align: justify;
@@ -493,6 +573,25 @@ body {
         font-size: 5.5rem;
     }
 
+        /* trainingRoadmap */
+        .TrainingRoadmap .title{
+            font-size: 2rem;
+        }
+        .TrainingRoadmap th{
+            font-size: 1rem;
+        }
+        .TrainingRoadmap td{
+            font-size: 1rem;
+        }
+                /* trainnote */
+                .TrainingNote h2{
+                    font-size: 1.5rem;
+                }
+                .TrainingNote .container {
+                    display: inline-block;
+                    color: black;
+                    font-size: 1rem;
+                  }
     /* Details */
     .details {
         height: fit-content;
@@ -564,8 +663,18 @@ body {
         font-size: 3rem;
     }
 
-    /* Details */
+    /* TrainingRoadmap */
+    .TrainingRoadmap .title{
+        font-size: 2rem;
+    }
+    .TrainingRoadmap th{
+        font-size: 1rem;
+    }
+    .TrainingRoadmap td{
+        font-size: 1rem;
+    }
 
+    /* Details */
     .details .right-col h2 {
         font-size: 3rem;
     }
