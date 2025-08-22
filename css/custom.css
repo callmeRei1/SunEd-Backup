@@ -1,4 +1,9 @@
 /* General */
+body {
+    max-width: 100%;
+    overflow-x: hidden; /* tránh kéo ngang */
+    word-wrap: break-word; /* text tự xuống dòng */
+  }
 .navbar-nav .nav-link {
     color: white;
     font-weight: 500;
