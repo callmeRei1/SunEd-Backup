@@ -189,8 +189,9 @@ body {
     /* Training Content */
     .TrainingContent{
         letter-spacing: normal;
-  word-spacing: normal;
-  text-align: justify;
+        word-spacing: normal;
+        text-align: justify;
+        white-space: normal;
     }
     .TrainingContent .title{
         padding: 1rem;
@@ -210,6 +211,7 @@ body {
     .TrainingContent .table-768{
         display: none;
     }
+    .TrainingContent 
     /* content-320 */
     .TrainingContent h5{
         text-align: center;
@@ -496,6 +498,12 @@ body {
         }
         .TrainingContent .table-768{
             display: block;
+        }
+        .TrainingContent td{
+            text-align: center;
+        }
+        .TrainingContent td.content{
+            text-align: justify;
         }
     /* details */
     .details{
