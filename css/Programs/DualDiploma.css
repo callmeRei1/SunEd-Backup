@@ -126,8 +126,8 @@ body {
     /* intro */
     .intro {
         width: 100vw;
-        height: 50vh;
-        min-height: fit-content;
+        height: auto;
+        min-height: max-content;
         background-color: black;
         padding: 2rem 0;
         color: white;
@@ -163,9 +163,84 @@ body {
     .intro .col-6 li {
         font-size: 0.5rem;
     }
+    /* TrainingRoadmap */
+    .TrainingRoadmap{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+    }
+    .TrainingRoadmap .table-responsive{
+        border: 1px black solid;
+    }
+    .TrainingRoadmap .title {
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 1rem;
+    }
+    .TrainingRoadmap th{
+        font-size: 0.8rem;
+        text-align: center;
+        border: 1px black solid;
+    }
+    .TrainingRoadmap td{
+        font-size: 0.8rem;
+        text-align: center;
+        border: 1px black solid;
+    }
+    /* TrainingNote */
+    .TrainingNote h2{
+        font-size: 1.2rem;
+    }
+    .TrainingNote li{
+        font-size: 1rem;
+    }
 
+    /* TrainingContent */
+    .TrainingContent{
+        width: fit-content;
+        height: auto;
+        padding: 1rem;
+    }
+    .TrainingContent .xl-layout{
+        display: none;
+    }
+    .TrainingContent .card-layout{
+        margin-bottom: 1.5rem;
+    }
+    .TrainingContent h1{
+        font-size: 1.2rem;
+        text-align: center;
+        font-weight: 800;
+    }
+    .TrainingContent .card-layout h2.title{
+        font-size: 1.1rem;
+        font-weight: 700;
+        padding: 0.8rem;
+        text-decoration: underline;
+    }
+    .TrainingContent .card-layout h3{
+        font-size: 1rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    .TrainingContent .card-layout p{
+        font-size: 1rem;
+        margin: 0rem;
+        padding: 0.5rem;
+        text-align: justify;
+    }
+    .TrainingContent .note ol{
+        color: red;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+    .TrainingContent .note li{
+        color: black;
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
     /* advanced */
-
     .advanced {
         width: 100vw;
         height: fit-content;
@@ -359,6 +434,39 @@ body {
         font-size: 1.2rem;
     }
 
+    /* TrainingContent */
+    .TrainingContent .sm-layout{
+        display: none;
+    }
+    .TrainingContent .xl-layout{
+        display: block;
+    }
+    
+    .custom-table-2 {
+    width:100%;
+    border-collapse: collapse;
+    background-color: whitesmoke; /* nền bảng */
+    color:black;
+  }
+  
+  .custom-table-2 th, 
+  .custom-table-2 td {
+    border: 1px solid black;
+    padding: 12px 15px;
+    vertical-align: middle;
+    text-align: left;
+  }
+  
+  .custom-table-2 th {
+    background-color: #f7a723;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .custom-table-2 td b {
+    font-weight: bold;
+  }
 
     /* advanced */
     .advanced .container {
