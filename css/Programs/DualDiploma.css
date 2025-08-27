@@ -441,7 +441,12 @@ body {
     .TrainingContent .xl-layout{
         display: block;
     }
-    
+    .TrainingContent h1{
+        padding: 2rem;
+    }
+    .TrainingContent ol{
+        margin-top: 1rem;
+    }
     .custom-table-2 {
     width:100%;
     border-collapse: collapse;
@@ -473,9 +478,7 @@ body {
         grid-template-areas:
             "head-tittle a b"
             "c d e";
-        text-align: justify;
     }
-
     .advanced .container .a {
         text-align: center;
         padding: 2rem;
@@ -488,6 +491,7 @@ body {
 
     .bonus .container .content {
         font-size: 1.5rem;
+        color: #f7a723;
     }
 
     .bonus-subpoint {
@@ -508,6 +512,9 @@ body {
     .qualifications .title h1 {
         margin-top: 20px;
         font-size: 1.7rem;
+        color: #f7a723;
+        text-align: center;
+        font-weight: 700;
     }
 
     .qualifications .subpoint {
@@ -568,12 +575,48 @@ body {
     .intro .col-6 h2 {
         font-size: 2rem;
     }
-
+    .intro .col-6 ul {
+       padding: 1rem;
+    }
     .intro .col-6 li {
-        font-size: 1.2rem;
-        padding: 1rem 0;
+        font-size: 1rem;
+    }
+   /* TrainingRoadmap */
+    .TrainingRoadmap{
+    width: 100vw;
+    }
+    .TrainingRoadmap .table-responsive{
+        margin: 0 auto;
+    }
+    .TrainingRoadmap h5.title{
+        color: white;
+        font-size: 1.5rem;
+    }
+    /* .TrainingNote */
+    .TrainingNote {
+        color: white;
+        margin-top: 1rem;
+        padding: 0 4rem;
+    }
+    .TrainingNote h2 {
+        color: red;
     }
 
+    /* .TrainingContent */
+    .TrainingContent{
+        color: white;
+        padding: 2rem;
+    }
+    .TrainingContent h1{
+        font-size: 1.5rem;
+    }
+    .TrainingContent .note ol{
+        margin-top: 2rem;
+        padding: 0 4rem;
+    }
+    .TrainingContent .note li{
+        color: white;
+    }
     /* advanced */
     .advanced .container {
         grid-template-areas:
