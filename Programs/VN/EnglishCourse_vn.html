@@ -1,539 +1,757 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="h-100" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/img_Sune/index/sunedfav.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/img_Sune/index/sunedfav.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/img_Sune/index/sunedfav.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="img/img_Sune/index/sunedfav.png"
+    />
+    <meta name="generator" content="Eleventy v2.0.0" />
+    <meta name="HandheldFriendly" content="true" />
+    <title>SunEd | Tiếng Anh trực tuyến</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/theme.min.css" />
+    <link rel="stylesheet" href="/css/subjects.css" />
+    <link rel="stylesheet" href="/css/custom.css" />
+    <link rel="stylesheet" href="/css/Programs/Englishonline.css" />
+    <style>
+      /* inter-300 - latin */
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: local(""), url("./fonts/inter-v12-latin-300.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/inter-v12-latin-300.woff") format("woff");
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
-  <meta name="description" content="">
-  <link rel="apple-touch-icon" sizes="180x180" href="img/img_Sune/index/sunedfav.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/img_Sune/index/sunedfav.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/img_Sune/index/sunedfav.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/img_Sune/index/sunedfav.png">
-  <meta name="generator" content="Eleventy v2.0.0">
-  <meta name="HandheldFriendly" content="true">
-  <title>SunEd | Tiếng Anh trực tuyến</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/theme.min.css">
-  <link rel="stylesheet" href="/css/subjects.css">
-  <link rel="stylesheet" href="/css/custom.css">
-  <link rel="stylesheet" href="/css/Programs/Englishonline.css">
-  <style>
-    /* inter-300 - latin */
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 300;
-      font-display: swap;
-      src: local(''),
-        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('./fonts/inter-v12-latin-300.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: local(""), url("./fonts/inter-v12-latin-500.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/inter-v12-latin-500.woff") format("woff");
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
 
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 500;
-      font-display: swap;
-      src: local(''),
-        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('./fonts/inter-v12-latin-500.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
+      @font-face {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local(""), url("./fonts/inter-v12-latin-700.woff2") format("woff2"),
+          /* Chrome 26+, Opera 23+, Firefox 39+ */
+            url("./fonts/inter-v12-latin-700.woff") format("woff");
+        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      }
+    </style>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    @font-face {
-      font-family: 'Inter';
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: local(''),
-        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('./fonts/inter-v12-latin-700.woff') format('woff');
-      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    }
-  </style>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+      gtag("config", "G-X6M0JGJ7RW");
+    </script>
+  </head>
 
-    gtag('config', 'G-X6M0JGJ7RW');
-  </script>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target="#navScroll">
-  <!-- NAV -->
-  <!-- <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
-    <div class="container">
-      <a class="navbar-brand pe-4 fs-4" href="/index.html">
-        <img src="/img/img_Sune/index/logo.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
-              Trang chủ
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/aboutus_vn.html">
-              Giới thiệu
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact_vn.html">
-              Liên hệ
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/news_vn.html">
-              Tin tức
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Đào tạo</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Programs/EN/EnglishCourse_en.html">
-              EN
-            </a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav> -->
-  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
-    <div class="container">
-      <a class="navbar-brand pe-4 fs-4" href="index.html">
-        <img src="/img/img_Sune/index/logo.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="/index_vn.html" aria-label="Brings you to the frontpage">
-              Trang chủ
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/aboutus_vn.html">
-              Giới thiệu
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/contact_vn.html">
-              Liên hệ
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/news_vn.html">
-              Tin tức
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Đào tạo</a>
-            <ul class="dropdown-menu no-bullet">
-              <li><a href="/Programs/VN/EnglishCourse_vn.html" class="nav-decor nav-item-style">Tiếng Anh trực tuyến</a></li>
-              <li><a href="/Programs/VN/DualDiploma_vn.html" class="nav-decor nav-item-style">Chương trình Song bằng</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/index.html">
-              EN
-            </a>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  
-  <main>
-    <!-- carousel -->
-    <div class="carousel">
+  <body data-bs-spy="scroll" data-bs-target="#navScroll">
+    <nav
+      id="navScroll"
+      class="navbar navbar-expand-lg navbar-light fixed-top"
+      tabindex="0"
+    >
       <div class="container">
-        <h1>ENGLISH</h1>
-        <p>with</p>
-        <h1 class="logo"><span style="color: #FDBA32;">SUN</span><span style="color: #3E4095;">ED</span></h1>
-        <a href="/contact.html">Join
-          us!</a>
-      </div>
-    </div>
-    <!-- Courses Details -->
-    <div class="details">
-      <div class="container">
-        <div class="row">
-          <div class="col-6 right-col">
-            <h2>TỔNG QUAN CHƯƠNG TRÌNH TIẾNG ANH </h2>
-            <img src="/img/ourcourses.jpg" alt="">
-          </div>
-          <div class="col-6">
-            <div class="content_wrap">
-              <ul>
-                <li>Sĩ số lớp học: 15-20 học sinh</li>
-                <li>Yêu cầu đầu vào: học sinh từ 13 tuổi trở lên với năng lực tiếng Anh tối thiểu A2+ CEFR</li>
-                <li>Đội ngũ giảng dạy: 100% giáo viên Mỹ</li>
-                <li>Công nghệ tích hợp giữa phương pháp truyền thống và hiện đại
+        <a class="navbar-brand pe-4 fs-4" href="index.html">
+          <img src="/img/img_Sune/index/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/index_vn.html"
+                aria-label="Brings you to the frontpage"
+              >
+                Trang chủ
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/aboutus_vn.html"> Giới thiệu </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact_vn.html"> Liên hệ </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/news_vn.html"> Tin tức </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Đào tạo</a>
+              <ul class="dropdown-menu no-bullet">
+                <li>
+                  <a
+                    href="/Programs/VN/EnglishCourse_vn.html"
+                    class="nav-decor nav-item-style"
+                    >Tiếng Anh trực tuyến</a
+                  >
                 </li>
-                <li>Hình thức học tập: trực tuyến</li>
-                <li>Thời khóa biểu: linh hoạt</li>
-                <li>Môn học đa dạng các lĩnh vực từ ngôn ngữ, toán học, khoa học đến khoa học xã hội, âm nhạc, vv…</li>
-                <li>Môn học đa dạng các lĩnh vực từ ngôn ngữ, toán học, khoa học đến khoa học xã hội, âm nhạc, vv…</li>
-                <li>Thời lượng học tập: 18+ tuần/khóa học
-                  <ul>
-                    <li>2 giờ/ tuần học với giáo viên Mỹ</li>
-                    <li>2 giờ/tuần thực hành với hỗ trợ của cố vấn học tập Việt Nam</li>
-                    <li>2+ giờ/ tuần tự học trên nền tảng</li>
-                  </ul>
+                <li>
+                  <a
+                    href="/Programs/VN/DualDiploma_vn.html"
+                    class="nav-decor nav-item-style"
+                    >Chương trình Song bằng</a
+                  >
                 </li>
               </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html"> EN </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- carousel -->
+      <div class="carousel">
+        <div class="container">
+          <h1>ENGLISH</h1>
+          <p>with</p>
+          <h1 class="logo">
+            <span style="color: #fdba32">SUN</span
+            ><span style="color: #3e4095">ED</span>
+          </h1>
+          <a href="/contact.html">Join us!</a>
+        </div>
+      </div>
+      <!-- Courses Details -->
+      <div class="details">
+        <div class="container">
+          <div class="row">
+            <div class="col-6 right-col">
+              <h2>TỔNG QUAN CHƯƠNG TRÌNH TIẾNG ANH</h2>
+              <img src="/img/ourcourses.jpg" alt="" />
+            </div>
+            <div class="col-6">
+              <div class="content_wrap">
+                <ul>
+                  <li>Sĩ số lớp học: 15-20 học sinh</li>
+                  <li>
+                    Yêu cầu đầu vào: học sinh từ 13 tuổi trở lên với năng lực
+                    tiếng Anh tối thiểu A2+ CEFR
+                  </li>
+                  <li>Đội ngũ giảng dạy: 100% giáo viên Mỹ</li>
+                  <li>
+                    Công nghệ tích hợp giữa phương pháp truyền thống và hiện đại
+                  </li>
+                  <li>Hình thức học tập: trực tuyến</li>
+                  <li>Thời khóa biểu: linh hoạt</li>
+                  <li>
+                    Môn học đa dạng các lĩnh vực từ ngôn ngữ, toán học, khoa học
+                    đến khoa học xã hội, âm nhạc, vv…
+                  </li>
+                  <li>
+                    Môn học đa dạng các lĩnh vực từ ngôn ngữ, toán học, khoa học
+                    đến khoa học xã hội, âm nhạc, vv…
+                  </li>
+                  <li>
+                    Thời lượng học tập: 18+ tuần/khóa học
+                    <ul>
+                      <li>2 giờ/ tuần học với giáo viên Mỹ</li>
+                      <li>
+                        2 giờ/tuần thực hành với hỗ trợ của cố vấn học tập Việt
+                        Nam
+                      </li>
+                      <li>2+ giờ/ tuần tự học trên nền tảng</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <!-- Lộ trình đào tạo TrainingRoadmap --->
-     <div class="TrainingRoadmap">
-      <div class="container py-4">
-        <h5 class="title fw-bold text-primary mb-3">LỘ TRÌNH ĐÀO TẠO</h5>
-        <div class="table-responsive">
-          <table class="table table-bordered align-middle text-white custom-table mb-0">
-            <thead>
-              <tr>
-                <th scope="col">CẤP ĐỘ</th>
-                <th scope="col">KHÓA</th>
-                <th scope="col">THỜI LƯỢNG</th>
-                <th scope="col">ĐẦU VÀO</th>
-                <th scope="col">ĐẦU RA</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td rowspan="2">Nhập môn</td>
-                <td>English Language Arts 8A</td>
-                <td>108 giờ</td>
-                <td>A2 CEFR</td>
-                <td>A2 CEFR</td>
-              </tr>
-              <tr>
-                <td>English Language Arts 8B</td>
-                <td>108 giờ</td>
-                <td>(ELA 8A)</td>
-                <td>A2+ CEFR</td>
-              </tr>
-              <tr>
-                <td rowspan="2">Trung cấp</td>
-                <td>English Language Arts 9A</td>
-                <td>108 giờ</td>
-                <td>A2+ CEFR</td>
-                <td>A2+ CEFR</td>
-              </tr>
-              <tr>
-                <td>English Language Arts 9B</td>
-                <td>108 giờ</td>
-                <td>A2+ CEFR</td>
-                <td>B1 CEFR</td>
-              </tr>
-              <tr>
-                <td rowspan="2">Cao cấp</td>
-                <td>English Language Arts 10A</td>
-                <td>108 giờ</td>
-                <td>B1 CEFR</td>
-                <td>B1 CEFR</td>
-              </tr>
-              <tr>
-                <td>English Language Arts 10B</td>
-                <td>108 giờ</td>
-                <td>B1 CEFR</td>
-                <td>B2 CEFR</td>
-              </tr>
-              <tr>
-                <td rowspan="4">Tinh hoa</td>
-                <td>American Literature A</td>
-                <td>108 giờ</td>
-                <td>B2 CEFR</td>
-                <td>B2 CEFR</td>
-              </tr>
-              <tr>
-                <td>American Literature B</td>
-                <td>108 giờ</td>
-                <td>B2 CEFR</td>
-                <td>B2+ CEFR</td>
-              </tr>
-              <tr>
-                <td>British Literature A</td>
-                <td>108 giờ</td>
-                <td>B2+ CEFR</td>
-                <td>B2+ CEFR</td>
-              </tr>
-              <tr>
-                <td>British Literature B</td>
-                <td>108 giờ</td>
-                <td>B2+ CEFR</td>
-                <td>C1 CEFR</td>
-              </tr>
-            </tbody>
-          </table>
+      <!-- Lộ trình đào tạo TrainingRoadmap --->
+      <div class="TrainingRoadmap">
+        <div class="container py-4">
+          <h5 class="title fw-bold text-primary mb-3">LỘ TRÌNH ĐÀO TẠO</h5>
+          <div class="table-responsive">
+            <table
+              class="table table-bordered align-middle text-white custom-table mb-0"
+            >
+              <thead>
+                <tr>
+                  <th scope="col">CẤP ĐỘ</th>
+                  <th scope="col">KHÓA</th>
+                  <th scope="col">THỜI LƯỢNG</th>
+                  <th scope="col">ĐẦU VÀO</th>
+                  <th scope="col">ĐẦU RA</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">Nhập môn</td>
+                  <td>English Language Arts 8A</td>
+                  <td>108 giờ</td>
+                  <td>A2 CEFR</td>
+                  <td>A2 CEFR</td>
+                </tr>
+                <tr>
+                  <td>English Language Arts 8B</td>
+                  <td>108 giờ</td>
+                  <td>(ELA 8A)</td>
+                  <td>A2+ CEFR</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Trung cấp</td>
+                  <td>English Language Arts 9A</td>
+                  <td>108 giờ</td>
+                  <td>A2+ CEFR</td>
+                  <td>A2+ CEFR</td>
+                </tr>
+                <tr>
+                  <td>English Language Arts 9B</td>
+                  <td>108 giờ</td>
+                  <td>A2+ CEFR</td>
+                  <td>B1 CEFR</td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Cao cấp</td>
+                  <td>English Language Arts 10A</td>
+                  <td>108 giờ</td>
+                  <td>B1 CEFR</td>
+                  <td>B1 CEFR</td>
+                </tr>
+                <tr>
+                  <td>English Language Arts 10B</td>
+                  <td>108 giờ</td>
+                  <td>B1 CEFR</td>
+                  <td>B2 CEFR</td>
+                </tr>
+                <tr>
+                  <td rowspan="4">Tinh hoa</td>
+                  <td>American Literature A</td>
+                  <td>108 giờ</td>
+                  <td>B2 CEFR</td>
+                  <td>B2 CEFR</td>
+                </tr>
+                <tr>
+                  <td>American Literature B</td>
+                  <td>108 giờ</td>
+                  <td>B2 CEFR</td>
+                  <td>B2+ CEFR</td>
+                </tr>
+                <tr>
+                  <td>British Literature A</td>
+                  <td>108 giờ</td>
+                  <td>B2+ CEFR</td>
+                  <td>B2+ CEFR</td>
+                </tr>
+                <tr>
+                  <td>British Literature B</td>
+                  <td>108 giờ</td>
+                  <td>B2+ CEFR</td>
+                  <td>C1 CEFR</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="TrainingNote">
+          <div class="container">
+            <h2>Lưu ý:</h2>
+            <ol>
+              <li>
+                Mục tiêu đầu ra các khóa đào tạo <strong>KHÔNG</strong> phải là
+                các chứng chỉ tiếng Anh, mà là các kỹ năng tiếng Anh tương đương
+                với Khung Tham chiếu Chung Châu Âu (CEFR), và kiến thức tiếng
+                Anh học thuật phổ thông Mỹ.
+              </li>
+              <li>
+                Học viên phải hoàn thành bài đánh giá năng lực tiếng Anh đầu
+                vào.
+              </li>
+              <li>Học viên phải hoàn thành Khóa A trước khi đăng ký Khóa B.</li>
+              <li>
+                Để đăng ký các khóa đào tạo ở cấp độ <em>Tinh hoa</em>, học viên
+                phải hoàn thành các khóa đào tạo ở cấp độ <em>Cao cấp</em>.
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
-      <div class="TrainingNote">
+      <!-- Suned Advanced -->
+      <div class="advanced">
         <div class="container">
-        <h2>Lưu ý:</h2>
-        <ol>
-          <li>Mục tiêu đầu ra các khóa đào tạo <strong>KHÔNG</strong> phải là các chứng chỉ tiếng Anh, mà là các kỹ năng tiếng Anh tương đương với Khung Tham chiếu Chung Châu Âu (CEFR), và kiến thức tiếng Anh học thuật phổ thông Mỹ.</li>
-          <li>Học viên phải hoàn thành bài đánh giá năng lực tiếng Anh đầu vào.</li>
-          <li>Học viên phải hoàn thành Khóa A trước khi đăng ký Khóa B.</li>
-          <li>Để đăng ký các khóa đào tạo ở cấp độ <em>Tinh hoa</em>, học viên phải hoàn thành các khóa đào tạo ở cấp độ <em>Cao cấp</em>.</li>
-        </ol>
+          <div class="box idea idea-1">
+            Nội dung thú vị, mang tính ứng dụng cao giúp học sinh sáng tạo giải
+            quyết các vấn đề trong học tập và cuộc sống
+          </div>
+          <div class="box idea idea-2">
+            Phương pháp giáo dục theo hướng cá thể hóa giúp học sinh phát huy
+            nội lực hiệu quả nhất, nhanh nhất
+          </div>
+          <div class="box idea idea-3">
+            Đội ngũ giảng dạy chuyên nghiệp, tận tâm giúp học sinh phát triển
+            toàn diện về học thuật, kỹ năng và tư duy toàn cầu
+          </div>
+          <div class="box idea idea-4">
+            Công nghệ tích hợp, hỗ trợ thường xuyên giúp học sinh đạt kết quả
+            đúng tiến độ, đủ trình độ
+          </div>
+          <div class="title">
+            LỢI THẾ CHƯƠNG TRÌNH TIẾNG ANH TRỰC TUYẾN SUNED
+          </div>
+          <div class="box idea idea-5">
+            Lịch học linh hoạt theo từng cá nhân giúp học sinh tự chủ học tập,
+            thoải mái thực hành, tự tin thể hiện
+          </div>
+          <div class="box idea idea-6">
+            Hoạt động dạy và học đa dạng, phát triển tư duy phản biện như một
+            học sinh Mỹ; không rập khuôn theo mẫu có sẵn, giúp học sinh tự do
+            thể hiện cá tính và năng lực cá nhân
+          </div>
+          <div class="box idea idea-7">
+            Kết quả học tập được báo cáo thường xuyên giúp phụ huynh có thể theo
+            dõi và đồng hành với học sinh trong suốt quá trình đào tạo
+          </div>
+          <div class="box idea idea-8">
+            Giấy chứng nhận hoàn thành khóa đào tạo khi học sinh có kết quả đạt
+            ở cuối mỗi khóa đào tạo.
+          </div>
         </div>
       </div>
-     </div>
-    <!-- Suned Advanced -->
-    <div class="advanced">
-      <div class="container">
-        <div class="box idea idea-1">Nội dung thú vị, mang tính ứng dụng cao giúp học sinh sáng tạo giải quyết các vấn đề trong học tập và cuộc sống</div>
-        <div class="box idea idea-2">Phương pháp giáo dục theo hướng cá thể hóa giúp học sinh phát huy nội lực hiệu quả nhất, nhanh nhất</div>
-        <div class="box idea idea-3">Đội ngũ giảng dạy chuyên nghiệp, tận tâm giúp học sinh phát triển toàn diện về học thuật, kỹ năng và tư duy toàn cầu</div>
-        <div class="box idea idea-4">Công nghệ tích hợp, hỗ trợ thường xuyên giúp học sinh đạt kết quả đúng tiến độ, đủ trình độ</div>
-        <div class="title">LỢI THẾ CHƯƠNG TRÌNH TIẾNG ANH TRỰC TUYẾN SUNED</div>
-        <div class="box idea idea-5">Lịch học linh hoạt theo từng cá nhân giúp học sinh tự chủ học tập, thoải mái thực hành, tự tin thể hiện</div>
-        <div class="box idea idea-6">Hoạt động dạy và học đa dạng, phát triển tư duy phản biện như một học sinh Mỹ; không rập khuôn theo mẫu có sẵn, giúp học sinh tự do thể hiện cá tính và năng lực cá nhân</div>
-        <div class="box idea idea-7">Kết quả học tập được báo cáo thường xuyên giúp phụ huynh có thể theo dõi và đồng hành với học sinh trong suốt quá trình đào tạo</div>
-        <div class="box idea idea-8">Giấy chứng nhận hoàn thành khóa đào tạo khi học sinh có kết quả đạt ở cuối mỗi khóa đào tạo.</div>
-      </div>
-    </div>
-    <!-- Training Content -->
-         <!-- Lộ trình đào tạo TrainingRoadmap --->
-         <div class="TrainingContent">
-          <div class="container py-4">
-            <h5 class="title fw-bold text-primary mb-3">NỘI DUNG KHOÁ ĐÀO TẠO</h5>
-            <div class="table-responsive table-768">
-              <table class="table table-bordered align-middle text-white custom-table mb-0">
-                <thead>
-                  <tr>
-                    <th scope="col">Cấp độ</th>
-                    <th scope="col">Khoá đào tạo</th>
-                    <th scope="col">Nội dung</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td rowspan="2">Nhập môn</td>
-                    <td>1.English Language Arts 8A</td>
-                    <td class="content">
-                      Khóa đào tạo nghiên cứu các thể loại văn học, so sánh và đối chiếu cấu trúc, khám phá tác động của cấu trúc và mối liên hệ với chủ đề. Học sinh phân tích quan điểm, ý tưởng trung tâm, chứng cứ, tóm tắt khách quan, các yếu tố cốt truyện, vai trò tiểu tiết, và đặc điểm tường thuật. Ngoài ra, môn học nhấn mạnh từ ngữ mô tả, cảm giác, chính xác, tổ chức viết, hội thoại, nhịp điệu, phản ánh, chuyển đổi tâm trạng, và các kỹ thuật thơ ca như vần, hình ảnh, ẩn dụ. Học sinh phát triển kỹ năng đọc, phân tích văn bản phi hư cấu, tranh luận, và sáng tạo kết thúc, đồng thời khám phá các yếu tố kịch, truyện tranh, và tự truyện.
-                      </td>
-                  </tr>
-                  <tr>
-                    <td>2.English Language Arts 8B</td>
-                    <td class="content">Khóa đào tạo tập trung vào kỹ năng trích dẫn văn bản, phân tích hình ảnh, so sánh và đối chiếu, xác định nguyên nhân và kết quả, cấu trúc và mục đích văn bản. Học sinh học cách tổ chức bài viết, tóm tắt, sử dụng từ điển bách khoa, nhận diện loại văn bản, và chỉnh sửa câu. Các chủ đề bao gồm ngữ pháp (thì động từ, giọng chủ động/bị động, đại từ), dấu câu, từ vựng, và tránh đạo văn. Học sinh phát triển kỹ năng nghiên cứu, lập dàn ý MLA, viết luận, sử dụng chuyển tiếp, và trình bày đa phương tiện.</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2">Trung cấp</td>
-                    <td>1.English Language Arts 9A</td>
-                    <td class="content">Khóa đào tạo nhấn mạnh kỹ năng đọc, suy luận, và viết cho đối tượng cụ thể, phân tích từ vựng qua ngữ cảnh, nguồn gốc từ, và từ dễ nhầm lẫn. Học sinh khám phá các yếu tố cốt truyện, kỹ thuật văn học, chủ đề, và ngôn ngữ hình tượng trong tiểu thuyết, thơ, và kịch. Các chủ đề bao gồm truyện ngụ ngôn, thần thoại, sử thi, tiểu sử, và báo chí, với trọng tâm vào cấu trúc câu, giọng văn, phong cách, và phân tích văn bản phi hư cấu, nghệ thuật, và truyền thông.</td>
-                  </tr>
-                  <tr>
-                    <td>2.English Language Arts 9B</td>
-                    <td class="content">Khóa đào tạo tập trung vào kỹ năng viết và phân tích văn bản, bao gồm dấu câu, cấu trúc câu phức hợp, và chỉnh sửa tài liệu. Học sinh học cách viết văn bản kỹ thuật, kể chuyện hư cấu và phi hư cấu, phát triển chủ đề, và xây dựng nhân vật. Các chủ đề lịch sử như thời Elizabeth, Phục Hưng, và Lãng mạn được khám phá. Học sinh thực hành viết luận giải thích, thuyết phục, nghiên cứu theo chuẩn MLA, phân tích kịch Shakespeare, và trình bày đa phương tiện.</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="2">Cao cấp</td>
-                    <td>1.English Language Arts 10A</td>
-                    <td class="content">Khóa đào tạo nhấn mạnh xây dựng từ vựng học thuật, phân tích ngữ cảnh, gốc từ Hy Lạp - Latinh, và từ đa nghĩa. Học sinh khám phá các thể loại văn học, điểm nhìn, nhân vật, xung đột, và biểu tượng trong tiểu thuyết, thơ, và kịch Shakespeare. Các chủ đề bao gồm phát triển chủ đề, phân tích thơ tự do, sonnet, và văn xuôi, cùng với kỹ năng nói trước công chúng, viết văn phi hư cấu, và so sánh tài liệu lịch sử, đảm bảo phong cách và giọng điệu nhất quán.</td>
-                  </tr>
-                  <tr>
-                    <td>2.English Language Arts 10B</td>
-                    <td class="content">Khóa đào tạo tập trung vào nghiên cứu, bao gồm đặt câu hỏi, tìm nguồn đáng tin cậy, và lập dàn ý chữ-số. Học sinh thực hành diễn giải, trích dẫn, viết bài luận giải thích và thuyết phục, sử dụng dấu câu hiệu quả, và chỉnh sửa lỗi câu. Các chủ đề văn học khám phá nhân vật, xung đột, hồi tưởng, và kịch tính trong truyện và kịch, cùng với các chủ đề xã hội như tự do, bất công, và thay đổi. Kỹ năng trình bày bao gồm sử dụng phương tiện và giao tiếp hiệu quả.</td>
-                  </tr>
-                  <tr>
-                    <td rowspan="4">Tinh hoa</td>
-                    <td>1.American Literature (A & B)</td>
-                    <td class="content">Khóa đào tạo tập trung vào phân tích văn học và kỹ năng viết nâng cao, khám phá các nguyên mẫu, truyền thống truyền miệng, và các phong trào văn học như Lãng mạn, phong trào phát triển mạnh mẽ về văn hóa, xã hội và nghệ thuật, Chủ nghĩa Tự nhiên, và Hiện đại. Học sinh nghiên cứu các yếu tố như chủ đề, giọng điệu, quan điểm, và biểu tượng trong truyện ngắn, thơ, và kịch. Các kỹ năng bao gồm viết luận thuyết phục, phân tích phi hư cấu, sử dụng nguồn đáng tin cậy, trích dẫn, và trình bày nghiên cứu. Học sinh thực hành chỉnh sửa câu, sử dụng từ vựng, dấu câu, và phát triển phong cách viết mạch lạc, đồng thời phân tích diễn văn lịch sử và văn bản chính trị.</td>
-                  </tr>
-                  <tr>
-                    <td>2.British Literature (A & B)</td>
-                    <td class="content">Khóa đào tạo tập trung vào phân tích văn học và kỹ năng viết chuyên sâu, bao gồm suy luận, đánh giá nhân vật, và dự đoán trong các thể loại như truyện ngắn, thơ, và kịch. Học sinh nghiên cứu các phong trào văn học (Lãng mạn, Hiện đại), phân tích văn bản phi hư cấu, và các bài diễn văn mang tính bước ngoặt từ thế kỷ 17 đến thế kỷ 19. Các kỹ năng viết bao gồm sử dụng từ chính xác, chỉnh sửa ngữ pháp, và tạo bài luận nghiên cứu theo chuẩn MLA. Chủ đề nổi bật như biểu tượng, trào phúng, và thơ ca (sonnet, sử thi, bi kịch) được khám phá, cùng với kỹ năng trình bày nghiên cứu và phân tích văn bản pháp lý, lịch sử.</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="content-320">
-              <div class="item item-1">
+      <!-- Training Content -->
+      <!-- Lộ trình đào tạo TrainingRoadmap --->
+      <div class="TrainingContent">
+        <div class="container py-4">
+          <h5 class="title fw-bold text-primary mb-3">NỘI DUNG KHOÁ ĐÀO TẠO</h5>
+          <div class="table-responsive table-768">
+            <table
+              class="table table-bordered align-middle text-white custom-table mb-0"
+            >
+              <thead>
+                <tr>
+                  <th scope="col">Cấp độ</th>
+                  <th scope="col">Khoá đào tạo</th>
+                  <th scope="col">Nội dung</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="2">Nhập môn</td>
+                  <td>1.English Language Arts 8A</td>
+                  <td class="content">
+                    Khóa đào tạo nghiên cứu các thể loại văn học, so sánh và đối
+                    chiếu cấu trúc, khám phá tác động của cấu trúc và mối liên
+                    hệ với chủ đề. Học sinh phân tích quan điểm, ý tưởng trung
+                    tâm, chứng cứ, tóm tắt khách quan, các yếu tố cốt truyện,
+                    vai trò tiểu tiết, và đặc điểm tường thuật. Ngoài ra, môn
+                    học nhấn mạnh từ ngữ mô tả, cảm giác, chính xác, tổ chức
+                    viết, hội thoại, nhịp điệu, phản ánh, chuyển đổi tâm trạng,
+                    và các kỹ thuật thơ ca như vần, hình ảnh, ẩn dụ. Học sinh
+                    phát triển kỹ năng đọc, phân tích văn bản phi hư cấu, tranh
+                    luận, và sáng tạo kết thúc, đồng thời khám phá các yếu tố
+                    kịch, truyện tranh, và tự truyện.
+                  </td>
+                </tr>
+                <tr>
+                  <td>2.English Language Arts 8B</td>
+                  <td class="content">
+                    Khóa đào tạo tập trung vào kỹ năng trích dẫn văn bản, phân
+                    tích hình ảnh, so sánh và đối chiếu, xác định nguyên nhân và
+                    kết quả, cấu trúc và mục đích văn bản. Học sinh học cách tổ
+                    chức bài viết, tóm tắt, sử dụng từ điển bách khoa, nhận diện
+                    loại văn bản, và chỉnh sửa câu. Các chủ đề bao gồm ngữ pháp
+                    (thì động từ, giọng chủ động/bị động, đại từ), dấu câu, từ
+                    vựng, và tránh đạo văn. Học sinh phát triển kỹ năng nghiên
+                    cứu, lập dàn ý MLA, viết luận, sử dụng chuyển tiếp, và trình
+                    bày đa phương tiện.
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Trung cấp</td>
+                  <td>1.English Language Arts 9A</td>
+                  <td class="content">
+                    Khóa đào tạo nhấn mạnh kỹ năng đọc, suy luận, và viết cho
+                    đối tượng cụ thể, phân tích từ vựng qua ngữ cảnh, nguồn gốc
+                    từ, và từ dễ nhầm lẫn. Học sinh khám phá các yếu tố cốt
+                    truyện, kỹ thuật văn học, chủ đề, và ngôn ngữ hình tượng
+                    trong tiểu thuyết, thơ, và kịch. Các chủ đề bao gồm truyện
+                    ngụ ngôn, thần thoại, sử thi, tiểu sử, và báo chí, với trọng
+                    tâm vào cấu trúc câu, giọng văn, phong cách, và phân tích
+                    văn bản phi hư cấu, nghệ thuật, và truyền thông.
+                  </td>
+                </tr>
+                <tr>
+                  <td>2.English Language Arts 9B</td>
+                  <td class="content">
+                    Khóa đào tạo tập trung vào kỹ năng viết và phân tích văn
+                    bản, bao gồm dấu câu, cấu trúc câu phức hợp, và chỉnh sửa
+                    tài liệu. Học sinh học cách viết văn bản kỹ thuật, kể chuyện
+                    hư cấu và phi hư cấu, phát triển chủ đề, và xây dựng nhân
+                    vật. Các chủ đề lịch sử như thời Elizabeth, Phục Hưng, và
+                    Lãng mạn được khám phá. Học sinh thực hành viết luận giải
+                    thích, thuyết phục, nghiên cứu theo chuẩn MLA, phân tích
+                    kịch Shakespeare, và trình bày đa phương tiện.
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="2">Cao cấp</td>
+                  <td>1.English Language Arts 10A</td>
+                  <td class="content">
+                    Khóa đào tạo nhấn mạnh xây dựng từ vựng học thuật, phân tích
+                    ngữ cảnh, gốc từ Hy Lạp - Latinh, và từ đa nghĩa. Học sinh
+                    khám phá các thể loại văn học, điểm nhìn, nhân vật, xung
+                    đột, và biểu tượng trong tiểu thuyết, thơ, và kịch
+                    Shakespeare. Các chủ đề bao gồm phát triển chủ đề, phân tích
+                    thơ tự do, sonnet, và văn xuôi, cùng với kỹ năng nói trước
+                    công chúng, viết văn phi hư cấu, và so sánh tài liệu lịch
+                    sử, đảm bảo phong cách và giọng điệu nhất quán.
+                  </td>
+                </tr>
+                <tr>
+                  <td>2.English Language Arts 10B</td>
+                  <td class="content">
+                    Khóa đào tạo tập trung vào nghiên cứu, bao gồm đặt câu hỏi,
+                    tìm nguồn đáng tin cậy, và lập dàn ý chữ-số. Học sinh thực
+                    hành diễn giải, trích dẫn, viết bài luận giải thích và
+                    thuyết phục, sử dụng dấu câu hiệu quả, và chỉnh sửa lỗi câu.
+                    Các chủ đề văn học khám phá nhân vật, xung đột, hồi tưởng,
+                    và kịch tính trong truyện và kịch, cùng với các chủ đề xã
+                    hội như tự do, bất công, và thay đổi. Kỹ năng trình bày bao
+                    gồm sử dụng phương tiện và giao tiếp hiệu quả.
+                  </td>
+                </tr>
+                <tr>
+                  <td rowspan="4">Tinh hoa</td>
+                  <td>1.American Literature (A & B)</td>
+                  <td class="content">
+                    Khóa đào tạo tập trung vào phân tích văn học và kỹ năng viết
+                    nâng cao, khám phá các nguyên mẫu, truyền thống truyền
+                    miệng, và các phong trào văn học như Lãng mạn, phong trào
+                    phát triển mạnh mẽ về văn hóa, xã hội và nghệ thuật, Chủ
+                    nghĩa Tự nhiên, và Hiện đại. Học sinh nghiên cứu các yếu tố
+                    như chủ đề, giọng điệu, quan điểm, và biểu tượng trong
+                    truyện ngắn, thơ, và kịch. Các kỹ năng bao gồm viết luận
+                    thuyết phục, phân tích phi hư cấu, sử dụng nguồn đáng tin
+                    cậy, trích dẫn, và trình bày nghiên cứu. Học sinh thực hành
+                    chỉnh sửa câu, sử dụng từ vựng, dấu câu, và phát triển phong
+                    cách viết mạch lạc, đồng thời phân tích diễn văn lịch sử và
+                    văn bản chính trị.
+                  </td>
+                </tr>
+                <tr>
+                  <td>2.British Literature (A & B)</td>
+                  <td class="content">
+                    Khóa đào tạo tập trung vào phân tích văn học và kỹ năng viết
+                    chuyên sâu, bao gồm suy luận, đánh giá nhân vật, và dự đoán
+                    trong các thể loại như truyện ngắn, thơ, và kịch. Học sinh
+                    nghiên cứu các phong trào văn học (Lãng mạn, Hiện đại), phân
+                    tích văn bản phi hư cấu, và các bài diễn văn mang tính bước
+                    ngoặt từ thế kỷ 17 đến thế kỷ 19. Các kỹ năng viết bao gồm
+                    sử dụng từ chính xác, chỉnh sửa ngữ pháp, và tạo bài luận
+                    nghiên cứu theo chuẩn MLA. Chủ đề nổi bật như biểu tượng,
+                    trào phúng, và thơ ca (sonnet, sử thi, bi kịch) được khám
+                    phá, cùng với kỹ năng trình bày nghiên cứu và phân tích văn
+                    bản pháp lý, lịch sử.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="content-320">
+            <div class="item item-1">
               <h2>Nhập môn</h2>
               <h3>1.English Language Arts 8A</h3>
-              <p>Học sinh phát triển kỹ năng đọc, phân tích văn bản phi hư cấu, tranh luận, và sáng tạo kết luận, đồng thời khám phá các yếu tố kịch, truyện tranh, và tự truyện.</p>
+              <p>
+                Học sinh phát triển kỹ năng đọc, phân tích văn bản phi hư cấu,
+                tranh luận, và sáng tạo kết luận, đồng thời khám phá các yếu tố
+                kịch, truyện tranh, và tự truyện.
+              </p>
               <h3>2.English Language Arts 8B</h3>
-              <p>Học sinh phát triển kỹ năng nghiên cứu, lập dàn ý MLA, viết luận, sử dụng chuyển tiếp, và trình bày đa phương tiện.</p>
-              </div>
-              <div class="item item-2">
+              <p>
+                Học sinh phát triển kỹ năng nghiên cứu, lập dàn ý MLA, viết
+                luận, sử dụng chuyển tiếp, và trình bày đa phương tiện.
+              </p>
+            </div>
+            <div class="item item-2">
               <h2>Trung cấp</h2>
               <h3>1.English Language Arts 9A</h3>
-              <p>Học sinh khám phá các yếu tố cốt truyện, kỹ thuật văn học, chủ đề, và ngôn ngữ hình tượng trong tiểu thuyết, thơ, và kịch.
+              <p>
+                Học sinh khám phá các yếu tố cốt truyện, kỹ thuật văn học, chủ
+                đề, và ngôn ngữ hình tượng trong tiểu thuyết, thơ, và kịch.
               </p>
               <h3>2.English Language Arts 9B</h3>
-              <p>Học sinh học cách viết văn bản kỹ thuật, kể chuyện hư cấu và phi hư cấu, phát triển chủ đề, và xây dựng nhân vật. </p>
-              </div>
-              <div class="item item-3">
+              <p>
+                Học sinh học cách viết văn bản kỹ thuật, kể chuyện hư cấu và phi
+                hư cấu, phát triển chủ đề, và xây dựng nhân vật.
+              </p>
+            </div>
+            <div class="item item-3">
               <h2>Cao cấp</h2>
               <h3>1.English Language Arts 10A</h3>
-              <p>Học sinh khám phá các thể loại văn học, điểm nhìn, nhân vật, xung đột, và biểu tượng trong tiểu thuyết, thơ, và kịch Shakespeare.</p>
+              <p>
+                Học sinh khám phá các thể loại văn học, điểm nhìn, nhân vật,
+                xung đột, và biểu tượng trong tiểu thuyết, thơ, và kịch
+                Shakespeare.
+              </p>
               <h3>2.English Language Arts 10B</h3>
-              <p>Học sinh thực hành diễn giải, trích dẫn, viết bài luận giải thích và thuyết phục, sử dụng dấu câu hiệu quả, và chỉnh sửa lỗi câu.</p>
-              </div>
-              <div class="item item-4">
+              <p>
+                Học sinh thực hành diễn giải, trích dẫn, viết bài luận giải
+                thích và thuyết phục, sử dụng dấu câu hiệu quả, và chỉnh sửa lỗi
+                câu.
+              </p>
+            </div>
+            <div class="item item-4">
               <h2>Tinh hoa</h2>
               <h3>1.American Literature (A & B)</h3>
-              <p>Học sinh nghiên cứu các yếu tố như chủ đề, giọng điệu, quan điểm, và biểu tượng trong truyện ngắn, thơ, và kịch. </p>
+              <p>
+                Học sinh nghiên cứu các yếu tố như chủ đề, giọng điệu, quan
+                điểm, và biểu tượng trong truyện ngắn, thơ, và kịch.
+              </p>
               <h3>2.British Literature (A & B)</h3>
-              <p>Học sinh nghiên cứu các phong trào văn học (Lãng mạn, Hiện đại), phân tích văn bản phi hư cấu, và các bài diễn văn mang tính bước ngoặt từ thế kỷ 17 đến thế kỷ 19.</p>
-              </div>
+              <p>
+                Học sinh nghiên cứu các phong trào văn học (Lãng mạn, Hiện đại),
+                phân tích văn bản phi hư cấu, và các bài diễn văn mang tính bước
+                ngoặt từ thế kỷ 17 đến thế kỷ 19.
+              </p>
             </div>
           </div>
-         </div>
-    <!-- OUR qualifications -->
-    <div class="qualifications">
-      <div class="container">
-        <hr>
-        <div class="row row-1">
-          <div class="col-4 left-col">
-            <h1>KIỂM ĐỊNH <br> CÔNG NHẬN</h1>
-          </div>
-          <div class="col-6 right-col">
-            <p>Kiểm định bởi Cognia (trước đây là AdvancED), bao gồm:</p>
-            <p>
-              - NCA CASI (North Central Association Commission on Accreditation and School Improvement - Ủy ban Kiểm
-                định và Cải tiến Trường học thuộc Hiệp hội các trường Trung học và Đại học vùng Trung Bắc – Hoa Kỳ)
-              <br>
-              - NWAC (Northwest Accreditation Commission - Ủy ban Kiểm định vùng Tây Bắc Hoa Kỳ)
-                <br>
-              - SACS CASI (Southern Association of Colleges and Schools Council on Accreditation and School
-                Improvement
-                – Hiệp hội Kiểm định và Cải tiến Trường học thuộc Hiệp hội các trường Cao đẳng và Đại học vùng phía Nam)
+        </div>
+      </div>
+      <!-- OUR qualifications -->
+      <div class="qualifications">
+        <div class="container">
+          <hr />
+          <div class="row row-1">
+            <div class="col-4 left-col">
+              <h1>
+                KIỂM ĐỊNH <br />
+                CÔNG NHẬN
+              </h1>
+            </div>
+            <div class="col-6 right-col">
+              <p>Kiểm định bởi Cognia (trước đây là AdvancED), bao gồm:</p>
+              <p>
+                - NCA CASI (North Central Association Commission on
+                Accreditation and School Improvement - Ủy ban Kiểm định và Cải
+                tiến Trường học thuộc Hiệp hội các trường Trung học và Đại học
+                vùng Trung Bắc – Hoa Kỳ)
+                <br />
+                - NWAC (Northwest Accreditation Commission - Ủy ban Kiểm định
+                vùng Tây Bắc Hoa Kỳ)
+                <br />
+                - SACS CASI (Southern Association of Colleges and Schools
+                Council on Accreditation and School Improvement – Hiệp hội Kiểm
+                định và Cải tiến Trường học thuộc Hiệp hội các trường Cao đẳng
+                và Đại học vùng phía Nam)
               </p>
-            <p>Được công nhận chương trình bởi NCAA (National Collegiate Athletic Association - Hiệp hội Thể thao Đại
-              học Quốc gia Hoa Kỳ)</p>
-            <p>Được phê duyệt chính thức bởi hệ thống Đại học California để đáp ứng các yêu cầu môn học A-G cho việc
-              nhập học đại học (as an A-G course provider by the University of California)</p>
+              <p>
+                Được công nhận chương trình bởi NCAA (National Collegiate
+                Athletic Association - Hiệp hội Thể thao Đại học Quốc gia Hoa
+                Kỳ)
+              </p>
+              <p>
+                Được phê duyệt chính thức bởi hệ thống Đại học California để đáp
+                ứng các yêu cầu môn học A-G cho việc nhập học đại học (as an A-G
+                course provider by the University of California)
+              </p>
+            </div>
+          </div>
+          <div class="row row-2">
+            <div class="container img-container">
+              <img src="/img/img_Sune/partner-1.jpg" alt="" />
+              <img src="/img/img_Sune/partner-2.jpg" alt="" />
+              <img src="/img/img_Sune/partner-3.jpg" alt="" />
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <!-- partner -->
+      <div class="our-partner">
+        <h2 class="tittle">Our Partners</h2>
+        <div class="carousel-partner">
+          <div class="wrap">
+            <img src="/img/partner_1.png" alt="" />
+            <img src="/img/partner_2.png" alt="" />
+            <img src="/img/partner_3.png" alt="" />
+            <img src="/img/partner_1.png" alt="" />
+            <img src="/img/partner_2.png" alt="" />
+            <img src="/img/partner_3.png" alt="" />
           </div>
         </div>
-        <div class="row row-2">
-          <div class="container img-container">
-            <img src="/img/img_Sune/partner-1.jpg" alt="">
-            <img src="/img/img_Sune/partner-2.jpg" alt="">
-            <img src="/img/img_Sune/partner-3.jpg" alt="">
+      </div>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="container small border-top">
+        <div class="row py-5 d-flex justify-content-between">
+          <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+            <img
+              src="/img/img_Sune/index/logo.png"
+              alt="Company Logo"
+              style="width: 8rem"
+            />
+          </div>
+          <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+            <h3 class="h6 mb-3">VĂN PHÒNG CHÍNH</h3>
+            <address class="text-secondary mt-3">
+              478 Nguyễn Tất Thành, Phường Xóm Chiếu, Thành phố Hồ Chí Minh,
+              Viet Nam.<br /><br />
+              <a href="tel:84 779 661 879">+84 779 661 879</a><br /><br />
+              <a href="">info@suned.edu.vn</a>
+            </address>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+            <h3 class="h6 mb-3">ĐIỀU HƯỚNG</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link link-secondary ps-0"
+                  aria-current="page"
+                  href="/index_vn.html"
+                  >Trang chủ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html"
+                  >Giới thiệu</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-secondary ps-0" href="/news_vn.html"
+                  >Tin tức</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link link-secondary ps-0" href="/contact_vn.html"
+                  >Liên hệ</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-6 col-xl-3 p-5">
+            <h3 class="h6 mb-3">Kênh truyền thông</h3>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a
+                  class="nav-link link-secondary ps-0"
+                  aria-current="page"
+                  href="https://zalo.me/84779661879"
+                  >Zalo</a
+                >
+                <a
+                  class="nav-link link-secondary ps-0"
+                  aria-current="page"
+                  href="https://www.facebook.com/profile.php?id=61568250823279"
+                  >Facebook</a
+                >
+                <a
+                  class="nav-link link-secondary ps-0"
+                  aria-current="page"
+                  href="https://x.com/SunEd2024"
+                  >X</a
+                >
+              </li>
+            </ul>
           </div>
         </div>
-        <hr>
       </div>
-    </div>
-    <!-- partner -->
-    <div class="our-partner">
-      <h2 class="tittle">Our Partners</h2>
-      <div class="carousel-partner">
-        <div class="wrap">
-          <img src="/img/partner_1.png" alt="" />
-          <img src="/img/partner_2.png" alt="" />
-          <img src="/img/partner_3.png" alt="" />
-          <img src="/img/partner_1.png" alt="" />
-          <img src="/img/partner_2.png" alt="" />
-          <img src="/img/partner_3.png" alt="" />
-        </div>
+
+      <div class="container text-center py-3 small">
+        © 2025 by
+        <a
+          href="https://www.suned.edu.vn/"
+          class="copyright link-fancy"
+          target="_blank"
+          >SunEd</a
+        >
       </div>
-    </div>
-  </main>
-  <!-- footer -->
-  <footer>
-    <div class="container small border-top">
-      <div class="row py-5 d-flex justify-content-between">
+    </footer>
+    <!-- script -->
+    <script src="/js/subjects.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 800, // values from 0 to 3000, with step 50ms
+      });
+    </script>
 
-        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-          <img src="/img/img_Sune/index/logo.png" alt="Company Logo" style="width: 8rem;">
-        </div>
-        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-          <h3 class="h6 mb-3">VĂN PHÒNG CHÍNH</h3>
-          <address class="text-secondary mt-3">
-            478 Nguyễn Tất Thành, Phường Xóm Chiếu, Thành phố Hồ Chí Minh, Viet Nam.<br><br>
-            <a href="tel:84 779 661 879">+84 779 661 879</a><br><br>
-            <a href="">info@suned.edu.vn</a>
-          </address>
-        </div>
-        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
-          <h3 class="h6 mb-3">
-            ĐIỀU HƯỚNG
-          </h3>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="/index_vn.html">Trang chủ</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="/aboutus_vn.html">Giới thiệu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="/news_vn.html">Tin tức</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" href="/contact_vn.html">Liên hệ</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-12 col-lg-6 col-xl-3 p-5">
-          <h3 class="h6 mb-3">Kênh truyền thông</h3>
-          <ul class="nav flex-column">
-            <li class="nav-item">
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://zalo.me/84779661879">Zalo</a>
-              <a class="nav-link link-secondary ps-0" aria-current="page"
-                href="https://www.facebook.com/profile.php?id=61568250823279">Facebook</a>
-              <a class="nav-link link-secondary ps-0" aria-current="page" href="https://x.com/SunEd2024">X</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <script>
+      let scrollpos = window.scrollY;
+      const header = document.querySelector(".navbar");
+      const header_height = header.offsetHeight;
 
-    <div class="container text-center py-3 small">© 2025 by <a href="https://www.suned.edu.vn/"
-        class="copyright link-fancy" target="_blank">SunEd</a>
-    </div>
-  </footer>
-  <!-- script -->
-  <script src="/js/subjects.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script>
-    AOS.init({
-      duration: 800, // values from 0 to 3000, with step 50ms
-    });
-  </script>
+      const add_class_on_scroll = () =>
+        header.classList.add("scrolled", "shadow-sm");
+      const remove_class_on_scroll = () =>
+        header.classList.remove("scrolled", "shadow-sm");
 
-  <script>
-    let scrollpos = window.scrollY
-    const header = document.querySelector(".navbar")
-    const header_height = header.offsetHeight
+      window.addEventListener("scroll", function () {
+        scrollpos = window.scrollY;
 
-    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
-    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+        if (scrollpos >= header_height) {
+          add_class_on_scroll();
+        } else {
+          remove_class_on_scroll();
+        }
 
-    window.addEventListener('scroll', function () {
-      scrollpos = window.scrollY;
-
-      if (scrollpos >= header_height) { add_class_on_scroll() }
-      else { remove_class_on_scroll() }
-
-      console.log(scrollpos)
-    })
-  </script>
-  <!-- bs5v3 -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
+        console.log(scrollpos);
+      });
+    </script>
+    <!-- bs5v3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
