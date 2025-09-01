@@ -3,7 +3,7 @@ body {
     max-width: 100%;
     overflow-x: hidden; /* tránh kéo ngang */
     word-wrap: break-word; /* text tự xuống dòng */
-  }
+}
 .navbar-nav .nav-link {
     color: white;
     font-weight: 500;
@@ -344,7 +344,11 @@ footer .copyright {
         border-radius: 10px;
         margin-top: 0.5rem;
     }
-
+    .nav-item:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
     .dropdown-menu li {
         padding-left: 1rem;
     }
@@ -354,13 +358,6 @@ footer .copyright {
         padding-left: 0;
         /* (tuỳ chọn) bỏ thụt đầu dòng */
     }
-
-    .nav-item:hover .dropdown-menu {
-        opacity: 1;
-        visibility: visible;
-        transform: translateY(0);
-    }
-
     .nav-item a {
         text-decoration: none;
     }

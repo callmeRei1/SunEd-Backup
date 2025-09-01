@@ -71,7 +71,6 @@ body {
     grid-area: idea-8;
 }
 
-
 @media (min-width: 320px) {
     body {
         overflow-x: hidden;
@@ -83,9 +82,11 @@ body {
     nav {
         width: 100vw;
     }
-    .navbar-nav .nav-link{
+
+    .navbar-nav .nav-link {
         color: black;
     }
+
     nav img {
         background-color: white;
         padding: 5px;
@@ -115,7 +116,7 @@ body {
     .carousel {
         width: 100vw;
         height: 50vh;
-        background-image: url('/img/7.PNG');
+        background-image: url("/img/7.PNG");
         background-size: cover;
         background-position: center;
         background-repeat: none;
@@ -151,87 +152,108 @@ body {
         text-decoration: none;
         font-weight: 500;
     }
+
     /* trainingRoadmap */
-    .TrainingRoadmap{
+    .TrainingRoadmap {
         padding: 1rem;
     }
-    .TrainingRoadmap .title{
+
+    .TrainingRoadmap .title {
         text-align: center;
         padding: 1rem;
         font-size: 1em;
     }
-    .TrainingRoadmap td{
+
+    .TrainingRoadmap td {
         padding: 0.5rem;
         font-size: 0.5rem;
     }
-    .TrainingRoadmap th{
-        background-color: #FFBC2C;
+
+    .TrainingRoadmap th {
+        background-color: #ffbc2c;
         font-size: 0.7rem;
     }
+
     /* trainnote */
-    .TrainingNote{
+    .TrainingNote {
         text-align: center;
     }
-    .TrainingNote h2{
+
+    .TrainingNote h2 {
         font-size: 1.5rem;
     }
+
     .TrainingNote .container {
         text-align: center;
-        display: inline-block;  /* để box không kéo dài hết chiều ngang */
+        display: inline-block;
+        /* để box không kéo dài hết chiều ngang */
         color: black;
         padding: 20px 25px;
         font-size: 0.7rem;
         line-height: 1.6;
-        max-width: 700px;   /* giới hạn chiều rộng */
-        text-align: left;   /* chữ bên trong vẫn căn trái */
+        max-width: 700px;
+        /* giới hạn chiều rộng */
+        text-align: left;
+        /* chữ bên trong vẫn căn trái */
     }
 
     /* Training Content */
-    .TrainingContent{
+    .TrainingContent {
         letter-spacing: normal;
         word-spacing: normal;
         text-align: justify;
         white-space: normal;
     }
-    .TrainingContent .title{
+
+    .TrainingContent .title {
         padding: 1rem;
         font-size: 1.2rem;
         font-weight: 700;
     }
-    .TrainingContent th{
+
+    .TrainingContent th {
         font-size: 1rem;
         padding: 2rem;
         text-align: center;
         background-color: #f7a723;
         white-space: nowrap;
     }
-    .TrainingContent td{
+
+    .TrainingContent td {
         padding: 1rem;
     }
-    .TrainingContent .table-768{
+
+    .TrainingContent .table-768 {
         display: none;
     }
-    .TrainingContent 
+
+    .TrainingContent
+
     /* content-320 */
-    .TrainingContent h5{
+    .TrainingContent h5 {
         text-align: center;
     }
-    .TrainingContent .item{
+
+    .TrainingContent .item {
         min-width: 320px;
         padding: 2rem;
         border-radius: 16px;
     }
-    .TrainingContent .content-320 h2{
+
+    .TrainingContent .content-320 h2 {
         font-size: 1.1rem;
         font-weight: bold;
     }
-    .TrainingContent .content-320 h3{
+
+    .TrainingContent .content-320 h3 {
         font-size: 1rem;
         font-weight: bold;
     }
-    .TrainingContent .content-320 p{
+
+    .TrainingContent .content-320 p {
         font-size: 1rem;
     }
+
     /* qualification */
     .qualifications {
         display: flex;
@@ -251,11 +273,8 @@ body {
         padding: 1rem;
         background-color: lightgray;
         border-radius: 20px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15), 0 8px 20px rgba(0, 0, 0, 0.15);
         max-width: 400px;
         margin: 0 5px;
     }
@@ -346,15 +365,12 @@ body {
         width: 100vw;
         grid-template-columns: repeat(3, 1fr);
         /* 3 cột đều nhau */
-        background-color: #FFDB5C;
+        background-color: #ffdb5c;
         gap: 0.5rem;
         padding: 1rem;
         border-radius: 20px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15),
+            0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     .subjects h2 {
@@ -385,9 +401,7 @@ body {
         font-weight: 600;
         font-size: 1.2rem;
         border-radius: 10px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     .subjects .btn:hover {
@@ -399,10 +413,8 @@ body {
     }
 
     .subjects .card-body {
-        background-color: #FFBC2C;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15);
+        background-color: #ffbc2c;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15);
     }
 
     /* our partner */
@@ -413,6 +425,7 @@ body {
 
 /* Medium devices (≥768px) */
 @media (min-width: 768px) {
+
     /* Nav */
     nav img {
         background-color: white;
@@ -434,13 +447,21 @@ body {
         width: max-content;
         font-size: 1rem;
     }
+    /* nav item */
+    .nav-link.dropdown:hover .dropdown-menu {
+        display: contents;
+    }
 
+    .dropdown-menu {
+        margin-top: 0;
+        /* tránh bị lệch */
+    }
     /* carousel */
     .carousel {
         min-height: fit-content;
         max-height: 80vh;
         padding: 3rem;
-        background-image: url('/img/3.PNG');
+        background-image: url("/img/3.PNG");
         background-position: center;
     }
 
@@ -466,55 +487,60 @@ body {
     .carousel .container a {
         font-size: 1rem;
     }
-    /* nav item */
-    .nav-link.dropdown:hover .dropdown-menu {
-  display: block;
-}
-.dropdown-menu {
-  margin-top: 0; /* tránh bị lệch */
-}
+
     /* trainingRoadmap */
-        .TrainingRoadmap{
-            padding: 1rem;
-        }
-        .TrainingRoadmap .title{
-            text-align: center;
-            padding: 1rem;
-            font-size: 1.5rem;
-        }
-        .TrainingRoadmap td{
-            padding: 1rem;
-            font-size: 1rem;
-        }
-        .TrainingRoadmap th{
-            background-color: #FFBC2C;
-            font-size: 1rem;
-        }
-        /* trainnote */
-        .TrainingNote h2{
-            font-size: 1.5rem;
-        }
-        .TrainingNote .container {
-            display: inline-block;
-            color: black;
-            font-size: 1rem;
-          }
-        .TrainingContent .content-320{
-            display: none;
-        }
-        .TrainingContent .table-768{
-            display: block;
-        }
-        .TrainingContent td{
-            text-align: center;
-        }
-        .TrainingContent td.content{
-            text-align: justify;
-        }
-    /* details */
-    .details{
+    .TrainingRoadmap {
+        padding: 1rem;
+    }
+
+    .TrainingRoadmap .title {
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .TrainingRoadmap td {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .TrainingRoadmap th {
+        background-color: #ffbc2c;
+        font-size: 1rem;
+    }
+
+    /* trainnote */
+    .TrainingNote h2 {
+        font-size: 1.5rem;
+    }
+
+    .TrainingNote .container {
+        display: inline-block;
+        color: black;
+        font-size: 1rem;
+    }
+
+    .TrainingContent .content-320 {
+        display: none;
+    }
+
+    .TrainingContent .table-768 {
+        display: block;
+    }
+
+    .TrainingContent td {
+        text-align: center;
+    }
+
+    .TrainingContent td.content {
         text-align: justify;
     }
+
+    /* details */
+    .details {
+        text-align: justify;
+    }
+
     .details .col-6 h2 {
         font-size: 1.5rem;
     }
@@ -528,9 +554,10 @@ body {
     }
 
     /* qualification */
-    .qualifications{
+    .qualifications {
         text-align: justify;
     }
+
     .qualifications .row-1 h1 {
         margin-top: 20px;
         font-size: 1.7rem;
@@ -603,7 +630,7 @@ body {
 
     /* Carousel */
     .carousel {
-        background-image: url('/img/3.png');
+        background-image: url("/img/3.png");
         background-size: cover;
         margin-bottom: 1rem;
         min-height: fit-content;
@@ -617,25 +644,30 @@ body {
         font-size: 5.5rem;
     }
 
-        /* trainingRoadmap */
-        .TrainingRoadmap .title{
-            font-size: 2rem;
-        }
-        .TrainingRoadmap th{
-            font-size: 1rem;
-        }
-        .TrainingRoadmap td{
-            font-size: 1rem;
-        }
-                /* trainnote */
-                .TrainingNote h2{
-                    font-size: 1.5rem;
-                }
-                .TrainingNote .container {
-                    display: inline-block;
-                    color: black;
-                    font-size: 1rem;
-                  }
+    /* trainingRoadmap */
+    .TrainingRoadmap .title {
+        font-size: 2rem;
+    }
+
+    .TrainingRoadmap th {
+        font-size: 1rem;
+    }
+
+    .TrainingRoadmap td {
+        font-size: 1rem;
+    }
+
+    /* trainnote */
+    .TrainingNote h2 {
+        font-size: 1.5rem;
+    }
+
+    .TrainingNote .container {
+        display: inline-block;
+        color: black;
+        font-size: 1rem;
+    }
+
     /* Details */
     .details {
         height: fit-content;
@@ -662,14 +694,16 @@ body {
         font-size: 2rem;
         padding: auto;
     }
-    
+
     /* qualifications */
     .qualifications .left-col h1 {
         font-size: 2.5rem;
     }
-    .qualifications .right-col{
+
+    .qualifications .right-col {
         text-align: justify;
     }
+
     /* .subjects */
     .subjects h2 {
         font-size: 2rem;
@@ -678,12 +712,12 @@ body {
 
 /* Extra large devices (≥1200px) */
 @media (min-width: 1200px) {
+
     /* Carousel */
     .carousel {
         min-height: fit-content;
         padding: 2rem;
-        background-image: url('/img/3.PNG');
-
+        background-image: url("/img/3.PNG");
     }
 
     .carousel .container {
@@ -708,13 +742,15 @@ body {
     }
 
     /* TrainingRoadmap */
-    .TrainingRoadmap .title{
+    .TrainingRoadmap .title {
         font-size: 2rem;
     }
-    .TrainingRoadmap th{
+
+    .TrainingRoadmap th {
         font-size: 1rem;
     }
-    .TrainingRoadmap td{
+
+    .TrainingRoadmap td {
         font-size: 1rem;
     }
 
@@ -784,11 +820,8 @@ body {
         font-size: 1.5rem;
         background-color: lightgray;
         border-radius: 20px;
-        box-shadow:
-            0 4px 6px rgba(0, 0, 0, 0.1),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15),
+            0 8px 20px rgba(0, 0, 0, 0.15), 0 8px 20px rgba(0, 0, 0, 0.15);
         max-width: 600px;
         margin: 0 5px;
     }
@@ -825,7 +858,6 @@ body {
     .our-partner {
         display: contents;
     }
-
 }
 
 /* Extra large devices (≥1680px) */
