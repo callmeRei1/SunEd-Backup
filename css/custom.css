@@ -1,9 +1,12 @@
 /* General */
 body {
     max-width: 100%;
-    overflow-x: hidden; /* tránh kéo ngang */
-    word-wrap: break-word; /* text tự xuống dòng */
+    overflow-x: hidden;
+    /* tránh kéo ngang */
+    word-wrap: break-word;
+    /* text tự xuống dòng */
 }
+
 .navbar-nav .nav-link {
     color: white;
     font-weight: 500;
@@ -18,6 +21,7 @@ body {
     background-color: rgb(255, 255, 255);
     color: #000;
 }
+
 /* CONTACT */
 .contact .contact-right button {
     border: 0.5px black solid;
@@ -53,73 +57,6 @@ footer .copyright {
 @media (max-width: 375px) {
     * {
         box-sizing: border-box;
-        
-    }
-
-
-    /* Pop-up */
-    .popup {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .popup .container {
-        padding: 20px;
-        text-align: center;
-        max-width: 900px;
-        position: relative;
-    }
-
-    .popup .btn-popup-close {
-        border: none;
-        width: 2rem;
-        position: absolute;
-        top: 20px;
-        right: 130px;
-        border-radius: 10px;
-        color: black;
-        background-color: #FFBC2C;
-    }
-
-    .popup .btn-popup-close:hover {
-        color: white;
-    }
-
-    .popup .container img {
-        width: 400px;
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .popup .container a {
-        display: block;
-        letter-spacing: 0.2px;
-        font-size: 1.5rem;
-        color: #FFBC2C;
-        border-radius: 10px;
-        text-decoration: none;
-        font-weight: 900;
-        text-shadow:
-            1px 1px 0 #000,
-            -1px 1px 0 #000,
-            1px -1px 0 #000,
-            -1px -1px 0 #000,
-            3px 3px 0 #aaa,
-            4px 4px 0 #999,
-            5px 5px 0 #888,
-            6px 6px 0 #777;
-    }
-
-    .popup .container a:hover {
-        font-size: 2rem;
     }
 
     /* NAVBAR */
@@ -177,6 +114,7 @@ footer .copyright {
         padding-right: 1rem;
     }
 }
+
 /* >= 375 */
 @media (min-width: 320px) {
 
@@ -209,7 +147,7 @@ footer .copyright {
         right: 130px;
         border-radius: 10px;
         color: black;
-        background-color: #FFBC2C;
+        background-color: #ffbc2c;
     }
 
     .popup .btn-popup-close:hover {
@@ -226,29 +164,26 @@ footer .copyright {
         display: block;
         letter-spacing: 0.2px;
         font-size: 1.5rem;
-        color: #FFBC2C;
+        color: #ffbc2c;
         border-radius: 10px;
         text-decoration: none;
         font-weight: 900;
-        text-shadow:
-            1px 1px 0 #000,
-            -1px 1px 0 #000,
-            1px -1px 0 #000,
-            -1px -1px 0 #000,
-            3px 3px 0 #aaa,
-            4px 4px 0 #999,
-            5px 5px 0 #888,
+        text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+            -1px -1px 0 #000, 3px 3px 0 #aaa, 4px 4px 0 #999, 5px 5px 0 #888,
             6px 6px 0 #777;
     }
 
     .popup .container a:hover {
         font-size: 2rem;
     }
+    /* end pop-up */
+
     /* .our-partner */
-    .our-partner{
+    .our-partner {
         display: none;
     }
 }
+
 /* >= 375 */
 @media (min-width: 375px) {
 
@@ -281,7 +216,7 @@ footer .copyright {
         right: 130px;
         border-radius: 10px;
         color: black;
-        background-color: #FFBC2C;
+        background-color: #ffbc2c;
     }
 
     .popup .btn-popup-close:hover {
@@ -298,18 +233,12 @@ footer .copyright {
         display: block;
         letter-spacing: 0.2px;
         font-size: 1.5rem;
-        color: #FFBC2C;
+        color: #ffbc2c;
         border-radius: 10px;
         text-decoration: none;
         font-weight: 900;
-        text-shadow:
-            1px 1px 0 #000,
-            -1px 1px 0 #000,
-            1px -1px 0 #000,
-            -1px -1px 0 #000,
-            3px 3px 0 #aaa,
-            4px 4px 0 #999,
-            5px 5px 0 #888,
+        text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
+            -1px -1px 0 #000, 3px 3px 0 #aaa, 4px 4px 0 #999, 5px 5px 0 #888,
             6px 6px 0 #777;
     }
 
@@ -333,7 +262,7 @@ footer .copyright {
     }
 
     /* navar - dropdown */
-    .dropdown-menu {
+    .dropdown-menu-custom {
         opacity: 0;
         background-color: rgba(255, 255, 255, 0.644);
         padding: 1rem;
@@ -344,20 +273,23 @@ footer .copyright {
         border-radius: 10px;
         margin-top: 0.5rem;
     }
-    .nav-item:hover .dropdown-menu {
+
+    .nav-item:hover .dropdown-menu-custom {
         opacity: 1;
         visibility: visible;
         transform: translateY(0);
     }
-    .dropdown-menu li {
+
+    .dropdown-menu-custom li {
         padding-left: 1rem;
     }
 
-    .no-bullet {
+    .no-bullet-custom {
         list-style-type: none;
         padding-left: 0;
         /* (tuỳ chọn) bỏ thụt đầu dòng */
     }
+
     .nav-item a {
         text-decoration: none;
     }
@@ -612,10 +544,12 @@ footer .copyright {
         display: grid;
         align-items: center;
     }
-    .contact-left img{
+
+    .contact-left img {
         width: 100%;
         margin-top: 1rem;
     }
+
     /* right */
     .contact .contact-right {
         margin: 0 auto;
@@ -642,10 +576,9 @@ footer .copyright {
     }
 
     /* OUR partner */
-    .our-partner{
+    .our-partner {
         display: contents;
     }
- 
 }
 
 /* >=992px */
@@ -739,7 +672,6 @@ footer .copyright {
         font-size: 0.6rem;
         font-weight: 500;
     }
-
 }
 
 /* >= 1024px */

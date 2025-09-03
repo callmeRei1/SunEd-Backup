@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="css/theme.min.css">
   <link rel="stylesheet" href="css/custom.css">
   <link rel="stylesheet" href="css/partner.css">
-  <!-- ggtag tracking -->
+  <!-- gg tag tracking -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-X6M0JGJ7RW"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -24,6 +24,7 @@
     gtag('js', new Date());
     gtag('config', 'G-X6M0JGJ7RW');
   </script>
+  <!-- end gg tag tracking -->
   <!-- font chữ -->
   <style>
     /* logo font */
@@ -74,6 +75,7 @@
       /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
     }
   </style>
+  <!-- end font chữ  -->
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navScroll">
@@ -111,7 +113,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">Programs</a>
-            <ul class="dropdown-menu no-bullet">
+            <ul class="dropdown-menu-custom no-bullet-custom">
               <li><a href="/Programs/EN/EnglishCourse_en.html" class="nav-decor nav-item-style">Online English</a></li>
               <li><a href="/Programs/EN/DualDiploma_en.html" class="nav-decor nav-item-style">Dual Diploma</a></li>
             </ul>
@@ -386,25 +388,17 @@
         class="copyright ink-fancy" target="_blank">SunEd</a>
     </div>
   </footer>
-  <!-- popup script -->
-<!-- <script>
-  document.documentElement.style.overflow = 'hidden'; // chặn scroll cho toàn bộ trang
-  
-  function closePopup() {
-    const popup = document.getElementById('popup');
-    popup.style.display = 'none';
-    // Cho phép scroll lại
-    document.documentElement.style.overflow = 'auto';
-  }
-  </script> -->
-  <!-- ------ -->
+
+  <!-- scripts -->
   <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- AOS script -->
   <script src="js/aos.js"></script>
   <script>
     AOS.init({
       duration: 800, // values from 0 to 3000, with step 50ms
     });
   </script>
+  <!-- end AOS script  -->
   <!-- js scroll navbar -->
   <script>
     let scrollpos = window.scrollY
