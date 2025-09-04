@@ -77,7 +77,7 @@ body {
 
     .navbar-collapse {
         width: max-content;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     /* carousel */
@@ -163,83 +163,99 @@ body {
     .intro .col-6 li {
         font-size: 0.5rem;
     }
+
     /* TrainingRoadmap */
-    .TrainingRoadmap{
+    .TrainingRoadmap {
         width: fit-content;
         height: auto;
         padding: 1rem;
     }
-    .TrainingRoadmap .table-responsive{
+
+    .TrainingRoadmap .table-responsive {
         border: 1px black solid;
     }
+
     .TrainingRoadmap .title {
         font-size: 1.2rem;
         text-align: center;
         padding: 1rem;
     }
-    .TrainingRoadmap th{
+
+    .TrainingRoadmap th {
         font-size: 0.8rem;
         text-align: center;
         border: 1px black solid;
     }
-    .TrainingRoadmap td{
+
+    .TrainingRoadmap td {
         font-size: 0.8rem;
         text-align: center;
         border: 1px black solid;
     }
+
     /* TrainingNote */
-    .TrainingNote h2{
+    .TrainingNote h2 {
         font-size: 1.2rem;
     }
-    .TrainingNote li{
+
+    .TrainingNote li {
         font-size: 1rem;
     }
 
     /* TrainingContent */
-    .TrainingContent{
+    .TrainingContent {
         width: fit-content;
         height: auto;
         padding: 1rem;
     }
-    .TrainingContent .xl-layout{
+
+    .TrainingContent .xl-layout {
         display: none;
     }
-    .TrainingContent .card-layout{
+
+    .TrainingContent .card-layout {
         margin-bottom: 1.5rem;
     }
-    .TrainingContent h1{
+
+    .TrainingContent h1 {
         font-size: 1.2rem;
         text-align: center;
         font-weight: 800;
     }
-    .TrainingContent .card-layout h2.title{
+
+    .TrainingContent .card-layout h2.title {
         font-size: 1.1rem;
         font-weight: 700;
         padding: 0.8rem;
         text-decoration: underline;
     }
-    .TrainingContent .card-layout h3{
+
+    .TrainingContent .card-layout h3 {
         font-size: 1rem;
         font-weight: 600;
         margin: 0;
     }
-    .TrainingContent .card-layout p{
+
+    .TrainingContent .card-layout p {
         font-size: 1rem;
         margin: 0rem;
         padding: 0.5rem;
         text-align: justify;
     }
-    .TrainingContent .note ol{
+
+    .TrainingContent .note ol {
         color: red;
         font-weight: 700;
         font-size: 1.1rem;
     }
-    .TrainingContent .note li{
+
+    .TrainingContent .note li {
         color: black;
         font-weight: 400;
         font-size: 1rem;
         padding: 0.5rem;
     }
+
     /* advanced */
     .advanced {
         width: 100vw;
@@ -396,6 +412,9 @@ body {
         margin-right: 0;
     }
 
+    .navbar-collapse {
+        font-size: 16px;
+    }
     /* carousel */
     .carousel {
         max-height: 80vh;
@@ -435,43 +454,48 @@ body {
     }
 
     /* TrainingContent */
-    .TrainingContent .sm-layout{
+    .TrainingContent .sm-layout {
         display: none;
     }
-    .TrainingContent .xl-layout{
+
+    .TrainingContent .xl-layout {
         display: block;
     }
-    .TrainingContent h1{
+
+    .TrainingContent h1 {
         padding: 2rem;
     }
-    .TrainingContent ol{
+
+    .TrainingContent ol {
         margin-top: 1rem;
     }
+
     .custom-table-2 {
-    width:100%;
-    border-collapse: collapse;
-    background-color: whitesmoke; /* nền bảng */
-    color:black;
-  }
-  
-  .custom-table-2 th, 
-  .custom-table-2 td {
-    border: 1px solid black;
-    padding: 12px 15px;
-    vertical-align: middle;
-    text-align: left;
-  }
-  
-  .custom-table-2 th {
-    background-color: #f7a723;
-    color: black;
-    text-transform: uppercase;
-    text-align: center;
-  }
-  
-  .custom-table-2 td b {
-    font-weight: bold;
-  }
+        width: 100%;
+        border-collapse: collapse;
+        background-color: whitesmoke;
+        /* nền bảng */
+        color: black;
+    }
+
+    .custom-table-2 th,
+    .custom-table-2 td {
+        border: 1px solid black;
+        padding: 12px 15px;
+        vertical-align: middle;
+        text-align: left;
+    }
+
+    .custom-table-2 th {
+        background-color: #f7a723;
+        color: black;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .custom-table-2 td b {
+        font-weight: bold;
+    }
 
     /* advanced */
     .advanced .container {
@@ -479,6 +503,7 @@ body {
             "head-tittle a b"
             "c d e";
     }
+
     .advanced .container .a {
         text-align: center;
         padding: 2rem;
@@ -575,48 +600,59 @@ body {
     .intro .col-6 h2 {
         font-size: 2rem;
     }
+
     .intro .col-6 ul {
-       padding: 1rem;
+        padding: 1rem;
     }
+
     .intro .col-6 li {
         font-size: 1rem;
     }
-   /* TrainingRoadmap */
-    .TrainingRoadmap{
-    width: 100vw;
+
+    /* TrainingRoadmap */
+    .TrainingRoadmap {
+        width: 100vw;
     }
-    .TrainingRoadmap .table-responsive{
+
+    .TrainingRoadmap .table-responsive {
         margin: 0 auto;
     }
-    .TrainingRoadmap h5.title{
+
+    .TrainingRoadmap h5.title {
         color: white;
         font-size: 1.5rem;
     }
+
     /* .TrainingNote */
     .TrainingNote {
         color: white;
         margin-top: 1rem;
         padding: 0 4rem;
     }
+
     .TrainingNote h2 {
         color: red;
     }
 
     /* .TrainingContent */
-    .TrainingContent{
+    .TrainingContent {
         color: white;
         padding: 2rem;
     }
-    .TrainingContent h1{
+
+    .TrainingContent h1 {
         font-size: 1.5rem;
     }
-    .TrainingContent .note ol{
+
+    .TrainingContent .note ol {
         margin-top: 2rem;
         padding: 0 4rem;
     }
-    .TrainingContent .note li{
+
+    .TrainingContent .note li {
         color: white;
     }
+
     /* advanced */
     .advanced .container {
         grid-template-areas:
@@ -702,6 +738,7 @@ body {
     .sample h2 {
         padding-bottom: 3rem;
     }
+
     .sample .container img {
         min-width: 100px;
     }

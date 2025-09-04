@@ -118,66 +118,6 @@ footer .copyright {
 /* >= 375 */
 @media (min-width: 320px) {
 
-    /* Pop-up */
-    .popup {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .popup .container {
-        padding: 20px;
-        text-align: center;
-        max-width: 900px;
-        position: relative;
-    }
-
-    .popup .btn-popup-close {
-        border: none;
-        width: 2rem;
-        position: absolute;
-        top: 20px;
-        right: 130px;
-        border-radius: 10px;
-        color: black;
-        background-color: #ffbc2c;
-    }
-
-    .popup .btn-popup-close:hover {
-        color: white;
-    }
-
-    .popup .container img {
-        width: 400px;
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .popup .container a {
-        display: block;
-        letter-spacing: 0.2px;
-        font-size: 1.5rem;
-        color: #ffbc2c;
-        border-radius: 10px;
-        text-decoration: none;
-        font-weight: 900;
-        text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-            -1px -1px 0 #000, 3px 3px 0 #aaa, 4px 4px 0 #999, 5px 5px 0 #888,
-            6px 6px 0 #777;
-    }
-
-    .popup .container a:hover {
-        font-size: 2rem;
-    }
-    /* end pop-up */
-
     /* .our-partner */
     .our-partner {
         display: none;
@@ -287,7 +227,6 @@ footer .copyright {
     .no-bullet-custom {
         list-style-type: none;
         padding-left: 0;
-        /* (tuỳ chọn) bỏ thụt đầu dòng */
     }
 
     .nav-item a {
@@ -378,30 +317,6 @@ footer .copyright {
 }
 
 @media (min-width: 425px) {
-
-    /* Pop-up */
-    .popup {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-    }
-
-    .popup .container {
-        padding: 20px;
-        max-width: 900px;
-    }
-
-    .popup .btn-popup-close {
-        width: 2rem;
-        top: 20px;
-        right: 130px;
-    }
-
-    .popup .container img {
-        width: 400px;
-    }
 
     /* NAV */
     .navbar .navbar-brand img {
@@ -506,20 +421,10 @@ footer .copyright {
 /* <=770px */
 @media (min-width: 768px) {
 
-    /* Pop-up */
-    .popup .btn-popup-close {
-        right: 180px;
-    }
-
-    .popup .container img {
-        width: 500px;
-    }
-
     /* NAV */
     .navbar .navbar-brand img {
         width: 8rem;
     }
-
     /* NEWS */
     .news .news-content a {
         display: inline-block;
@@ -583,15 +488,6 @@ footer .copyright {
 
 /* >=992px */
 @media (min-width: 992px) {
-
-    /* Pop-up */
-    .popup .btn-popup-close {
-        right: 200px;
-    }
-
-    .popup .container img {
-        width: 500px;
-    }
 
     /* NAV */
     .navbar .navbar-brand img {
@@ -677,15 +573,6 @@ footer .copyright {
 /* >= 1024px */
 @media (min-width: 1024px) {
 
-    /* Pop-up */
-    .popup .btn-popup-close {
-        right: 200px;
-    }
-
-    .popup .container img {
-        width: 700px;
-    }
-
     /* NAV */
     .navbar-nav .nav-link {
         color: white;
@@ -705,6 +592,7 @@ footer .copyright {
         justify-content: flex-end;
         margin-right: 4rem;
     }
+    /* endNAV */
 
     /* CAROUSEL */
     .carousel h1 span {
