@@ -126,70 +126,15 @@ footer .copyright {
 
 /* >= 375 */
 @media (min-width: 375px) {
-
-    /* Pop-up */
-    .popup {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: rgba(0, 0, 0, 0.7);
-        z-index: 9999;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .popup .container {
-        padding: 20px;
-        text-align: center;
-        max-width: 900px;
-        position: relative;
-    }
-
-    .popup .btn-popup-close {
-        border: none;
-        width: 2rem;
-        position: absolute;
-        top: 20px;
-        right: 130px;
-        border-radius: 10px;
-        color: black;
-        background-color: #ffbc2c;
-    }
-
-    .popup .btn-popup-close:hover {
-        color: white;
-    }
-
-    .popup .container img {
-        width: 400px;
-        height: auto;
-        padding: 10px 0;
-    }
-
-    .popup .container a {
-        display: block;
-        letter-spacing: 0.2px;
-        font-size: 1.5rem;
-        color: #ffbc2c;
-        border-radius: 10px;
-        text-decoration: none;
-        font-weight: 900;
-        text-shadow: 1px 1px 0 #000, -1px 1px 0 #000, 1px -1px 0 #000,
-            -1px -1px 0 #000, 3px 3px 0 #aaa, 4px 4px 0 #999, 5px 5px 0 #888,
-            6px 6px 0 #777;
-    }
-
-    .popup .container a:hover {
-        font-size: 2rem;
-    }
-
-    /* NAV */
+    /*  mới thêm */
+* {
+    overflow-x: hidden;
+}
+    /* NAVBAR */
     .navbar {
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
         padding: 1rem 0;
+        width: 100vw;
     }
 
     .navbar .navbar-brand img {
@@ -198,7 +143,7 @@ footer .copyright {
     }
 
     .navbar button.navbar-toggler {
-        margin-right: 2rem;
+        margin: 0rem;
     }
 
     /* navar - dropdown */
@@ -278,6 +223,9 @@ footer .copyright {
     }
 
     /* SLOGAN */
+    .slogan {
+        max-width: 100vw;
+    }
     .slogan h1 {
         padding-bottom: 0.5rem;
     }
@@ -291,9 +239,40 @@ footer .copyright {
         padding-top: 0;
     }
 
+    /* VISION */
+    .vision {
+        max-width: 100vw;
+    }
+    .vision .col-img {
+        max-width: 100vw;
+        margin: 0 auto;
+    }
+    /* MISSION */
+    .mission {
+        max-width: 100vw;
+    }
+    /* NEWS */
+    .news{
+        max-width: 100vw;
+        padding: 2rem;
+    }
+    /* Action call */
+    .action-call {
+        max-width: 100vw;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    .action-call .btn{
+        font-size: 0.8rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .action-call h2{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
     /* CONTACT */
     .contact {
-        width: 100vw;
+        max-width: 100vw;
         padding: 2rem;
     }
 
@@ -314,10 +293,38 @@ footer .copyright {
     }
 
     /* OUR partner */
+    .our-partner {
+        display: none;
+    }
+    /* .our-partner-375px */
+    .carousel-partner-375px{
+        max-width: 100vw;
+    }
+    .carousel-partner-375px{
+        max-width: 90vw;
+    }
+    .our-partner-375px h2.title{
+        text-align: center;
+        padding: 1rem;
+    }
+    .carousel-partner-375px{
+        max-width:100vw;
+        width: fit-content;
+        height: fit-content;
+    }
+    .carousel-partner-375px img{
+        width: 5rem;
+        height: auto;
+        object-fit: contain;
+        padding: 0px 4px;
+    } 
+    /* end 375px */
 }
 
 @media (min-width: 425px) {
-
+    * {
+    overflow-x: scroll;
+}
     /* NAV */
     .navbar .navbar-brand img {
         width: 8rem;
