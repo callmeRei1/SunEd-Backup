@@ -438,6 +438,10 @@ footer .copyright {
     .navbar .navbar-brand img {
         width: 8rem;
     }
+    /* .dropdown-menu-custom */
+    .dropdown-menu-custom li:hover{
+        text-decoration-color: black;
+    }
     /* NEWS */
     .news .news-content a {
         display: inline-block;
