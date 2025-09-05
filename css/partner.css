@@ -1,12 +1,13 @@
     /* partner */
     .our-partner {
         margin: 0;
-        background: black;
         height: 50vh;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
+        width: 100vw;
       }
       .carousel-partner{
         overflow-x: hidden;

@@ -116,15 +116,6 @@ footer .copyright {
 }
 
 /* >= 375 */
-@media (min-width: 320px) {
-
-    /* .our-partner */
-    .our-partner {
-        display: none;
-    }
-}
-
-/* >= 375 */
 @media (min-width: 375px) {
     /*  mới thêm */
 * {
@@ -146,29 +137,33 @@ footer .copyright {
         margin: 0rem;
     }
 
-    /* navar - dropdown */
+    /* navbar - dropdown */
     .dropdown-menu-custom {
         opacity: 0;
-        background-color: rgba(255, 255, 255, 0.644);
+        background-color: rgb(255, 255, 254);
         padding: 1rem;
         visibility: hidden;
         transform: translateY(10px);
-        transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+        transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.5s ease;
         position: absolute;
-        border-radius: 10px;
-        margin-top: 0.5rem;
+        border-radius: 10px;  
     }
 
     .nav-item:hover .dropdown-menu-custom {
         opacity: 1;
         visibility: visible;
-        transform: translateY(0);
+        transform: translate(90px,-80px);
     }
 
     .dropdown-menu-custom li {
         padding-left: 1rem;
+        padding-top: 0.5rem;
+        border-radius: 10px;
     }
-
+    .dropdown-menu-custom li:hover{
+        background-color: #ECBB50;
+    }
+    /* end dropdown-menu-custom */
     .no-bullet-custom {
         list-style-type: none;
         padding-left: 0;
@@ -292,7 +287,7 @@ footer .copyright {
         padding: 1rem 0;
     }
 
-    /* OUR partner */
+    /* OUR partner - viết lại vào phần partner riêng */
     .our-partner {
         display: none;
     }
@@ -322,23 +317,30 @@ footer .copyright {
 }
 
 @media (min-width: 425px) {
-    * {
-    overflow-x: scroll;
-}
     /* NAV */
     .navbar .navbar-brand img {
         width: 8rem;
     }
-
     .navbar-toggler {
         margin-right: 4rem;
     }
-
+    .navbar-toggler li{
+        font-size: 1rem;
+    }
+    .navbar-collapse.show .nav-link {
+    font-size: 1rem;
+    }
+    /* navbar - dropdown */
+    .dropdown-menu-custom {
+        font-size: 1rem;
+    }
+    /* end dropdown-menu-custom */
+    /* endNAV */
     /* CAROUSEL */
     .carousel h1 {
         font-family: hanzel, sans-serif;
+        font-size: 3rem;
     }
-
     .carousel p {
         color: white;
         font-size: 1.5rem;
@@ -357,7 +359,7 @@ footer .copyright {
     .carousel i {
         color: white;
     }
-
+    /* end carousel */
     /* NEWS */
     .news .news-content a {
         display: inline-block;
@@ -366,7 +368,11 @@ footer .copyright {
         height: 6rem;
         margin: 1rem 0;
     }
-
+    /* end News */
+    /* partner */
+    .our-partner-375px {
+        display: none;
+    }
     /* CONTACT */
     .contact {
         width: 100vw;
@@ -397,7 +403,7 @@ footer .copyright {
     .contact .contact-right textarea {
         font-size: 0.5rem;
     }
-
+    /* end CONTACT */
     /* footer */
     footer {
         width: 100vw;
