@@ -161,7 +161,7 @@ footer .copyright {
         border-radius: 10px;
     }
     .dropdown-menu-custom li:hover{
-        background-color: #ECBB50;
+        text-decoration: underline;
     }
     /* end dropdown-menu-custom */
     .no-bullet-custom {
@@ -527,7 +527,11 @@ footer .copyright {
     .carousel i {
         color: black;
     }
-
+    /* .vision */
+    .vision .row{
+        padding: 2rem 0;
+        margin-bottom: 1rem;
+    }
     /* NEWS */
     .news .news-content a {
         display: inline-block;
