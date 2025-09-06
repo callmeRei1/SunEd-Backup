@@ -52,70 +52,8 @@ footer .copyright {
     text-decoration: none;
 }
 
-/* <= 375px */
-@media (max-width: 375px) {
-    * {
-        box-sizing: border-box;
-    }
-
-    /* NAVBAR */
-    .navbar .navbar-brand img {
-        width: 6rem;
-        height: auto;
-        margin-left: 1rem;
-    }
-
-    .navbar button {
-        margin-right: 2rem;
-    }
-
-    /* CAROUSEL */
-    .carousel .col {
-        margin-left: 1rem;
-    }
-
-    .carousel h1 {
-        font-family: hanzel, sans-serif;
-    }
-
-    .carousel p {
-        font-size: 0.8rem;
-        font-weight: 500;
-        color: white;
-    }
-
-    .carousel .btn {
-        border-radius: 0.7rem;
-        padding: 0.4rem;
-        background-color: transparent;
-        border: white 1px solid;
-    }
-
-    .carousel a {
-        font-size: 0.5rem;
-    }
-
-    /* CONTACT */
-    .contact {
-        width: 100vw;
-        padding: 2rem;
-    }
-
-    .contact .contact-left {
-        display: none;
-        width: 0;
-    }
-
-    .contact .contact-right {
-        width: 80vw;
-        margin: 0 auto;
-        align-items: center;
-        padding-right: 1rem;
-    }
-}
-
 /* >= 375 */
-@media (min-width: 375px) {
+@media (min-width: 320px) {
     /*  mới thêm */
 * {
     overflow-x: hidden;
