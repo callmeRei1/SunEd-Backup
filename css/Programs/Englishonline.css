@@ -302,6 +302,11 @@ body {
 
     /* end-trainingNote */
     /* advanced */
+    .advanced {
+        max-width: 100vw;
+        padding: 1rem 0;
+    }
+
     .advanced .container {
         grid-template-areas:
             "title"
@@ -322,7 +327,7 @@ body {
         padding: 1rem;
     }
 
-    .advanced .title h1{
+    .advanced .title h1 {
         font-size: 0.8rem;
         font-weight: 700;
     }
@@ -332,14 +337,17 @@ body {
     .TrainingContent {
         letter-spacing: normal;
         word-spacing: normal;
-        text-align: justify;
+        text-align: left;
         white-space: normal;
     }
 
     .TrainingContent .title {
         padding: 1rem;
         font-size: 1.2rem;
-        font-weight: 700;
+        font-weight: 800;
+        text-align: center;
+        background-color: #ffbc2ce0;
+        border-radius: 10px;
     }
 
     .TrainingContent th {
@@ -358,8 +366,6 @@ body {
         display: none;
     }
 
-    .TrainingContent
-
     /* content-320 */
     .TrainingContent h5 {
         text-align: center;
@@ -367,22 +373,22 @@ body {
 
     .TrainingContent .item {
         min-width: 320px;
-        padding: 2rem;
+        padding: 0.5rem 1rem;
         border-radius: 16px;
     }
 
     .TrainingContent .content-320 h2 {
         font-size: 1.1rem;
-        font-weight: bold;
+        font-weight: 700;
+        text-decoration: underline;
     }
 
     .TrainingContent .content-320 h3 {
         font-size: 1rem;
-        font-weight: bold;
     }
 
     .TrainingContent .content-320 p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     /* qualification */
@@ -395,19 +401,25 @@ body {
     .qualifications .row-1 h1 {
         text-align: center;
         font-weight: 700;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+    }
+
+    .qualifications .row-1 .left-col h1 {
+        margin-top: 5rem;
+        padding: 0.3rem;
     }
 
     .qualifications .row-1 .right-col {
         font-size: 0.7rem;
         font-weight: 600;
+        text-align: center;
         padding: 1rem;
         background-color: lightgray;
         border-radius: 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15),
             0 8px 20px rgba(0, 0, 0, 0.15), 0 8px 20px rgba(0, 0, 0, 0.15);
-        max-width: 400px;
-        margin: 0 5px;
+        max-width: 500px;
+        margin: 1rem 1.5rem;
     }
 
     .qualifications .row-1 .right-col p {
@@ -422,7 +434,7 @@ body {
         /* Căn giữa theo chiều ngang */
         align-items: center;
         /* Căn giữa theo chiều dọc (nếu cần) */
-        gap: 10px;
+        gap: 20px;
         /* Khoảng cách giữa các ảnh */
         margin-bottom: 2rem;
         margin-top: 2rem;
@@ -539,68 +551,145 @@ body {
 
     /* carousel */
     .carousel {
-        min-height: fit-content;
-        max-height: 80vh;
-        padding: 3rem;
-        /* background-image: url("/img/3.PNG"); */
-        background-position: center;
+        width: 100vw;
+        height: 30rem;
+        position: relative;
     }
 
+    .carousel img:nth-child(1) {
+        display: none;
+    }
+
+    .carousel img:nth-child(2) {
+        display: block;
+    }
+
+    /* carousel img position */
     .carousel .container {
-        padding: 1rem;
-        padding-top: 10rem;
-        width: fit-content;
-        margin: auto 0;
+        width: 100vw;
+        height: fit-content;
     }
 
+    .carousel img {
+        position: absolute;
+        /* set ảnh position theo carousel */
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    .carousel .content {
+        bottom: 30%;
+        left: 10%;
+    }
+
+    /* style chữ carousel */
     .carousel .container h1 {
         font-size: 2.5rem;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel .content h2 {
+        font-size: 1.2rem;
     }
 
     .carousel .container p {
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    .carousel .content .logo {
         font-size: 2rem;
     }
 
-    .carousel .container .logo {
-        font-size: 3rem;
+    .carousel .content a {
+        display: block;
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        margin-top: 1rem;
     }
 
-    .carousel .container a {
+    /* end .carousel */
+
+    /* details */
+    .details {
+        height: fit-content;
+        min-width: fit-content;
+        padding: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .details .col-6 h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .details .content_wrap {
+        text-align: left;
+    }
+
+    .details .content_wrap li {
         font-size: 1rem;
     }
 
+    /* end-details */
     /* trainingRoadmap */
     .TrainingRoadmap {
-        padding: 1rem;
+        padding: 3rem;
     }
 
     .TrainingRoadmap .title {
-        text-align: center;
         padding: 1rem;
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     .TrainingRoadmap td {
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
     .TrainingRoadmap th {
-        background-color: #ffbc2c;
-        font-size: 1rem;
+        font-size: 0.8rem;
+        padding: 1rem;
+        font-weight: 700;
     }
 
-    /* trainnote */
+    /* end-trainingRoadmap */
+    /* training note */
     .TrainingNote h2 {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        text-decoration: underline;
     }
 
     .TrainingNote .container {
-        display: inline-block;
-        color: black;
         font-size: 1rem;
     }
 
+    /* end-trainingNote */
+    /* advanced */
+    .advanced .container {
+        grid-template-areas:
+            "idea-1 idea-2 idea-3"
+            "idea-4 title idea-5"
+            "idea-6 idea-7 idea-8";
+        width: 90vw;
+    }
+
+    .advanced .title h1 {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+
+    .advanced .idea {
+        font-size: 0.8rem;
+        text-align: left;
+    }
+
+    /* end-advanced */
+    /* .TrainingContent */
     .TrainingContent .content-320 {
         display: none;
     }
@@ -609,150 +698,125 @@ body {
         display: block;
     }
 
-    .TrainingContent td {
-        text-align: center;
+    .TrainingContent {
+        padding: 1rem;
     }
 
-    .TrainingContent td.content {
-        text-align: justify;
-    }
-
-    /* details */
-    .details {
-        text-align: justify;
-    }
-
-    .details .col-6 h2 {
+    .TrainingContent .title {
         font-size: 1.5rem;
+        background-color: white;
+        text-decoration: underline;
     }
 
-    .details .col-6 li {
+    .TrainingContent .table-responsive {
+        width: 100%;
+        border-collapse: collapse;
+        border: 1px solid rgb(0, 0, 0);
+    }
+
+    .TrainingContent th {
         font-size: 1rem;
+        padding: 1rem;
+        font-weight: 700;
+        border: 1px solid rgb(0, 0, 0);
     }
 
-    .details .content_wrap {
-        text-align: justify;
+    .TrainingContent td {
+        text-align: left;
+        font-size: 0.8rem;
+        border: 1px solid rgb(0, 0, 0);
     }
 
+    /* end-TrainingContent */
     /* qualification */
     .qualifications {
-        text-align: justify;
+        width: 100vw;
+        height: fit-content;
     }
 
-    .qualifications .row-1 h1 {
-        margin-top: 20px;
-        font-size: 1.7rem;
+    .qualifications .row-1 .left-col h1 {
+        margin-top: 7rem;
+        padding: 0.3rem;
+        font-size: 2rem;
+        font-weight: 700;
     }
 
     .qualifications .row-1 .right-col {
-        font-size: 1rem;
+        font-size: 0.8rem;
         padding: 1rem;
-        width: 100%;
+        text-align: left;
     }
 
     .qualifications .row-1 .right-col p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
+        padding: 1rem;
     }
 
     .row-2 .img-container img {
         width: 150px;
         padding: 10px;
-    }
-
-    /* advanced */
-    .advanced .container {
-        grid-template-areas:
-            "idea-1 idea-2 idea-3"
-            "idea-4 title idea-5"
-            "idea-6 idea-7 idea-8";
-        text-align: justify;
-    }
-
-    .advanced .title {
-        font-size: 24px;
-    }
-
-    /* Subject */
-    .subjects {
-        padding: 1rem;
-        margin: 10px;
-    }
-
-    .subjects h2 {
-        padding: 1rem 0;
-        font-weight: 700;
-        font-size: 2rem;
-        text-align: justify;
-    }
-
-    .subjects .items {
-        width: 60%;
-    }
-
-    .subjects .card {
-        height: fit-content;
-    }
-
-    .subjects .card button {
         margin-top: 2rem;
     }
 
-    .subjects .card h4 {
-        font-size: 1.5rem;
-    }
-
-    .subjects .card-detail {
-        font-size: 1.2rem;
-    }
+    /* end-qualification */
 }
 
 /* Large devices (≥922px) */
 @media (min-width: 922px) {
 
-    /* Carousel */
+    /* carousel */
     .carousel {
-        background-image: url("/img/3.png");
-        background-size: cover;
-        margin-bottom: 1rem;
-        min-height: fit-content;
+        height: 40rem;
     }
 
+    .carousel img:nth-child(1) {
+        display: none;
+    }
+
+    .carousel img:nth-child(2) {
+        display: block;
+    }
+
+    /* carousel img position */
+    .carousel img {
+        object-fit: cover;
+    }
+
+    .carousel .content {
+        bottom: 15%;
+        left: 10%;
+    }
+
+    /* style chữ carousel */
     .carousel .container h1 {
         font-size: 5rem;
     }
 
-    .carousel .container .logo {
-        font-size: 5.5rem;
-    }
-
-    /* trainingRoadmap */
-    .TrainingRoadmap .title {
-        font-size: 2rem;
-    }
-
-    .TrainingRoadmap th {
-        font-size: 1rem;
-    }
-
-    .TrainingRoadmap td {
-        font-size: 1rem;
-    }
-
-    /* trainnote */
-    .TrainingNote h2 {
+    .carousel .content h2 {
         font-size: 1.5rem;
     }
 
-    .TrainingNote .container {
-        display: inline-block;
-        color: black;
-        font-size: 1rem;
+    .carousel .container p {
+        font-size: 2rem;
     }
 
+    .carousel .content .logo {
+        font-size: 4rem;
+    }
+
+    .carousel .content a {
+        display: block;
+        font-size: 1.5rem;
+        padding: 0.5rem 2rem;
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    /* end .carousel */
     /* Details */
     .details {
         height: fit-content;
-        margin: 4rem;
+        margin: 2rem;
     }
 
     .details .right-col h2 {
@@ -761,65 +825,83 @@ body {
 
     .details .content_wrap li {
         font-size: 1rem;
+        margin-left: 1rem;
     }
 
+    /* end-details */
+    /* trainingRoadmap */
+    .TrainingRoadmap th {
+        font-size: 1rem;
+    }
+
+    .TrainingRoadmap td {
+        font-size: 1rem;
+    }
+
+    /* end-trainingRoadmap */
+    /* training note */
+    .TrainingNote h2 {
+        font-size: 1.3rem;
+        overflow: hidden;
+    }
+
+    .TrainingNote li {
+        font-size: 1rem;
+    }
+    /* end-trainingNote */
     /* advanced */
-    .advanced .container {
-        grid-template-areas:
-            "idea-1 idea-2 idea-3"
-            "idea-4 title idea-5"
-            "idea-6 idea-7 idea-8";
+    .advanced  {
+        width: 100%;
+        height: fit-content;
     }
-
-    .advanced .title {
-        font-size: 2rem;
-        padding: auto;
-    }
-
-    /* qualifications */
-    .qualifications .left-col h1 {
-        font-size: 2.5rem;
-    }
-
-    .qualifications .right-col {
-        text-align: justify;
-    }
-
-    /* .subjects */
-    .subjects h2 {
-        font-size: 2rem;
-    }
+    /* end advanced  */ 
+    /* training content */
+    /* end training content */
+    /* qualification */
+    /* end .qualifications */
 }
 
 /* Extra large devices (≥1200px) */
 @media (min-width: 1200px) {
 
-    /* Carousel */
+        /* carousel */
     .carousel {
-        min-height: fit-content;
-        padding: 2rem;
-        background-image: url("/img/3.PNG");
+        height: 45rem;
     }
 
-    .carousel .container {
-        padding-left: 15rem;
-        padding-top: 15rem;
+    /* carousel img position */
+    .carousel .content {
+        bottom: 20%;
+        left: 10%;
     }
 
+    /* style chữ carousel */
     .carousel .container h1 {
-        font-size: 8rem;
+        overflow: hidden;
+        font-size: 7rem;
     }
 
-    .carousel .container span {
-        font-size: 7.5rem;
+    .carousel .content h2 {
+        font-size: 2rem;
+        overflow: hidden;
     }
 
-    .carousel .container p {
-        font-size: 4rem;
+    .carousel .content .logo {
+        font-size: 4.5rem;
     }
 
-    .carousel .container a {
-        font-size: 3rem;
+    .carousel .content a:hover {
+        font-weight: 700;
+    }
+
+    /* end .carousel */
+       /* Details */
+    .details .right-col h2 {
+        font-size: 2.5rem;
+    }
+
+    .details .content_wrap li {
+        font-size: 1.5rem;
     }
 
     /* TrainingRoadmap */
@@ -834,16 +916,7 @@ body {
     .TrainingRoadmap td {
         font-size: 1rem;
     }
-
-    /* Details */
-    .details .right-col h2 {
-        font-size: 3rem;
-    }
-
-    .details .content_wrap li {
-        font-size: 1.5rem;
-    }
-
+    /* end-trainingRoadmap */
     /* Advanced */
     .advanced {
         max-width: 100vw;
@@ -891,86 +964,34 @@ body {
     .advanced .idea-8 {
         right: 10%;
     }
-
+    /* end-advanced */
+    /* .TrainingContent */  
+    .TrainingContent .title {
+        font-size: 2rem;
+        margin: 2rem;
+        text-decoration: none;
+    }   
+    .TrainingContent th {
+        padding: 1.5rem;
+    }
+    .TrainingContent td {
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    /* end .TrainingContent */
     /* qualifications */
     .qualifications {
         flex-direction: row;
+        height: fit-content;
+        padding: 4rem;
     }
 
     .qualifications .row-1 .right-col {
-        font-size: 1.5rem;
-        background-color: lightgray;
-        border-radius: 20px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 20px rgba(0, 0, 0, 0.15),
-            0 8px 20px rgba(0, 0, 0, 0.15), 0 8px 20px rgba(0, 0, 0, 0.15);
-        max-width: 600px;
-        margin: 0 5px;
-    }
-
-    /* .subjects */
-    .subjects {
-        padding: 2rem 0;
-        width: 100vw;
-        margin: auto;
-    }
-
-    .subjects h2 {
-        padding: 1rem 0;
-        font-weight: 700;
-        font-size: 2rem;
-    }
-
-    .subjects p {
-        font-size: 1rem;
-        font-weight: 700;
-        display: inline;
-        width: 300px;
-        margin: 0 auto;
-        text-align: center;
-    }
-
-    .subjects .items {
-        width: 50%;
-        text-align: center;
-        padding: 1rem 1rem;
+        margin: 2rem;
     }
 
     /* .our-partner */
     .our-partner {
-        display: contents;
+        display: none;
     }
-}
-
-/* Extra large devices (≥1680px) */
-@media (min-width: 1680px) {
-    .qualifications .row-1 .right-col {
-        max-width: 800px;
-    }
-
-    .qualifications .row-1 .right-col p {
-        font-size: 1.5rem;
-    }
-
-    /* Advanced */
-    .advanced {
-        max-width: 100vw;
-    }
-
-    .advanced .tittle h1 {
-        font-size: 3rem;
-        width: 600px;
-    }
-
-    .advanced .idea h4 {
-        font-size: 1.3rem;
-        width: 400px;
-    }
-
-    .advanced .idea-1 {
-        top: calc();
-    }
-}
-
-body {
-    display: none;
 }
