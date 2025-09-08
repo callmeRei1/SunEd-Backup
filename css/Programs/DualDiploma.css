@@ -57,7 +57,9 @@ body {
     }
 
     nav img {
-        padding: 5px;
+        width: 100%;
+        height: auto;
+
     }
 
     nav button {
@@ -77,52 +79,92 @@ body {
 
     .navbar-collapse {
         width: max-content;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     /* carousel */
     .carousel {
         width: 100vw;
-        height: 50vh;
-        background-image: url('/img/img_Sune/Dual/intro_6.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: none;
+        height: 40vh;
         min-height: fit-content;
+        position: relative;
     }
 
     .carousel .container {
-        padding: 1rem;
-        padding-top: 8rem;
-        width: fit-content;
-        margin: auto 0;
+        width: 100%;
+        height: 100%;
+        padding: 0;
     }
 
+    .carousel .container img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        object-fit: cover;
+        object-position: center;
+    }
+    .carousel .container .carousel-overplay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        object-fit: cover;
+        object-position: center;
+        background-color: black;
+        opacity: 0.5;
+    }
+    .carousel .container .content {
+        position: absolute;
+        z-index: 3;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        height: fit-content;
+        text-align: center;
+        padding: 0 1rem;
+        overflow: hidden;
+    }
     .carousel .container h1 {
-        font-size: 1.2rem;
-        font-weight: 700;
-        color: white;
-        box-shadow: white;
-    }
-
-    .carousel .container .logo {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         font-weight: 800;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.739);
     }
-
+        .carousel .container p.carousel-slogan {
+        color: white;
+        font-size: 1rem;
+        padding: 0;
+        font-weight: 700;
+    }
     .carousel .container p {
         color: white;
-        box-shadow: white;
-        font-weight: 700;
+        font-size: 0.8rem;
+        padding: 0 1.2rem;
+        font-weight: 500;
+        text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.579);
     }
-
+    .carousel .container .logo {
+        font-size: 2rem;
+        font-weight: 800;
+        text-shadow: 2px 2px 4px rgba(8, 8, 8, 0.852),
+        2px 2px 4px rgba(79, 46, 188, 0.912);
+    }
     .carousel .container a {
         color: white;
-        font-size: 0.7rem;
-        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        padding: 0.5rem 1rem;
         font-weight: 500;
     }
-
+    .carousel .container .content a:hover {
+        font-size: 1.5rem;
+        transition: 0.3s;
+    }
+    /* end carousel */
     /* intro */
     .intro {
         width: 100vw;
@@ -415,6 +457,7 @@ body {
     .navbar-collapse {
         font-size: 16px;
     }
+
     /* carousel */
     .carousel {
         max-height: 80vh;
