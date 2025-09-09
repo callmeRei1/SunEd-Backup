@@ -1,6 +1,10 @@
-body {
+*{
+    overflow: hidden;
+}
+html,body {
     box-sizing: border-box;
     max-width: 100%;
+    overflow: scroll;
 }
 
 /* font */
@@ -94,6 +98,7 @@ body {
         width: 100%;
         height: 100%;
         padding: 0;
+        overflow: hidden;
     }
 
     .carousel .container img {
@@ -188,6 +193,7 @@ body {
         height: fit-content;
         display: flex;
         flex-direction: column;
+        overflow: hidden;
     }
 
     .intro .col-6 {
@@ -246,6 +252,7 @@ body {
 
     .TrainingRoadmap .table-responsive {
         border: 1px black solid;
+        overflow: hidden;
     }
 
     .TrainingRoadmap .title {
@@ -253,6 +260,7 @@ body {
         text-align: center;
         padding: 0 1rem;
         color: white;
+        overflow: hidden;
     }
 
     .TrainingRoadmap th {
@@ -285,6 +293,7 @@ body {
     .TrainingNote h2 {
         font-size: 1rem;
         text-decoration: underline;
+        overflow: hidden;
     }
 
     .TrainingNote ol {
