@@ -4,7 +4,7 @@
 html,body {
     box-sizing: border-box;
     max-width: 100%;
-    overflow: scroll;
+    overflow: unset;
 }
 
 /* font */
@@ -58,6 +58,7 @@ html,body {
     /* Nav */
     nav {
         width: 100vw;
+        overflow: unset;
     }
 
     nav img {
