@@ -505,6 +505,7 @@ body {
     .sample .container img {
         width: 40vw;
     }
+
     /* end-Sample */
 }
 
@@ -531,6 +532,7 @@ body {
         font-size: 1rem;
     }
 
+    /* end-nav */
     /* carousel */
     .carousel {
         width: 100vw;
@@ -552,6 +554,7 @@ body {
     }
 
     .carousel .container h1 {
+                overflow: hidden;
         font-size: 3rem;
         font-weight: 800;
         color: white;
@@ -571,6 +574,7 @@ body {
 
     .carousel .container .logo {
         font-size: 3rem;
+        overflow: hidden;
     }
 
     .carousel .container a {
@@ -720,6 +724,7 @@ body {
     .head-tittle {
         grid-area: head-tittle;
     }
+
     /* end-advance */
 
     /* Bonus */
@@ -736,6 +741,7 @@ body {
         width: 100%;
         font-size: 1.2rem;
     }
+
     /* end-Bonus */
     /* our partner */
     /* qualification */
@@ -768,11 +774,13 @@ body {
         width: 120px;
         height: auto;
     }
+
     /* end-qualification */
     /* .our-partner */
     .our-partner {
         display: none;
     }
+
     /* end-our-partner */
     /* sample */
 
@@ -780,185 +788,106 @@ body {
         font-size: 3rem;
         margin: 2rem;
     }
+
     /* end-Sample */
 }
 
 /* Large devices (≥922px) */
 @media (min-width: 922px) {
-    main {
-        background-color: black;
-    }
 
     /* Nav */
-    nav .nav-link {
-        font-size: 1rem;
-        color: white;
-        font-weight: 500;
+    nav img {
+        width: 100%;
+        height: auto;
     }
 
-    .navbar-light.scrolled .nav-link {
-        color: black !important;
+    nav button {
+        width: 60px;
+        height: 40px;
     }
 
-    /* carousel */
+    /* end Nav */
+    /* Carousel */
     .carousel {
-        height: 90vh;
-        background-image: url('/img/img_Sune/Dual/carousel_3.png');
-        min-height: fit-content;
+        height: 70vh;
+        min-height: 50vh;
     }
-
-    .carousel .container {
-        margin-top: 5rem;
-    }
-
-    .carousel .container h1 {
-        font-size: 2rem;
-    }
-
-    .carousel .container a {
-        padding: 1rem;
-        font-size: 1.2rem;
-    }
+    /* end carousel */
 
     /* intro */
-    .intro .col-6 h2 {
-        font-size: 2rem;
+
+    .intro .col-6.left-col h2 {
+        font-size: 3rem;
     }
 
-    .intro .col-6 ul {
-        padding: 1rem;
+    /* right-col */
+    .intro .col-6.right-col li {
+        font-size: 1.2rem;
     }
-
-    .intro .col-6 li {
-        font-size: 1rem;
-    }
+    /* end intro */
 
     /* TrainingRoadmap */
-    .TrainingRoadmap {
-        width: 100vw;
-    }
-
-    .TrainingRoadmap .table-responsive {
-        margin: 0 auto;
-    }
 
     .TrainingRoadmap h5.title {
-        color: white;
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
 
     /* .TrainingNote */
-    .TrainingNote {
-        color: white;
-        margin-top: 1rem;
-        padding: 0 4rem;
+    .TrainingNote{
+        padding-bottom: 2rem;
     }
-
     .TrainingNote h2 {
         color: red;
     }
-
+    .TrainingNote li{
+        font-size: 1rem;
+    }
+    /* end.TrainingNote */
     /* .TrainingContent */
     .TrainingContent {
-        color: white;
         padding: 2rem;
     }
 
     .TrainingContent h1 {
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
-
-    .TrainingContent .note ol {
-        margin-top: 2rem;
-        padding: 0 4rem;
-    }
-
-    .TrainingContent .note li {
-        color: white;
-    }
-
+    /* end-TrainingContent */
     /* advanced */
-    .advanced .container {
-        grid-template-areas:
-            ". head-tittle ."
-            "b . c"
-            ". a ."
-            "d . e";
-        text-align: justify;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto auto auto;
-    }
 
-    .head-tittle {
-        grid-area: head-tittle;
-    }
-
-    .a {
-        grid-area: a;
-    }
-
-    .b {
-        grid-area: b;
-    }
-
-    .c {
-        grid-area: c;
-    }
-
-    .d {
-        grid-area: d;
-    }
-
-    .e {
-        grid-area: e;
-    }
-
-    .advanced .container .a {
+    .advanced .container .box {
         text-align: center;
         padding: 2rem;
         font-size: 1.2rem;
     }
 
     .advanced .container .head-tittle {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
-
+    /* end-advance */
     /* Bonus */
     .bonus {
         padding-top: 3rem;
     }
 
-    .bonus .container .content {
-        font-size: 1.7rem;
-        padding: 2rem;
-        width: 60vw;
-        margin: 0 auto;
-    }
-
-    .bonus-subpoint {
-        font-weight: 500;
-        font-size: 1.2rem;
-    }
-
     /* qualification */
     .qualifications {
         padding-top: 3rem;
-        padding-bottom: 2rem;
+        padding-bottom: 5rem;
     }
 
     .qualifications .title h1 {
         font-size: 2rem;
     }
 
-    .qualifications .subpoint {
-        font-size: 1.2rem;
-    }
-
     .row-2 .img-container img {
         width: 150px;
+        height: fit-content;
     }
 
     /* sample */
+    .sample{
+        padding-bottom: 3rem;
+    }
     .sample h2 {
         padding-bottom: 3rem;
     }
@@ -969,12 +898,7 @@ body {
 }
 
 /* Extra large devices (≥1200px) */
-@media (min-width: 1200px) {
-
-    /* Nav */
-    nav .nav-link {
-        font-size: 1.2rem;
-    }
+@media (min-width: 1200px) { 
 
     /* carousel */
     .carousel .container h1 {
@@ -1022,18 +946,9 @@ body {
     }
 
     /* Partner */
-    .our-partner {
-        display: contents;
+    .our-partner{
+        display: none;
     }
-
-    .our-partner .tittle {
-        color: white;
-    }
-
-    .our-partner .carousel-partner .wrap img {
-        width: 170px;
-    }
-
     /* sample */
     .sample .container img {
         padding-bottom: 2rem;
