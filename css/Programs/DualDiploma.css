@@ -916,6 +916,7 @@ html,body {
     .carousel .container .content{
         text-align: left;
         left: 10%;
+        top: 40%;
     }
     .carousel .container h1 {
         font-size: 3rem;
@@ -941,6 +942,10 @@ html,body {
     }
     /* end.intro */
     /* .TrainingContent */
+    .TrainingContent{
+        width: 100vw;
+        padding: 0 10%;
+    }
     .TrainingContent h1{
         margin-bottom: 4rem;
     }
@@ -1001,5 +1006,3 @@ html,body {
     }
     /* end.sample */
 }
-/* Extra large devices (≥1680px) */
-@media (min-width: 1680px) {}
