@@ -910,6 +910,9 @@ html,body {
 @media (min-width: 992px) { 
 
     /* carousel */
+    .carousel{
+        height: 100vh;
+    }
     .carousel .container .content{
         text-align: left;
         left: 10%;
@@ -933,6 +936,10 @@ html,body {
     .intro .col-6 li {
         font-size: 1.5rem;
     }
+    .intro .content_wrap{
+        margin-top: 2rem;
+    }
+    /* end.intro */
     /* .TrainingContent */
     .TrainingContent h1{
         margin-bottom: 4rem;
