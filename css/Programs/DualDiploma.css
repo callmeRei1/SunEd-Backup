@@ -908,7 +908,9 @@ html,body {
 }
 /* Extra large devices (≥992px) */
 @media (min-width: 992px) { 
-
+    body{
+        background-color: #000;
+    }
     /* carousel */
     .carousel{
         height: 100vh;
@@ -967,7 +969,7 @@ html,body {
         padding: 1rem;
     }
     .TrainingContent .note{
-        margin-top: 2rem;
+        margin: 2rem 0;
     }
     /* end.TrainingContent */
     /* Bonus */
