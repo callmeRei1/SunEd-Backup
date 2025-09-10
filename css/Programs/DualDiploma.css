@@ -906,40 +906,72 @@ html,body {
         min-width: 100px;
     }
 }
-
-/* Extra large devices (≥1200px) */
-@media (min-width: 1200px) { 
+/* Extra large devices (≥992px) */
+@media (min-width: 992px) { 
 
     /* carousel */
-    .carousel .container h1 {
-        font-size: 2.5rem;
+    .carousel .container .content{
+        text-align: left;
+        left: 10%;
     }
-
+    .carousel .container h1 {
+        font-size: 3rem;
+    }
+    .carousel .content .carousel-slogan{
+        margin: 1rem 0;
+    }
+    .carousel .content p{
+        margin: 0;
+        padding: 0;
+        width: 70%;
+    }
+    .carousel  .content .logo{
+        margin: 1rem 0;
+    }
+    /* end-carousel */
     /* intro */
     .intro .col-6 li {
         font-size: 1.5rem;
     }
-
-    /* Bonus */
-    .bonus {
-        padding-top: 5rem;
+    /* .TrainingContent */
+    .TrainingContent h1{
+        margin-bottom: 4rem;
+    }
+    .TrainingContent .sm-layout{
+        display: none;
+    }
+    .TrainingContent .xl-layout{
+        display: block;
+    }
+    .TrainingContent .xl-layout table,.TrainingContent .xl-layout thead,.TrainingContent .xl-layout th,.TrainingContent .xl-layout td{
+        border: #2c2f8a 2px solid;
     }
 
+    .TrainingContent .xl-layout th{
+        padding: 1rem;
+        font-weight: 700;
+    }
+    .TrainingContent .xl-layout td{
+        padding: 1rem;
+    }
+    .TrainingContent .note{
+        margin-top: 2rem;
+    }
+    /* end.TrainingContent */
+    /* Bonus */
+    .bonus {
+        padding-top: 2rem;
+    }
     .bonus .container .content {
         font-size: 1.7rem;
         padding: 2rem;
         width: 50vw;
         margin: 0 auto;
     }
-
-    .bonus-subpoint {
-        font-weight: 500;
-        font-size: 1.2rem;
-    }
-
+    /* end.bonus */
     /* qualification */
     .qualifications {
-        padding-top: 5rem;
+        padding-top: 2rem;
         padding-bottom: 3rem;
     }
 
@@ -947,23 +979,20 @@ html,body {
         font-size: 2rem;
     }
 
-    .qualifications .subpoint {
-        font-size: 1.2rem;
-    }
-
     .row-2 .img-container img {
         width: 150px;
     }
-
+    /* end.qualifications */
     /* Partner */
     .our-partner{
         display: none;
     }
+    /* end.our-partner */
     /* sample */
     .sample .container img {
         padding-bottom: 2rem;
     }
+    /* end.sample */
 }
-
 /* Extra large devices (≥1680px) */
 @media (min-width: 1680px) {}
