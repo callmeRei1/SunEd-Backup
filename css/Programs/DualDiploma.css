@@ -908,9 +908,6 @@ html,body {
 }
 /* Extra large devices (≥992px) */
 @media (min-width: 992px) { 
-    body{
-        background-color: #000;
-    }
     /* carousel */
     .carousel{
         height: 100vh;
