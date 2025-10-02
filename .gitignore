@@ -1,2 +1,4 @@
 .DS_Store
 Docs/
+node_modules/
+dist/
